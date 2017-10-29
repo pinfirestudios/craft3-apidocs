@@ -7,15 +7,15 @@
             "email": "justin@pinfirestudios.com"
         }
     ],
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "require": {
-		"craftcms/cms": "^3.0.0-beta.29",
-		"yiisoft/yii2-apidoc": "dev-custom-project"
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/pinfirestudios/yii2-apidoc.git"
-		}
-	]
+        "craftcms/cms": "^3.0.0-beta.29",
+        "yiisoft/yii2-apidoc": "dev-custom-project"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pinfirestudios/yii2-apidoc.git"
+        }
+    ]
 }
