@@ -1,0 +1,2990 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 26
+            [file] => ./src/base/Element.php
+            [message] => Property $id conflicts with a defined getter getId in craft\base\Element.
+        )
+
+    [1] => Array
+        (
+            [file] => ./src/base/Element.php
+            [message] => broken link to \craft\base\Behavior in craft\base\Element
+        )
+
+    [2] => Array
+        (
+            [file] => ./src/base/ElementInterface.php
+            [message] => broken link to \craft\base\ContentTrait in craft\base\ElementInterface
+        )
+
+    [3] => Array
+        (
+            [file] => ./src/base/Field.php
+            [message] => broken link to \craft\base\Validator in craft\base\Field
+        )
+
+    [4] => Array
+        (
+            [file] => ./src/base/Field.php
+            [message] => broken link to \craft\base\Validator::builtInValidators in craft\base\Field
+        )
+
+    [5] => Array
+        (
+            [file] => ./src/base/Volume.php
+            [message] => broken link to \craft\base\Behavior in craft\base\Volume
+        )
+
+    [6] => Array
+        (
+            [file] => ./src/base/Volume.php
+            [message] => broken link to \craft\base\Validator in craft\base\Volume
+        )
+
+    [7] => Array
+        (
+            [file] => ./src/base/Volume.php
+            [message] => broken link to \craft\base\Validator::builtInValidators in craft\base\Volume
+        )
+
+    [8] => Array
+        (
+            [file] => ./src/base/Widget.php
+            [message] => broken link to \craft\base\Validator in craft\base\Widget
+        )
+
+    [9] => Array
+        (
+            [file] => ./src/base/Widget.php
+            [message] => broken link to \craft\base\Validator::builtInValidators in craft\base\Widget
+        )
+
+    [10] => Array
+        (
+            [file] => ./src/behaviors/SessionBehavior.php
+            [message] => broken link to \craft\behaviors\getAllFlashes() in craft\behaviors\SessionBehavior
+        )
+
+    [11] => Array
+        (
+            [file] => ./src/behaviors/SessionBehavior.php
+            [message] => broken link to \craft\behaviors\getAllFlashes() in craft\behaviors\SessionBehavior
+        )
+
+    [12] => Array
+        (
+            [line] => 59
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $activateAccountSuccessPath conflicts with a defined getter getActivateAccountSuccessPath in craft\config\GeneralConfig.
+        )
+
+    [13] => Array
+        (
+            [line] => 347
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $invalidUserTokenPath conflicts with a defined getter getInvalidUserTokenPath in craft\config\GeneralConfig.
+        )
+
+    [14] => Array
+        (
+            [line] => 367
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $loginPath conflicts with a defined getter getLoginPath in craft\config\GeneralConfig.
+        )
+
+    [15] => Array
+        (
+            [line] => 375
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $logoutPath conflicts with a defined getter getLogoutPath in craft\config\GeneralConfig.
+        )
+
+    [16] => Array
+        (
+            [line] => 449
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $postCpLoginRedirect conflicts with a defined getter getPostCpLoginRedirect in craft\config\GeneralConfig.
+        )
+
+    [17] => Array
+        (
+            [line] => 460
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $postLoginRedirect conflicts with a defined getter getPostLoginRedirect in craft\config\GeneralConfig.
+        )
+
+    [18] => Array
+        (
+            [line] => 468
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $postLogoutRedirect conflicts with a defined getter getPostLogoutRedirect in craft\config\GeneralConfig.
+        )
+
+    [19] => Array
+        (
+            [line] => 590
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $setPasswordPath conflicts with a defined getter getSetPasswordPath in craft\config\GeneralConfig.
+        )
+
+    [20] => Array
+        (
+            [line] => 599
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $setPasswordSuccessPath conflicts with a defined getter getSetPasswordSuccessPath in craft\config\GeneralConfig.
+        )
+
+    [21] => Array
+        (
+            [line] => 98
+            [file] => ./src/config/GeneralConfig.php
+            [message] => Property $backupOnUpdate conflicts with a defined getter getBackupOnUpdate in craft\config\GeneralConfig.
+        )
+
+    [22] => Array
+        (
+            [line] => 58
+            [file] => ./src/console/controllers/InstallController.php
+            [message] => Property $help conflicts with a defined getter getHelp in craft\console\controllers\InstallController.
+        )
+
+    [23] => Array
+        (
+            [file] => ./src/db/StructuredElementQuery.php
+            [message] => broken link to \craft\db\Behavior in craft\db\StructuredElementQuery
+        )
+
+    [24] => Array
+        (
+            [line] => 29
+            [file] => ./src/debug/DeprecatedPanel.php
+            [message] => Method getName has no parent to inherit from in craft\debug\DeprecatedPanel.
+        )
+
+    [25] => Array
+        (
+            [line] => 37
+            [file] => ./src/debug/DeprecatedPanel.php
+            [message] => Method getSummary has no parent to inherit from in craft\debug\DeprecatedPanel.
+        )
+
+    [26] => Array
+        (
+            [line] => 49
+            [file] => ./src/debug/DeprecatedPanel.php
+            [message] => Method getDetail has no parent to inherit from in craft\debug\DeprecatedPanel.
+        )
+
+    [27] => Array
+        (
+            [line] => 80
+            [file] => ./src/debug/DeprecatedPanel.php
+            [message] => Method save has no parent to inherit from in craft\debug\DeprecatedPanel.
+        )
+
+    [28] => Array
+        (
+            [line] => 25
+            [file] => ./src/debug/UserPanel.php
+            [message] => Method save has no parent to inherit from in craft\debug\UserPanel.
+        )
+
+    [29] => Array
+        (
+            [line] => 81
+            [file] => ./src/elements/Asset.php
+            [message] => Property $uri conflicts with a defined getter getUri in craft\elements\Asset.
+        )
+
+    [30] => Array
+        (
+            [line] => 376
+            [file] => ./src/elements/Asset.php
+            [message] => Property $focalPoint conflicts with a defined getter getFocalPoint in craft\elements\Asset.
+        )
+
+    [31] => Array
+        (
+            [file] => ./src/elements/Asset.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\Asset
+        )
+
+    [32] => Array
+        (
+            [file] => ./src/elements/Asset.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\Asset
+        )
+
+    [33] => Array
+        (
+            [file] => ./src/elements/Asset.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\Asset
+        )
+
+    [34] => Array
+        (
+            [file] => ./src/elements/Category.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\Category
+        )
+
+    [35] => Array
+        (
+            [file] => ./src/elements/Category.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\Category
+        )
+
+    [36] => Array
+        (
+            [file] => ./src/elements/Category.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\Category
+        )
+
+    [37] => Array
+        (
+            [file] => ./src/elements/Entry.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\Entry
+        )
+
+    [38] => Array
+        (
+            [file] => ./src/elements/Entry.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\Entry
+        )
+
+    [39] => Array
+        (
+            [file] => ./src/elements/Entry.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\Entry
+        )
+
+    [40] => Array
+        (
+            [file] => ./src/elements/GlobalSet.php
+            [message] => broken link to \craft\elements\Behavior in craft\elements\GlobalSet
+        )
+
+    [41] => Array
+        (
+            [file] => ./src/elements/GlobalSet.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\GlobalSet
+        )
+
+    [42] => Array
+        (
+            [file] => ./src/elements/GlobalSet.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\GlobalSet
+        )
+
+    [43] => Array
+        (
+            [file] => ./src/elements/GlobalSet.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\GlobalSet
+        )
+
+    [44] => Array
+        (
+            [file] => ./src/elements/MatrixBlock.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\MatrixBlock
+        )
+
+    [45] => Array
+        (
+            [file] => ./src/elements/MatrixBlock.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\MatrixBlock
+        )
+
+    [46] => Array
+        (
+            [file] => ./src/elements/Tag.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\Tag
+        )
+
+    [47] => Array
+        (
+            [file] => ./src/elements/Tag.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\Tag
+        )
+
+    [48] => Array
+        (
+            [file] => ./src/elements/Tag.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\Tag
+        )
+
+    [49] => Array
+        (
+            [file] => ./src/elements/User.php
+            [message] => broken link to \craft\elements\ElementInterface in craft\elements\User
+        )
+
+    [50] => Array
+        (
+            [file] => ./src/elements/User.php
+            [message] => broken link to craft\elements\User::enableAutoLogin in craft\elements\User
+        )
+
+    [51] => Array
+        (
+            [file] => ./src/elements/User.php
+            [message] => broken link to \craft\elements\Validator in craft\elements\User
+        )
+
+    [52] => Array
+        (
+            [file] => ./src/elements/User.php
+            [message] => broken link to \craft\elements\Validator::builtInValidators in craft\elements\User
+        )
+
+    [53] => Array
+        (
+            [file] => ./src/elements/User.php
+            [message] => broken link to craft\elements\User::enableAutoLogin in craft\elements\User
+        )
+
+    [54] => Array
+        (
+            [line] => 28
+            [file] => ./src/elements/actions/Delete.php
+            [message] => Property $confirmationMessage conflicts with a defined getter getConfirmationMessage in craft\elements\actions\Delete.
+        )
+
+    [55] => Array
+        (
+            [file] => ./src/elements/actions/SetStatus.php
+            [message] => broken link to \craft\elements\actions\Validator in craft\elements\actions\SetStatus
+        )
+
+    [56] => Array
+        (
+            [file] => ./src/elements/actions/SetStatus.php
+            [message] => broken link to \craft\elements\actions\Validator::builtInValidators in craft\elements\actions\SetStatus
+        )
+
+    [57] => Array
+        (
+            [file] => ./src/elements/db/ElementQuery.php
+            [message] => broken link to \craft\elements\db\Behavior in craft\elements\db\ElementQuery
+        )
+
+    [58] => Array
+        (
+            [file] => ./src/elements/db/ElementQuery.php
+            [message] => broken link to craft\services\Elements::buildElementsQuery() in craft\elements\db\ElementQuery
+        )
+
+    [59] => Array
+        (
+            [file] => ./src/elements/db/ElementQuery.php
+            [message] => broken link to \craft\elements\db\QueryBuilder in craft\elements\db\ElementQuery
+        )
+
+    [60] => Array
+        (
+            [file] => ./src/elements/db/ElementQuery.php
+            [message] => broken link to \craft\elements\db\QueryBuilder in craft\elements\db\ElementQuery
+        )
+
+    [61] => Array
+        (
+            [file] => ./src/elements/db/MatrixBlockQuery.php
+            [message] => broken link to craft\services\Elements::buildElementsQuery() in craft\elements\db\MatrixBlockQuery
+        )
+
+    [62] => Array
+        (
+            [file] => ./src/errors/InvalidPluginException.php
+            [message] => broken link to \craft\errors\craft\base\PluginInterface in craft\errors\InvalidPluginException
+        )
+
+    [63] => Array
+        (
+            [file] => ./src/errors/ShellCommandException.php
+            [message] => broken link to \mikehaertl\shellcommand\Command in craft\errors\ShellCommandException
+        )
+
+    [64] => Array
+        (
+            [file] => ./src/errors/ShellCommandException.php
+            [message] => broken link to \mikehaertl\shellcommand\Command in craft\errors\ShellCommandException
+        )
+
+    [65] => Array
+        (
+            [file] => ./src/feeds/Feeds.php
+            [message] => broken link to \craft\feeds\Config::timeInSeconds() in craft\feeds\Feeds
+        )
+
+    [66] => Array
+        (
+            [file] => ./src/fields/Date.php
+            [message] => broken link to \craft\fields\Validator in craft\fields\Date
+        )
+
+    [67] => Array
+        (
+            [file] => ./src/fields/Date.php
+            [message] => broken link to \craft\fields\Validator::builtInValidators in craft\fields\Date
+        )
+
+    [68] => Array
+        (
+            [file] => ./src/fields/Matrix.php
+            [message] => broken link to \craft\fields\Validator in craft\fields\Matrix
+        )
+
+    [69] => Array
+        (
+            [file] => ./src/fields/Matrix.php
+            [message] => broken link to \craft\fields\Validator::builtInValidators in craft\fields\Matrix
+        )
+
+    [70] => Array
+        (
+            [line] => 37
+            [file] => ./src/fields/MissingField.php
+            [message] => Property $settings conflicts with a defined getter getSettings in craft\fields\MissingField.
+        )
+
+    [71] => Array
+        (
+            [file] => ./src/fields/Number.php
+            [message] => broken link to \craft\fields\Validator in craft\fields\Number
+        )
+
+    [72] => Array
+        (
+            [file] => ./src/fields/Number.php
+            [message] => broken link to \craft\fields\Validator::builtInValidators in craft\fields\Number
+        )
+
+    [73] => Array
+        (
+            [file] => ./src/fields/PlainText.php
+            [message] => broken link to \craft\fields\Validator in craft\fields\PlainText
+        )
+
+    [74] => Array
+        (
+            [file] => ./src/fields/PlainText.php
+            [message] => broken link to \craft\fields\Validator::builtInValidators in craft\fields\PlainText
+        )
+
+    [75] => Array
+        (
+            [line] => 66
+            [file] => ./src/helpers/ArrayHelper.php
+            [message] => Undefined parameter documented:  in prependOrAppend().
+        )
+
+    [76] => Array
+        (
+            [line] => 248
+            [file] => ./src/helpers/Assets.php
+            [message] => Undefined parameter documented:  in sortFolderTree().
+        )
+
+    [77] => Array
+        (
+            [file] => ./src/i18n/I18N.php
+            [message] => broken link to \craft\i18n\MessageFormatter in craft\i18n\I18N
+        )
+
+    [78] => Array
+        (
+            [line] => 239
+            [file] => ./src/i18n/Locale.php
+            [message] => Property $id conflicts with a defined getter getId in craft\i18n\Locale.
+        )
+
+    [79] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\messageConfig in craft\mail\Mailer
+        )
+
+    [80] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\class in craft\mail\Mailer
+        )
+
+    [81] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\useFileTransport in craft\mail\Mailer
+        )
+
+    [82] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\fileTransportPath in craft\mail\Mailer
+        )
+
+    [83] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\sendMessage() in craft\mail\Mailer
+        )
+
+    [84] => Array
+        (
+            [file] => ./src/mail/Mailer.php
+            [message] => broken link to \craft\mail\sendMessage() in craft\mail\Mailer
+        )
+
+    [85] => Array
+        (
+            [file] => ./src/mail/transportadapters/Gmail.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Gmail
+        )
+
+    [86] => Array
+        (
+            [file] => ./src/mail/transportadapters/Gmail.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Gmail
+        )
+
+    [87] => Array
+        (
+            [file] => ./src/mail/transportadapters/Gmail.php
+            [message] => broken link to \craft\mail\transportadapters\Validator in craft\mail\transportadapters\Gmail
+        )
+
+    [88] => Array
+        (
+            [file] => ./src/mail/transportadapters/Gmail.php
+            [message] => broken link to \craft\mail\transportadapters\Validator::builtInValidators in craft\mail\transportadapters\Gmail
+        )
+
+    [89] => Array
+        (
+            [file] => ./src/mail/transportadapters/Php.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Php
+        )
+
+    [90] => Array
+        (
+            [file] => ./src/mail/transportadapters/Php.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Php
+        )
+
+    [91] => Array
+        (
+            [file] => ./src/mail/transportadapters/Sendmail.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Sendmail
+        )
+
+    [92] => Array
+        (
+            [file] => ./src/mail/transportadapters/Sendmail.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Sendmail
+        )
+
+    [93] => Array
+        (
+            [file] => ./src/mail/transportadapters/Smtp.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Smtp
+        )
+
+    [94] => Array
+        (
+            [file] => ./src/mail/transportadapters/Smtp.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\Smtp
+        )
+
+    [95] => Array
+        (
+            [file] => ./src/mail/transportadapters/Smtp.php
+            [message] => broken link to \craft\mail\transportadapters\Validator in craft\mail\transportadapters\Smtp
+        )
+
+    [96] => Array
+        (
+            [file] => ./src/mail/transportadapters/Smtp.php
+            [message] => broken link to \craft\mail\transportadapters\Validator::builtInValidators in craft\mail\transportadapters\Smtp
+        )
+
+    [97] => Array
+        (
+            [file] => ./src/mail/transportadapters/TransportAdapterInterface.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\TransportAdapterInterface
+        )
+
+    [98] => Array
+        (
+            [file] => ./src/mail/transportadapters/TransportAdapterInterface.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\TransportAdapterInterface
+        )
+
+    [99] => Array
+        (
+            [file] => ./src/mail/transportadapters/TransportAdapterInterface.php
+            [message] => broken link to craft\mail\Mailer::setTransport() in craft\mail\transportadapters\TransportAdapterInterface
+        )
+
+    [100] => Array
+        (
+            [file] => ./src/models/AppUpdate.php
+            [message] => broken link to \craft\models\Validator in craft\models\AppUpdate
+        )
+
+    [101] => Array
+        (
+            [file] => ./src/models/AppUpdate.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\AppUpdate
+        )
+
+    [102] => Array
+        (
+            [file] => ./src/models/AssetIndexData.php
+            [message] => broken link to \craft\models\Validator in craft\models\AssetIndexData
+        )
+
+    [103] => Array
+        (
+            [file] => ./src/models/AssetIndexData.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\AssetIndexData
+        )
+
+    [104] => Array
+        (
+            [file] => ./src/models/AssetTransform.php
+            [message] => broken link to \craft\models\Validator in craft\models\AssetTransform
+        )
+
+    [105] => Array
+        (
+            [file] => ./src/models/AssetTransform.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\AssetTransform
+        )
+
+    [106] => Array
+        (
+            [file] => ./src/models/AssetTransformIndex.php
+            [message] => broken link to \craft\models\Validator in craft\models\AssetTransformIndex
+        )
+
+    [107] => Array
+        (
+            [file] => ./src/models/AssetTransformIndex.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\AssetTransformIndex
+        )
+
+    [108] => Array
+        (
+            [file] => ./src/models/BaseEntryRevisionModel.php
+            [message] => broken link to \craft\models\Validator in craft\models\BaseEntryRevisionModel
+        )
+
+    [109] => Array
+        (
+            [file] => ./src/models/BaseEntryRevisionModel.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\BaseEntryRevisionModel
+        )
+
+    [110] => Array
+        (
+            [file] => ./src/models/CategoryGroup.php
+            [message] => broken link to \craft\models\Behavior in craft\models\CategoryGroup
+        )
+
+    [111] => Array
+        (
+            [file] => ./src/models/CategoryGroup.php
+            [message] => broken link to \craft\models\Validator in craft\models\CategoryGroup
+        )
+
+    [112] => Array
+        (
+            [file] => ./src/models/CategoryGroup.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\CategoryGroup
+        )
+
+    [113] => Array
+        (
+            [file] => ./src/models/CategoryGroup_SiteSettings.php
+            [message] => broken link to \craft\models\Validator in craft\models\CategoryGroup_SiteSettings
+        )
+
+    [114] => Array
+        (
+            [file] => ./src/models/CategoryGroup_SiteSettings.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\CategoryGroup_SiteSettings
+        )
+
+    [115] => Array
+        (
+            [file] => ./src/models/CraftSupport.php
+            [message] => broken link to \craft\models\Validator in craft\models\CraftSupport
+        )
+
+    [116] => Array
+        (
+            [file] => ./src/models/CraftSupport.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\CraftSupport
+        )
+
+    [117] => Array
+        (
+            [file] => ./src/models/DeprecationError.php
+            [message] => broken link to \craft\models\Validator in craft\models\DeprecationError
+        )
+
+    [118] => Array
+        (
+            [file] => ./src/models/DeprecationError.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\DeprecationError
+        )
+
+    [119] => Array
+        (
+            [file] => ./src/models/EntryDraft.php
+            [message] => broken link to \craft\models\Validator in craft\models\EntryDraft
+        )
+
+    [120] => Array
+        (
+            [file] => ./src/models/EntryDraft.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\EntryDraft
+        )
+
+    [121] => Array
+        (
+            [file] => ./src/models/EntryType.php
+            [message] => broken link to \craft\models\Behavior in craft\models\EntryType
+        )
+
+    [122] => Array
+        (
+            [file] => ./src/models/EntryType.php
+            [message] => broken link to \craft\models\Validator in craft\models\EntryType
+        )
+
+    [123] => Array
+        (
+            [file] => ./src/models/EntryType.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\EntryType
+        )
+
+    [124] => Array
+        (
+            [file] => ./src/models/EntryVersion.php
+            [message] => broken link to \craft\models\Validator in craft\models\EntryVersion
+        )
+
+    [125] => Array
+        (
+            [file] => ./src/models/EntryVersion.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\EntryVersion
+        )
+
+    [126] => Array
+        (
+            [file] => ./src/models/Et.php
+            [message] => broken link to \craft\models\Validator in craft\models\Et
+        )
+
+    [127] => Array
+        (
+            [file] => ./src/models/Et.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Et
+        )
+
+    [128] => Array
+        (
+            [file] => ./src/models/FieldGroup.php
+            [message] => broken link to \craft\models\Validator in craft\models\FieldGroup
+        )
+
+    [129] => Array
+        (
+            [file] => ./src/models/FieldGroup.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\FieldGroup
+        )
+
+    [130] => Array
+        (
+            [file] => ./src/models/FieldLayout.php
+            [message] => broken link to \craft\models\Validator in craft\models\FieldLayout
+        )
+
+    [131] => Array
+        (
+            [file] => ./src/models/FieldLayout.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\FieldLayout
+        )
+
+    [132] => Array
+        (
+            [file] => ./src/models/FieldLayoutTab.php
+            [message] => broken link to \craft\models\groupId in craft\models\FieldLayoutTab
+        )
+
+    [133] => Array
+        (
+            [file] => ./src/models/FieldLayoutTab.php
+            [message] => broken link to \craft\models\Validator in craft\models\FieldLayoutTab
+        )
+
+    [134] => Array
+        (
+            [file] => ./src/models/FieldLayoutTab.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\FieldLayoutTab
+        )
+
+    [135] => Array
+        (
+            [file] => ./src/models/FolderCriteria.php
+            [message] => broken link to \craft\models\Validator in craft\models\FolderCriteria
+        )
+
+    [136] => Array
+        (
+            [file] => ./src/models/FolderCriteria.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\FolderCriteria
+        )
+
+    [137] => Array
+        (
+            [file] => ./src/models/Info.php
+            [message] => broken link to \craft\models\Validator in craft\models\Info
+        )
+
+    [138] => Array
+        (
+            [file] => ./src/models/Info.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Info
+        )
+
+    [139] => Array
+        (
+            [file] => ./src/models/MailSettings.php
+            [message] => broken link to \craft\models\Validator in craft\models\MailSettings
+        )
+
+    [140] => Array
+        (
+            [file] => ./src/models/MailSettings.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\MailSettings
+        )
+
+    [141] => Array
+        (
+            [file] => ./src/models/MatrixBlockType.php
+            [message] => broken link to \craft\models\Behavior in craft\models\MatrixBlockType
+        )
+
+    [142] => Array
+        (
+            [file] => ./src/models/MatrixBlockType.php
+            [message] => broken link to \craft\models\Validator in craft\models\MatrixBlockType
+        )
+
+    [143] => Array
+        (
+            [file] => ./src/models/MatrixBlockType.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\MatrixBlockType
+        )
+
+    [144] => Array
+        (
+            [file] => ./src/models/MatrixSettings.php
+            [message] => broken link to \craft\models\Validator in craft\models\MatrixSettings
+        )
+
+    [145] => Array
+        (
+            [file] => ./src/models/MatrixSettings.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\MatrixSettings
+        )
+
+    [146] => Array
+        (
+            [file] => ./src/models/PluginUpdate.php
+            [message] => broken link to \craft\models\Validator in craft\models\PluginUpdate
+        )
+
+    [147] => Array
+        (
+            [file] => ./src/models/PluginUpdate.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\PluginUpdate
+        )
+
+    [148] => Array
+        (
+            [file] => ./src/models/Section.php
+            [message] => broken link to \craft\models\Validator in craft\models\Section
+        )
+
+    [149] => Array
+        (
+            [file] => ./src/models/Section.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Section
+        )
+
+    [150] => Array
+        (
+            [file] => ./src/models/Section_SiteSettings.php
+            [message] => broken link to \craft\models\Validator in craft\models\Section_SiteSettings
+        )
+
+    [151] => Array
+        (
+            [file] => ./src/models/Section_SiteSettings.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Section_SiteSettings
+        )
+
+    [152] => Array
+        (
+            [file] => ./src/models/Site.php
+            [message] => broken link to \craft\models\Validator in craft\models\Site
+        )
+
+    [153] => Array
+        (
+            [file] => ./src/models/Site.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Site
+        )
+
+    [154] => Array
+        (
+            [file] => ./src/models/Structure.php
+            [message] => broken link to \craft\models\Validator in craft\models\Structure
+        )
+
+    [155] => Array
+        (
+            [file] => ./src/models/Structure.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Structure
+        )
+
+    [156] => Array
+        (
+            [file] => ./src/models/TagGroup.php
+            [message] => broken link to \craft\models\Behavior in craft\models\TagGroup
+        )
+
+    [157] => Array
+        (
+            [file] => ./src/models/TagGroup.php
+            [message] => broken link to \craft\models\Validator in craft\models\TagGroup
+        )
+
+    [158] => Array
+        (
+            [file] => ./src/models/TagGroup.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\TagGroup
+        )
+
+    [159] => Array
+        (
+            [file] => ./src/models/UpdateRelease.php
+            [message] => broken link to \craft\models\Validator in craft\models\UpdateRelease
+        )
+
+    [160] => Array
+        (
+            [file] => ./src/models/UpdateRelease.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\UpdateRelease
+        )
+
+    [161] => Array
+        (
+            [file] => ./src/models/UpgradeInfo.php
+            [message] => broken link to \craft\models\Validator in craft\models\UpgradeInfo
+        )
+
+    [162] => Array
+        (
+            [file] => ./src/models/UpgradeInfo.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\UpgradeInfo
+        )
+
+    [163] => Array
+        (
+            [file] => ./src/models/UpgradePurchase.php
+            [message] => broken link to \craft\models\Validator in craft\models\UpgradePurchase
+        )
+
+    [164] => Array
+        (
+            [file] => ./src/models/UpgradePurchase.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\UpgradePurchase
+        )
+
+    [165] => Array
+        (
+            [file] => ./src/models/Url.php
+            [message] => broken link to \craft\models\Validator in craft\models\Url
+        )
+
+    [166] => Array
+        (
+            [file] => ./src/models/Url.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\Url
+        )
+
+    [167] => Array
+        (
+            [file] => ./src/models/UserGroup.php
+            [message] => broken link to \craft\models\Validator in craft\models\UserGroup
+        )
+
+    [168] => Array
+        (
+            [file] => ./src/models/UserGroup.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\UserGroup
+        )
+
+    [169] => Array
+        (
+            [file] => ./src/models/VolumeFolder.php
+            [message] => broken link to \craft\models\Validator in craft\models\VolumeFolder
+        )
+
+    [170] => Array
+        (
+            [file] => ./src/models/VolumeFolder.php
+            [message] => broken link to \craft\models\Validator::builtInValidators in craft\models\VolumeFolder
+        )
+
+    [171] => Array
+        (
+            [file] => ./src/mutex/FileMutex.php
+            [message] => broken link to \craft\mutex\Mutex in craft\mutex\FileMutex
+        )
+
+    [172] => Array
+        (
+            [line] => 26
+            [file] => ./src/queue/BaseJob.php
+            [message] => Property $description conflicts with a defined getter getDescription in craft\queue\BaseJob.
+        )
+
+    [173] => Array
+        (
+            [line] => 38
+            [file] => ./src/queue/Command.php
+            [message] => Method beforeAction has no parent to inherit from in craft\queue\Command.
+        )
+
+    [174] => Array
+        (
+            [line] => 58
+            [file] => ./src/queue/Command.php
+            [message] => Method actions has no parent to inherit from in craft\queue\Command.
+        )
+
+    [175] => Array
+        (
+            [file] => ./src/queue/JobInterface.php
+            [message] => broken link to \craft\queue\SavableComponentTrait in craft\queue\JobInterface
+        )
+
+    [176] => Array
+        (
+            [file] => ./src/queue/JobInterface.php
+            [message] => broken link to \craft\queue\JobTrait in craft\queue\JobInterface
+        )
+
+    [177] => Array
+        (
+            [line] => 76
+            [file] => ./src/queue/Queue.php
+            [message] => Method init has no parent to inherit from in craft\queue\Queue.
+        )
+
+    [178] => Array
+        (
+            [line] => 126
+            [file] => ./src/queue/Queue.php
+            [message] => Method status has no parent to inherit from in craft\queue\Queue.
+        )
+
+    [179] => Array
+        (
+            [line] => 139
+            [file] => ./src/queue/Queue.php
+            [message] => Method push has no parent to inherit from in craft\queue\Queue.
+        )
+
+    [180] => Array
+        (
+            [line] => 303
+            [file] => ./src/queue/Queue.php
+            [message] => Method handleError has no parent to inherit from in craft\queue\Queue.
+        )
+
+    [181] => Array
+        (
+            [line] => 404
+            [file] => ./src/queue/Queue.php
+            [message] => Method pushMessage has no parent to inherit from in craft\queue\Queue.
+        )
+
+    [182] => Array
+        (
+            [file] => ./src/queue/QueueInterface.php
+            [message] => broken link to \craft\queue\SavableComponentTrait in craft\queue\QueueInterface
+        )
+
+    [183] => Array
+        (
+            [file] => ./src/queue/QueueInterface.php
+            [message] => broken link to \craft\queue\JobTrait in craft\queue\QueueInterface
+        )
+
+    [184] => Array
+        (
+            [file] => ./src/records/Asset.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Asset
+        )
+
+    [185] => Array
+        (
+            [file] => ./src/records/Asset.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Asset
+        )
+
+    [186] => Array
+        (
+            [file] => ./src/records/Asset.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Asset
+        )
+
+    [187] => Array
+        (
+            [file] => ./src/records/AssetIndexData.php
+            [message] => broken link to \craft\records\Validator in craft\records\AssetIndexData
+        )
+
+    [188] => Array
+        (
+            [file] => ./src/records/AssetIndexData.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\AssetIndexData
+        )
+
+    [189] => Array
+        (
+            [file] => ./src/records/AssetIndexData.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\AssetIndexData
+        )
+
+    [190] => Array
+        (
+            [file] => ./src/records/AssetIndexData.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\AssetIndexData
+        )
+
+    [191] => Array
+        (
+            [file] => ./src/records/AssetIndexData.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\AssetIndexData
+        )
+
+    [192] => Array
+        (
+            [file] => ./src/records/AssetTransform.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\AssetTransform
+        )
+
+    [193] => Array
+        (
+            [file] => ./src/records/AssetTransform.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\AssetTransform
+        )
+
+    [194] => Array
+        (
+            [file] => ./src/records/AssetTransform.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\AssetTransform
+        )
+
+    [195] => Array
+        (
+            [file] => ./src/records/Category.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Category
+        )
+
+    [196] => Array
+        (
+            [file] => ./src/records/Category.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Category
+        )
+
+    [197] => Array
+        (
+            [file] => ./src/records/Category.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Category
+        )
+
+    [198] => Array
+        (
+            [file] => ./src/records/CategoryGroup.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\CategoryGroup
+        )
+
+    [199] => Array
+        (
+            [file] => ./src/records/CategoryGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\CategoryGroup
+        )
+
+    [200] => Array
+        (
+            [file] => ./src/records/CategoryGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\CategoryGroup
+        )
+
+    [201] => Array
+        (
+            [file] => ./src/records/CategoryGroup_SiteSettings.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\CategoryGroup_SiteSettings
+        )
+
+    [202] => Array
+        (
+            [file] => ./src/records/CategoryGroup_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\CategoryGroup_SiteSettings
+        )
+
+    [203] => Array
+        (
+            [file] => ./src/records/CategoryGroup_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\CategoryGroup_SiteSettings
+        )
+
+    [204] => Array
+        (
+            [file] => ./src/records/Element.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Element
+        )
+
+    [205] => Array
+        (
+            [file] => ./src/records/Element.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Element
+        )
+
+    [206] => Array
+        (
+            [file] => ./src/records/Element.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Element
+        )
+
+    [207] => Array
+        (
+            [file] => ./src/records/Element_SiteSettings.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Element_SiteSettings
+        )
+
+    [208] => Array
+        (
+            [file] => ./src/records/Element_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Element_SiteSettings
+        )
+
+    [209] => Array
+        (
+            [file] => ./src/records/Element_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Element_SiteSettings
+        )
+
+    [210] => Array
+        (
+            [file] => ./src/records/Entry.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Entry
+        )
+
+    [211] => Array
+        (
+            [file] => ./src/records/Entry.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Entry
+        )
+
+    [212] => Array
+        (
+            [file] => ./src/records/Entry.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Entry
+        )
+
+    [213] => Array
+        (
+            [file] => ./src/records/EntryDraft.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\EntryDraft
+        )
+
+    [214] => Array
+        (
+            [file] => ./src/records/EntryDraft.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryDraft
+        )
+
+    [215] => Array
+        (
+            [file] => ./src/records/EntryDraft.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryDraft
+        )
+
+    [216] => Array
+        (
+            [file] => ./src/records/EntryType.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\EntryType
+        )
+
+    [217] => Array
+        (
+            [file] => ./src/records/EntryType.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryType
+        )
+
+    [218] => Array
+        (
+            [file] => ./src/records/EntryType.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryType
+        )
+
+    [219] => Array
+        (
+            [file] => ./src/records/EntryVersion.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\EntryVersion
+        )
+
+    [220] => Array
+        (
+            [file] => ./src/records/EntryVersion.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryVersion
+        )
+
+    [221] => Array
+        (
+            [file] => ./src/records/EntryVersion.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\EntryVersion
+        )
+
+    [222] => Array
+        (
+            [file] => ./src/records/Field.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Field
+        )
+
+    [223] => Array
+        (
+            [file] => ./src/records/Field.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Field
+        )
+
+    [224] => Array
+        (
+            [file] => ./src/records/Field.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Field
+        )
+
+    [225] => Array
+        (
+            [file] => ./src/records/FieldGroup.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\FieldGroup
+        )
+
+    [226] => Array
+        (
+            [file] => ./src/records/FieldGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldGroup
+        )
+
+    [227] => Array
+        (
+            [file] => ./src/records/FieldGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldGroup
+        )
+
+    [228] => Array
+        (
+            [file] => ./src/records/FieldLayout.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\FieldLayout
+        )
+
+    [229] => Array
+        (
+            [file] => ./src/records/FieldLayout.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayout
+        )
+
+    [230] => Array
+        (
+            [file] => ./src/records/FieldLayout.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayout
+        )
+
+    [231] => Array
+        (
+            [file] => ./src/records/FieldLayoutField.php
+            [message] => broken link to \craft\records\Validator in craft\records\FieldLayoutField
+        )
+
+    [232] => Array
+        (
+            [file] => ./src/records/FieldLayoutField.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\FieldLayoutField
+        )
+
+    [233] => Array
+        (
+            [file] => ./src/records/FieldLayoutField.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\FieldLayoutField
+        )
+
+    [234] => Array
+        (
+            [file] => ./src/records/FieldLayoutField.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayoutField
+        )
+
+    [235] => Array
+        (
+            [file] => ./src/records/FieldLayoutField.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayoutField
+        )
+
+    [236] => Array
+        (
+            [file] => ./src/records/FieldLayoutTab.php
+            [message] => broken link to \craft\records\Validator in craft\records\FieldLayoutTab
+        )
+
+    [237] => Array
+        (
+            [file] => ./src/records/FieldLayoutTab.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\FieldLayoutTab
+        )
+
+    [238] => Array
+        (
+            [file] => ./src/records/FieldLayoutTab.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\FieldLayoutTab
+        )
+
+    [239] => Array
+        (
+            [file] => ./src/records/FieldLayoutTab.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayoutTab
+        )
+
+    [240] => Array
+        (
+            [file] => ./src/records/FieldLayoutTab.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\FieldLayoutTab
+        )
+
+    [241] => Array
+        (
+            [file] => ./src/records/GlobalSet.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\GlobalSet
+        )
+
+    [242] => Array
+        (
+            [file] => ./src/records/GlobalSet.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\GlobalSet
+        )
+
+    [243] => Array
+        (
+            [file] => ./src/records/GlobalSet.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\GlobalSet
+        )
+
+    [244] => Array
+        (
+            [file] => ./src/records/MatrixBlock.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\MatrixBlock
+        )
+
+    [245] => Array
+        (
+            [file] => ./src/records/MatrixBlock.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\MatrixBlock
+        )
+
+    [246] => Array
+        (
+            [file] => ./src/records/MatrixBlock.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\MatrixBlock
+        )
+
+    [247] => Array
+        (
+            [file] => ./src/records/MatrixBlockType.php
+            [message] => broken link to \craft\records\Validator in craft\records\MatrixBlockType
+        )
+
+    [248] => Array
+        (
+            [file] => ./src/records/MatrixBlockType.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\MatrixBlockType
+        )
+
+    [249] => Array
+        (
+            [file] => ./src/records/MatrixBlockType.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\MatrixBlockType
+        )
+
+    [250] => Array
+        (
+            [file] => ./src/records/MatrixBlockType.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\MatrixBlockType
+        )
+
+    [251] => Array
+        (
+            [file] => ./src/records/MatrixBlockType.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\MatrixBlockType
+        )
+
+    [252] => Array
+        (
+            [file] => ./src/records/Migration.php
+            [message] => broken link to \craft\records\Validator in craft\records\Migration
+        )
+
+    [253] => Array
+        (
+            [file] => ./src/records/Migration.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Migration
+        )
+
+    [254] => Array
+        (
+            [file] => ./src/records/Migration.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Migration
+        )
+
+    [255] => Array
+        (
+            [file] => ./src/records/Migration.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Migration
+        )
+
+    [256] => Array
+        (
+            [file] => ./src/records/Migration.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Migration
+        )
+
+    [257] => Array
+        (
+            [file] => ./src/records/Plugin.php
+            [message] => broken link to \craft\records\Validator in craft\records\Plugin
+        )
+
+    [258] => Array
+        (
+            [file] => ./src/records/Plugin.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Plugin
+        )
+
+    [259] => Array
+        (
+            [file] => ./src/records/Plugin.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Plugin
+        )
+
+    [260] => Array
+        (
+            [file] => ./src/records/Plugin.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Plugin
+        )
+
+    [261] => Array
+        (
+            [file] => ./src/records/Plugin.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Plugin
+        )
+
+    [262] => Array
+        (
+            [file] => ./src/records/Route.php
+            [message] => broken link to \craft\records\Validator in craft\records\Route
+        )
+
+    [263] => Array
+        (
+            [file] => ./src/records/Route.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Route
+        )
+
+    [264] => Array
+        (
+            [file] => ./src/records/Route.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Route
+        )
+
+    [265] => Array
+        (
+            [file] => ./src/records/Route.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Route
+        )
+
+    [266] => Array
+        (
+            [file] => ./src/records/Route.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Route
+        )
+
+    [267] => Array
+        (
+            [file] => ./src/records/Section.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Section
+        )
+
+    [268] => Array
+        (
+            [file] => ./src/records/Section.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Section
+        )
+
+    [269] => Array
+        (
+            [file] => ./src/records/Section.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Section
+        )
+
+    [270] => Array
+        (
+            [file] => ./src/records/Section_SiteSettings.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Section_SiteSettings
+        )
+
+    [271] => Array
+        (
+            [file] => ./src/records/Section_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Section_SiteSettings
+        )
+
+    [272] => Array
+        (
+            [file] => ./src/records/Section_SiteSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Section_SiteSettings
+        )
+
+    [273] => Array
+        (
+            [file] => ./src/records/Session.php
+            [message] => broken link to \craft\records\Validator in craft\records\Session
+        )
+
+    [274] => Array
+        (
+            [file] => ./src/records/Session.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Session
+        )
+
+    [275] => Array
+        (
+            [file] => ./src/records/Session.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Session
+        )
+
+    [276] => Array
+        (
+            [file] => ./src/records/Session.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Session
+        )
+
+    [277] => Array
+        (
+            [file] => ./src/records/Session.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Session
+        )
+
+    [278] => Array
+        (
+            [file] => ./src/records/Site.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Site
+        )
+
+    [279] => Array
+        (
+            [file] => ./src/records/Site.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Site
+        )
+
+    [280] => Array
+        (
+            [file] => ./src/records/Site.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Site
+        )
+
+    [281] => Array
+        (
+            [file] => ./src/records/Structure.php
+            [message] => broken link to \craft\records\Validator in craft\records\Structure
+        )
+
+    [282] => Array
+        (
+            [file] => ./src/records/Structure.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Structure
+        )
+
+    [283] => Array
+        (
+            [file] => ./src/records/Structure.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Structure
+        )
+
+    [284] => Array
+        (
+            [file] => ./src/records/Structure.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Structure
+        )
+
+    [285] => Array
+        (
+            [file] => ./src/records/Structure.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Structure
+        )
+
+    [286] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Behavior in craft\records\StructureElement
+        )
+
+    [287] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\BaseActiveRecord::hasOne() in craft\records\StructureElement
+        )
+
+    [288] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\BaseActiveRecord::hasMany() in craft\records\StructureElement
+        )
+
+    [289] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Validator in craft\records\StructureElement
+        )
+
+    [290] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\StructureElement
+        )
+
+    [291] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\StructureElement
+        )
+
+    [292] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\StructureElement
+        )
+
+    [293] => Array
+        (
+            [file] => ./src/records/StructureElement.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\StructureElement
+        )
+
+    [294] => Array
+        (
+            [file] => ./src/records/SystemMessage.php
+            [message] => broken link to \craft\records\Validator in craft\records\SystemMessage
+        )
+
+    [295] => Array
+        (
+            [file] => ./src/records/SystemMessage.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\SystemMessage
+        )
+
+    [296] => Array
+        (
+            [file] => ./src/records/SystemMessage.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\SystemMessage
+        )
+
+    [297] => Array
+        (
+            [file] => ./src/records/SystemMessage.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\SystemMessage
+        )
+
+    [298] => Array
+        (
+            [file] => ./src/records/SystemMessage.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\SystemMessage
+        )
+
+    [299] => Array
+        (
+            [file] => ./src/records/SystemSettings.php
+            [message] => broken link to \craft\records\Validator in craft\records\SystemSettings
+        )
+
+    [300] => Array
+        (
+            [file] => ./src/records/SystemSettings.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\SystemSettings
+        )
+
+    [301] => Array
+        (
+            [file] => ./src/records/SystemSettings.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\SystemSettings
+        )
+
+    [302] => Array
+        (
+            [file] => ./src/records/SystemSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\SystemSettings
+        )
+
+    [303] => Array
+        (
+            [file] => ./src/records/SystemSettings.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\SystemSettings
+        )
+
+    [304] => Array
+        (
+            [file] => ./src/records/Tag.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Tag
+        )
+
+    [305] => Array
+        (
+            [file] => ./src/records/Tag.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Tag
+        )
+
+    [306] => Array
+        (
+            [file] => ./src/records/Tag.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Tag
+        )
+
+    [307] => Array
+        (
+            [file] => ./src/records/TagGroup.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\TagGroup
+        )
+
+    [308] => Array
+        (
+            [file] => ./src/records/TagGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\TagGroup
+        )
+
+    [309] => Array
+        (
+            [file] => ./src/records/TagGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\TagGroup
+        )
+
+    [310] => Array
+        (
+            [file] => ./src/records/Token.php
+            [message] => broken link to \craft\records\Validator in craft\records\Token
+        )
+
+    [311] => Array
+        (
+            [file] => ./src/records/Token.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\Token
+        )
+
+    [312] => Array
+        (
+            [file] => ./src/records/Token.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Token
+        )
+
+    [313] => Array
+        (
+            [file] => ./src/records/Token.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Token
+        )
+
+    [314] => Array
+        (
+            [file] => ./src/records/Token.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Token
+        )
+
+    [315] => Array
+        (
+            [file] => ./src/records/User.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\User
+        )
+
+    [316] => Array
+        (
+            [file] => ./src/records/User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\User
+        )
+
+    [317] => Array
+        (
+            [file] => ./src/records/User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\User
+        )
+
+    [318] => Array
+        (
+            [file] => ./src/records/UserGroup.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\UserGroup
+        )
+
+    [319] => Array
+        (
+            [file] => ./src/records/UserGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserGroup
+        )
+
+    [320] => Array
+        (
+            [file] => ./src/records/UserGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserGroup
+        )
+
+    [321] => Array
+        (
+            [file] => ./src/records/UserGroup_User.php
+            [message] => broken link to \craft\records\Validator in craft\records\UserGroup_User
+        )
+
+    [322] => Array
+        (
+            [file] => ./src/records/UserGroup_User.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\UserGroup_User
+        )
+
+    [323] => Array
+        (
+            [file] => ./src/records/UserGroup_User.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\UserGroup_User
+        )
+
+    [324] => Array
+        (
+            [file] => ./src/records/UserGroup_User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserGroup_User
+        )
+
+    [325] => Array
+        (
+            [file] => ./src/records/UserGroup_User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserGroup_User
+        )
+
+    [326] => Array
+        (
+            [file] => ./src/records/UserPermission.php
+            [message] => broken link to \craft\records\Validator in craft\records\UserPermission
+        )
+
+    [327] => Array
+        (
+            [file] => ./src/records/UserPermission.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\UserPermission
+        )
+
+    [328] => Array
+        (
+            [file] => ./src/records/UserPermission.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\UserPermission
+        )
+
+    [329] => Array
+        (
+            [file] => ./src/records/UserPermission.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission
+        )
+
+    [330] => Array
+        (
+            [file] => ./src/records/UserPermission.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission
+        )
+
+    [331] => Array
+        (
+            [file] => ./src/records/UserPermission_User.php
+            [message] => broken link to \craft\records\Validator in craft\records\UserPermission_User
+        )
+
+    [332] => Array
+        (
+            [file] => ./src/records/UserPermission_User.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\UserPermission_User
+        )
+
+    [333] => Array
+        (
+            [file] => ./src/records/UserPermission_User.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\UserPermission_User
+        )
+
+    [334] => Array
+        (
+            [file] => ./src/records/UserPermission_User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission_User
+        )
+
+    [335] => Array
+        (
+            [file] => ./src/records/UserPermission_User.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission_User
+        )
+
+    [336] => Array
+        (
+            [file] => ./src/records/UserPermission_UserGroup.php
+            [message] => broken link to \craft\records\Validator in craft\records\UserPermission_UserGroup
+        )
+
+    [337] => Array
+        (
+            [file] => ./src/records/UserPermission_UserGroup.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\UserPermission_UserGroup
+        )
+
+    [338] => Array
+        (
+            [file] => ./src/records/UserPermission_UserGroup.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\UserPermission_UserGroup
+        )
+
+    [339] => Array
+        (
+            [file] => ./src/records/UserPermission_UserGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission_UserGroup
+        )
+
+    [340] => Array
+        (
+            [file] => ./src/records/UserPermission_UserGroup.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\UserPermission_UserGroup
+        )
+
+    [341] => Array
+        (
+            [file] => ./src/records/Volume.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Volume
+        )
+
+    [342] => Array
+        (
+            [file] => ./src/records/Volume.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Volume
+        )
+
+    [343] => Array
+        (
+            [file] => ./src/records/Volume.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Volume
+        )
+
+    [344] => Array
+        (
+            [file] => ./src/records/VolumeFolder.php
+            [message] => broken link to \craft\records\Validator in craft\records\VolumeFolder
+        )
+
+    [345] => Array
+        (
+            [file] => ./src/records/VolumeFolder.php
+            [message] => broken link to \craft\records\Validator::builtInValidators in craft\records\VolumeFolder
+        )
+
+    [346] => Array
+        (
+            [file] => ./src/records/VolumeFolder.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\VolumeFolder
+        )
+
+    [347] => Array
+        (
+            [file] => ./src/records/VolumeFolder.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\VolumeFolder
+        )
+
+    [348] => Array
+        (
+            [file] => ./src/records/VolumeFolder.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\VolumeFolder
+        )
+
+    [349] => Array
+        (
+            [file] => ./src/records/Widget.php
+            [message] => broken link to \craft\records\Inflector::camel2id() in craft\records\Widget
+        )
+
+    [350] => Array
+        (
+            [file] => ./src/records/Widget.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Widget
+        )
+
+    [351] => Array
+        (
+            [file] => ./src/records/Widget.php
+            [message] => broken link to \craft\records\Connection::tablePrefix in craft\records\Widget
+        )
+
+    [352] => Array
+        (
+            [file] => ./src/services/Elements.php
+            [message] => broken link to \craft\services\findElements() in craft\services\Elements
+        )
+
+    [353] => Array
+        (
+            [file] => ./src/services/Elements.php
+            [message] => broken link to \craft\services\findElements() in craft\services\Elements
+        )
+
+    [354] => Array
+        (
+            [file] => ./src/services/Elements.php
+            [message] => broken link to \craft\services\ElementActionEvent::isValid in craft\services\Elements
+        )
+
+    [355] => Array
+        (
+            [file] => ./src/services/Users.php
+            [message] => broken link to \craft\services\AssignUserGroupEvent::isValid in craft\services\Users
+        )
+
+    [356] => Array
+        (
+            [file] => ./src/volumes/Local.php
+            [message] => broken link to \craft\volumes\Validator in craft\volumes\Local
+        )
+
+    [357] => Array
+        (
+            [file] => ./src/volumes/Local.php
+            [message] => broken link to \craft\volumes\Validator::builtInValidators in craft\volumes\Local
+        )
+
+    [358] => Array
+        (
+            [file] => ./src/web/Controller.php
+            [message] => broken link to \craft\web\Url::to() in craft\web\Controller
+        )
+
+    [359] => Array
+        (
+            [file] => ./src/web/ErrorHandler.php
+            [message] => broken link to \craft\web\ErrorException in craft\web\ErrorHandler
+        )
+
+    [360] => Array
+        (
+            [file] => ./src/web/Request.php
+            [message] => broken link to \craft\web\RequestParserInterface in craft\web\Request
+        )
+
+    [361] => Array
+        (
+            [file] => ./src/web/Request.php
+            [message] => broken link to \craft\web\rawCsrfToken in craft\web\Request
+        )
+
+    [362] => Array
+        (
+            [file] => ./src/web/Request.php
+            [message] => broken link to \craft\web\parent::getPathInfo() in craft\web\Request
+        )
+
+    [363] => Array
+        (
+            [file] => ./src/web/Request.php
+            [message] => broken link to yii\web\UrlManager::processRequest() in craft\web\Request
+        )
+
+    [364] => Array
+        (
+            [file] => ./src/web/Request.php
+            [message] => broken link to yii\web\UrlRule::processRequest() in craft\web\Request
+        )
+
+    [365] => Array
+        (
+            [file] => ./src/web/Session.php
+            [message] => broken link to \craft\web\Behavior in craft\web\Session
+        )
+
+    [366] => Array
+        (
+            [line] => 1253
+            [file] => ./src/web/View.php
+            [message] => Undefined parameter documented:  in invokeHook().
+        )
+
+    [367] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/Environment.php
+            [message] => Method loadTemplate has no parent to inherit from in craft\web\twig\Environment.
+        )
+
+    [368] => Array
+        (
+            [line] => 46
+            [file] => ./src/web/twig/Environment.php
+            [message] => Method compileSource has no parent to inherit from in craft\web\twig\Environment.
+        )
+
+    [369] => Array
+        (
+            [line] => 85
+            [file] => ./src/web/twig/Extension.php
+            [message] => Method getNodeVisitors has no parent to inherit from in craft\web\twig\Extension.
+        )
+
+    [370] => Array
+        (
+            [line] => 28
+            [file] => ./src/web/twig/Template.php
+            [message] => Method display has no parent to inherit from in craft\web\twig\Template.
+        )
+
+    [371] => Array
+        (
+            [line] => 47
+            [file] => ./src/web/twig/TemplateLoader.php
+            [message] => Method exists has no parent to inherit from in craft\web\twig\TemplateLoader.
+        )
+
+    [372] => Array
+        (
+            [line] => 55
+            [file] => ./src/web/twig/TemplateLoader.php
+            [message] => Method getSourceContext has no parent to inherit from in craft\web\twig\TemplateLoader.
+        )
+
+    [373] => Array
+        (
+            [line] => 35
+            [file] => ./src/web/twig/nodes/CacheNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\CacheNode.
+        )
+
+    [374] => Array
+        (
+            [line] => 27
+            [file] => ./src/web/twig/nodes/ExitNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\ExitNode.
+        )
+
+    [375] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/GetAttrNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\GetAttrNode.
+        )
+
+    [376] => Array
+        (
+            [line] => 24
+            [file] => ./src/web/twig/nodes/HeaderNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\HeaderNode.
+        )
+
+    [377] => Array
+        (
+            [line] => 24
+            [file] => ./src/web/twig/nodes/HookNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\HookNode.
+        )
+
+    [378] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/NamespaceNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\NamespaceNode.
+        )
+
+    [379] => Array
+        (
+            [line] => 46
+            [file] => ./src/web/twig/nodes/NavItem_Node.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\NavItem_Node.
+        )
+
+    [380] => Array
+        (
+            [line] => 53
+            [file] => ./src/web/twig/nodes/NavNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\NavNode.
+        )
+
+    [381] => Array
+        (
+            [line] => 24
+            [file] => ./src/web/twig/nodes/PaginateNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\PaginateNode.
+        )
+
+    [382] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/RedirectNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\RedirectNode.
+        )
+
+    [383] => Array
+        (
+            [line] => 27
+            [file] => ./src/web/twig/nodes/RegisterResourceNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\RegisterResourceNode.
+        )
+
+    [384] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/RequireAdminNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\RequireAdminNode.
+        )
+
+    [385] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/RequireEditionNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\RequireEditionNode.
+        )
+
+    [386] => Array
+        (
+            [line] => 24
+            [file] => ./src/web/twig/nodes/RequirePermissionNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\RequirePermissionNode.
+        )
+
+    [387] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodes/SwitchNode.php
+            [message] => Method compile has no parent to inherit from in craft\web\twig\nodes\SwitchNode.
+        )
+
+    [388] => Array
+        (
+            [line] => 34
+            [file] => ./src/web/twig/nodevisitors/EventTagAdder.php
+            [message] => Method enterNode has no parent to inherit from in craft\web\twig\nodevisitors\EventTagAdder.
+        )
+
+    [389] => Array
+        (
+            [line] => 52
+            [file] => ./src/web/twig/nodevisitors/EventTagAdder.php
+            [message] => Method leaveNode has no parent to inherit from in craft\web\twig\nodevisitors\EventTagAdder.
+        )
+
+    [390] => Array
+        (
+            [line] => 60
+            [file] => ./src/web/twig/nodevisitors/EventTagAdder.php
+            [message] => Method getPriority has no parent to inherit from in craft\web\twig\nodevisitors\EventTagAdder.
+        )
+
+    [391] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/nodevisitors/EventTagFinder.php
+            [message] => Method enterNode has no parent to inherit from in craft\web\twig\nodevisitors\EventTagFinder.
+        )
+
+    [392] => Array
+        (
+            [line] => 76
+            [file] => ./src/web/twig/nodevisitors/EventTagFinder.php
+            [message] => Method leaveNode has no parent to inherit from in craft\web\twig\nodevisitors\EventTagFinder.
+        )
+
+    [393] => Array
+        (
+            [line] => 84
+            [file] => ./src/web/twig/nodevisitors/EventTagFinder.php
+            [message] => Method getPriority has no parent to inherit from in craft\web\twig\nodevisitors\EventTagFinder.
+        )
+
+    [394] => Array
+        (
+            [line] => 23
+            [file] => ./src/web/twig/nodevisitors/GetAttrAdjuster.php
+            [message] => Method enterNode has no parent to inherit from in craft\web\twig\nodevisitors\GetAttrAdjuster.
+        )
+
+    [395] => Array
+        (
+            [line] => 52
+            [file] => ./src/web/twig/nodevisitors/GetAttrAdjuster.php
+            [message] => Method leaveNode has no parent to inherit from in craft\web\twig\nodevisitors\GetAttrAdjuster.
+        )
+
+    [396] => Array
+        (
+            [line] => 60
+            [file] => ./src/web/twig/nodevisitors/GetAttrAdjuster.php
+            [message] => Method getPriority has no parent to inherit from in craft\web\twig\nodevisitors\GetAttrAdjuster.
+        )
+
+    [397] => Array
+        (
+            [line] => 34
+            [file] => ./src/web/twig/tokenparsers/CacheTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\CacheTokenParser.
+        )
+
+    [398] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/ExitTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\ExitTokenParser.
+        )
+
+    [399] => Array
+        (
+            [line] => 44
+            [file] => ./src/web/twig/tokenparsers/ExitTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\ExitTokenParser.
+        )
+
+    [400] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/HeaderTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\HeaderTokenParser.
+        )
+
+    [401] => Array
+        (
+            [line] => 40
+            [file] => ./src/web/twig/tokenparsers/HeaderTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\HeaderTokenParser.
+        )
+
+    [402] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/HookTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\HookTokenParser.
+        )
+
+    [403] => Array
+        (
+            [line] => 34
+            [file] => ./src/web/twig/tokenparsers/HookTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\HookTokenParser.
+        )
+
+    [404] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/NamespaceTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\NamespaceTokenParser.
+        )
+
+    [405] => Array
+        (
+            [line] => 34
+            [file] => ./src/web/twig/tokenparsers/NamespaceTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\NamespaceTokenParser.
+        )
+
+    [406] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/NavTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\NavTokenParser.
+        )
+
+    [407] => Array
+        (
+            [line] => 34
+            [file] => ./src/web/twig/tokenparsers/NavTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\NavTokenParser.
+        )
+
+    [408] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/PaginateTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\PaginateTokenParser.
+        )
+
+    [409] => Array
+        (
+            [line] => 54
+            [file] => ./src/web/twig/tokenparsers/PaginateTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\PaginateTokenParser.
+        )
+
+    [410] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/RedirectTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RedirectTokenParser.
+        )
+
+    [411] => Array
+        (
+            [line] => 48
+            [file] => ./src/web/twig/tokenparsers/RedirectTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RedirectTokenParser.
+        )
+
+    [412] => Array
+        (
+            [line] => 86
+            [file] => ./src/web/twig/tokenparsers/RegisterResourceTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RegisterResourceTokenParser.
+        )
+
+    [413] => Array
+        (
+            [line] => 162
+            [file] => ./src/web/twig/tokenparsers/RegisterResourceTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RegisterResourceTokenParser.
+        )
+
+    [414] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/RequireAdminTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RequireAdminTokenParser.
+        )
+
+    [415] => Array
+        (
+            [line] => 37
+            [file] => ./src/web/twig/tokenparsers/RequireAdminTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RequireAdminTokenParser.
+        )
+
+    [416] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/RequireEditionTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RequireEditionTokenParser.
+        )
+
+    [417] => Array
+        (
+            [line] => 40
+            [file] => ./src/web/twig/tokenparsers/RequireEditionTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RequireEditionTokenParser.
+        )
+
+    [418] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/RequireLoginTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RequireLoginTokenParser.
+        )
+
+    [419] => Array
+        (
+            [line] => 37
+            [file] => ./src/web/twig/tokenparsers/RequireLoginTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RequireLoginTokenParser.
+        )
+
+    [420] => Array
+        (
+            [line] => 26
+            [file] => ./src/web/twig/tokenparsers/RequirePermissionTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\RequirePermissionTokenParser.
+        )
+
+    [421] => Array
+        (
+            [line] => 40
+            [file] => ./src/web/twig/tokenparsers/RequirePermissionTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\RequirePermissionTokenParser.
+        )
+
+    [422] => Array
+        (
+            [line] => 28
+            [file] => ./src/web/twig/tokenparsers/SwitchTokenParser.php
+            [message] => Method getTag has no parent to inherit from in craft\web\twig\tokenparsers\SwitchTokenParser.
+        )
+
+    [423] => Array
+        (
+            [line] => 36
+            [file] => ./src/web/twig/tokenparsers/SwitchTokenParser.php
+            [message] => Method parse has no parent to inherit from in craft\web\twig\tokenparsers\SwitchTokenParser.
+        )
+
+    [424] => Array
+        (
+            [file] => ./src/web/twig/variables/CraftVariable.php
+            [message] => broken link to \craft\web\twig\variables\Behavior in craft\web\twig\variables\CraftVariable
+        )
+
+    [425] => Array
+        (
+            [line] => 53
+            [file] => ./src/widgets/Feed.php
+            [message] => Property $title conflicts with a defined getter getTitle in craft\widgets\Feed.
+        )
+
+    [426] => Array
+        (
+            [file] => ./src/widgets/Feed.php
+            [message] => broken link to \craft\widgets\Validator in craft\widgets\Feed
+        )
+
+    [427] => Array
+        (
+            [file] => ./src/widgets/Feed.php
+            [message] => broken link to \craft\widgets\Validator::builtInValidators in craft\widgets\Feed
+        )
+
+    [428] => Array
+        (
+            [file] => ./src/widgets/QuickPost.php
+            [message] => broken link to \craft\widgets\Validator in craft\widgets\QuickPost
+        )
+
+    [429] => Array
+        (
+            [file] => ./src/widgets/QuickPost.php
+            [message] => broken link to \craft\widgets\Validator::builtInValidators in craft\widgets\QuickPost
+        )
+
+    [430] => Array
+        (
+            [file] => ./src/widgets/RecentEntries.php
+            [message] => broken link to \craft\widgets\Validator in craft\widgets\RecentEntries
+        )
+
+    [431] => Array
+        (
+            [file] => ./src/widgets/RecentEntries.php
+            [message] => broken link to \craft\widgets\Validator::builtInValidators in craft\widgets\RecentEntries
+        )
+
+    [432] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/Command.php
+            [message] => broken link to \yii\db\yii\db\Query in yii\db\Command
+        )
+
+    [433] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/Command.php
+            [message] => broken link to \yii\db\yii\db\Query in yii\db\Command
+        )
+
+    [434] => Array
+        (
+            [line] => 85
+            [file] => vendor/yiisoft/yii2/db/Migration.php
+            [message] => Method getDb has no parent to inherit from in yii\db\Migration.
+        )
+
+    [435] => Array
+        (
+            [line] => 575
+            [file] => vendor/yiisoft/yii2/db/Query.php
+            [message] => Method param $params does not exist in parent method, @inheritdoc not possible in where in yii\db\Query.
+        )
+
+    [436] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/QueryBuilder.php
+            [message] => broken link to \yii\db\yii\db\Query in yii\db\QueryBuilder
+        )
+
+    [437] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/QueryBuilder.php
+            [message] => broken link to \yii\db\yii\db\Query in yii\db\QueryBuilder
+        )
+
+    [438] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/QueryTrait.php
+            [message] => broken link to \yii\db\one() in yii\db\QueryTrait
+        )
+
+    [439] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/QueryTrait.php
+            [message] => broken link to \yii\db\all() in yii\db\QueryTrait
+        )
+
+    [440] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/QueryTrait.php
+            [message] => broken link to \yii\db\exists() in yii\db\QueryTrait
+        )
+
+    [441] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::orderBy in yii\db\mssql\QueryBuilder
+        )
+
+    [442] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::limit in yii\db\mssql\QueryBuilder
+        )
+
+    [443] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::offset in yii\db\mssql\QueryBuilder
+        )
+
+    [444] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\yii\db\Query in yii\db\mssql\QueryBuilder
+        )
+
+    [445] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\yii\db\Query in yii\db\mssql\QueryBuilder
+        )
+
+    [446] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [message] => broken link to \yii\db\mssql\Query::where() in yii\db\mssql\QueryBuilder
+        )
+
+    [447] => Array
+        (
+            [line] => 425
+            [file] => vendor/yiisoft/yii2/db/mssql/Schema.php
+            [message] => Method findViewNames has no parent to inherit from in yii\db\mssql\Schema.
+        )
+
+    [448] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mysql/QueryBuilder.php
+            [message] => broken link to \yii\db\mysql\yii\db\Query in yii\db\mysql\QueryBuilder
+        )
+
+    [449] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/mysql/QueryBuilder.php
+            [message] => broken link to \yii\db\mysql\yii\db\Query in yii\db\mysql\QueryBuilder
+        )
+
+    [450] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::orderBy in yii\db\oci\QueryBuilder
+        )
+
+    [451] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::limit in yii\db\oci\QueryBuilder
+        )
+
+    [452] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\Query::offset in yii\db\oci\QueryBuilder
+        )
+
+    [453] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\yii\db\Query in yii\db\oci\QueryBuilder
+        )
+
+    [454] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [message] => broken link to \yii\db\oci\yii\db\Query in yii\db\oci\QueryBuilder
+        )
+
+    [455] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
+            [message] => broken link to \yii\db\pgsql\yii\db\Query in yii\db\pgsql\QueryBuilder
+        )
+
+    [456] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
+            [message] => broken link to \yii\db\pgsql\yii\db\Query in yii\db\pgsql\QueryBuilder
+        )
+
+    [457] => Array
+        (
+            [file] => vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
+            [message] => broken link to \yii\db\pgsql\Query::where() in yii\db\pgsql\QueryBuilder
+        )
+
+    [458] => Array
+        (
+            [line] => 213
+            [file] => vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [message] => Method findViewNames has no parent to inherit from in yii\db\pgsql\Schema.
+        )
+
+    [459] => Array
+        (
+            [file] => vendor/yiisoft/yii2/di/Instance.php
+            [message] => broken link to \yii\di\var_export() in yii\di\Instance
+        )
+
+    [460] => Array
+        (
+            [line] => 24
+            [file] => vendor/yiisoft/yii2/di/NotInstantiableException.php
+            [message] => Method __construct has no parent to inherit from in yii\di\NotInstantiableException.
+        )
+
+    [461] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [462] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [463] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [464] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [465] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [466] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [467] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [468] => Array
+        (
+            [file] => vendor/yiisoft/yii2/helpers/BaseInflector.php
+            [message] => broken link to \Transliterator in yii\helpers\BaseInflector
+        )
+
+    [469] => Array
+        (
+            [file] => vendor/yiisoft/yii2/i18n/Formatter.php
+            [message] => broken link to \IntlCalendar in yii\i18n\Formatter
+        )
+
+    [470] => Array
+        (
+            [line] => 121
+            [file] => vendor/yiisoft/yii2/rbac/DbManager.php
+            [message] => Method checkAccess has no parent to inherit from in yii\rbac\DbManager.
+        )
+
+    [471] => Array
+        (
+            [line] => 98
+            [file] => vendor/yiisoft/yii2/rbac/DbManager.php
+            [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\DbManager.
+        )
+
+    [472] => Array
+        (
+            [line] => 99
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => Method checkAccess has no parent to inherit from in yii\rbac\PhpManager.
+        )
+
+    [473] => Array
+        (
+            [line] => 79
+            [file] => vendor/yiisoft/yii2/rbac/PhpManager.php
+            [message] => Property $rules conflicts with a defined getter getRules in yii\rbac\PhpManager.
+        )
+
+    [474] => Array
+        (
+            [file] => vendor/yiisoft/yii2/rest/ActiveController.php
+            [message] => broken link to \yii\rest\VerbFilter::actions in yii\rest\ActiveController
+        )
+
+    [475] => Array
+        (
+            [file] => vendor/yiisoft/yii2/rest/Controller.php
+            [message] => broken link to \yii\rest\Behavior in yii\rest\Controller
+        )
+
+    [476] => Array
+        (
+            [line] => 317
+            [file] => vendor/yiisoft/yii2/validators/FileValidator.php
+            [message] => Method param $trim does not exist in parent method, @inheritdoc not possible in isEmpty in yii\validators\FileValidator.
+        )
+
+    [477] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/ErrorAction.php
+            [message] => broken link to \yii\web\yii\web\ErrorHandler in yii\web\ErrorAction
+        )
+
+    [478] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/ErrorAction.php
+            [message] => broken link to \yii\web\yii\base\UserException in yii\web\ErrorAction
+        )
+
+    [479] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/ErrorAction.php
+            [message] => broken link to \yii\web\yii\web\ErrorHandler in yii\web\ErrorAction
+        )
+
+    [480] => Array
+        (
+            [file] => vendor/yiisoft/yii2/web/ErrorAction.php
+            [message] => broken link to \yii\web\yii\base\UserException in yii\web\ErrorAction
+        )
+
+)

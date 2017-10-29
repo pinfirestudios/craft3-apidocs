@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/c4da7381/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/9a33b857/solarized_light.css" rel="stylesheet">
+<link href="./assets/3118fc63/style.css" rel="stylesheet">
+<script src="./assets/f4a7ebb6/jquery.js"></script>
+<script src="./assets/c4da7381/js/bootstrap.js"></script>
+<script src="./assets/c1668e13/jssearch.js"></script>    <title>Assets, craft\services\Assets - Craft CMS 3 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w41610" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w41610-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Craft CMS 3 API Documentation</a></div><div id="w41610-collapse" class="collapse navbar-collapse"><ul id="w41611" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-41509" data-toggle="collapse" data-parent="#navigation">Not namespaced classes <b class="caret"></b></a><div id="navigation-41509" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft.html">Craft</a>
+<a class="list-group-item" href="./yii.html">Yii</a>
+<a class="list-group-item" href="./yiirequirementchecker.html">YiiRequirementChecker</a></div>
+<a class="list-group-item" href="#navigation-41510" data-toggle="collapse" data-parent="#navigation">craft\app\web <b class="caret"></b></a><div id="navigation-41510" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-app-web-urlrule.html">UrlRule</a></div>
+<a class="list-group-item" href="#navigation-41511" data-toggle="collapse" data-parent="#navigation">craft\base <b class="caret"></b></a><div id="navigation-41511" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-base-applicationtrait.html">ApplicationTrait</a>
+<a class="list-group-item" href="./craft-base-component.html">Component</a>
+<a class="list-group-item" href="./craft-base-componentinterface.html">ComponentInterface</a>
+<a class="list-group-item" href="./craft-base-eagerloadingfieldinterface.html">EagerLoadingFieldInterface</a>
+<a class="list-group-item" href="./craft-base-element.html">Element</a>
+<a class="list-group-item" href="./craft-base-elementaction.html">ElementAction</a>
+<a class="list-group-item" href="./craft-base-elementactioninterface.html">ElementActionInterface</a>
+<a class="list-group-item" href="./craft-base-elementinterface.html">ElementInterface</a>
+<a class="list-group-item" href="./craft-base-elementtrait.html">ElementTrait</a>
+<a class="list-group-item" href="./craft-base-field.html">Field</a>
+<a class="list-group-item" href="./craft-base-fieldinterface.html">FieldInterface</a>
+<a class="list-group-item" href="./craft-base-fieldtrait.html">FieldTrait</a>
+<a class="list-group-item" href="./craft-base-flysystemvolume.html">FlysystemVolume</a>
+<a class="list-group-item" href="./craft-base-image.html">Image</a>
+<a class="list-group-item" href="./craft-base-localvolumeinterface.html">LocalVolumeInterface</a>
+<a class="list-group-item" href="./craft-base-missingcomponentinterface.html">MissingComponentInterface</a>
+<a class="list-group-item" href="./craft-base-missingcomponenttrait.html">MissingComponentTrait</a>
+<a class="list-group-item" href="./craft-base-model.html">Model</a>
+<a class="list-group-item" href="./craft-base-plugin.html">Plugin</a>
+<a class="list-group-item" href="./craft-base-plugininterface.html">PluginInterface</a>
+<a class="list-group-item" href="./craft-base-plugintrait.html">PluginTrait</a>
+<a class="list-group-item" href="./craft-base-previewablefieldinterface.html">PreviewableFieldInterface</a>
+<a class="list-group-item" href="./craft-base-requesttrait.html">RequestTrait</a>
+<a class="list-group-item" href="./craft-base-savablecomponent.html">SavableComponent</a>
+<a class="list-group-item" href="./craft-base-savablecomponentinterface.html">SavableComponentInterface</a>
+<a class="list-group-item" href="./craft-base-savablecomponenttrait.html">SavableComponentTrait</a>
+<a class="list-group-item" href="./craft-base-serializable.html">Serializable</a>
+<a class="list-group-item" href="./craft-base-utility.html">Utility</a>
+<a class="list-group-item" href="./craft-base-utilityinterface.html">UtilityInterface</a>
+<a class="list-group-item" href="./craft-base-volume.html">Volume</a>
+<a class="list-group-item" href="./craft-base-volumeinterface.html">VolumeInterface</a>
+<a class="list-group-item" href="./craft-base-volumetrait.html">VolumeTrait</a>
+<a class="list-group-item" href="./craft-base-widget.html">Widget</a>
+<a class="list-group-item" href="./craft-base-widgetinterface.html">WidgetInterface</a>
+<a class="list-group-item" href="./craft-base-widgettrait.html">WidgetTrait</a></div>
+<a class="list-group-item" href="#navigation-41512" data-toggle="collapse" data-parent="#navigation">craft\behaviors <b class="caret"></b></a><div id="navigation-41512" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-behaviors-fieldlayoutbehavior.html">FieldLayoutBehavior</a>
+<a class="list-group-item" href="./craft-behaviors-sessionbehavior.html">SessionBehavior</a></div>
+<a class="list-group-item" href="#navigation-41513" data-toggle="collapse" data-parent="#navigation">craft\cache <b class="caret"></b></a><div id="navigation-41513" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-cache-apppathdependency.html">AppPathDependency</a></div>
+<a class="list-group-item" href="#navigation-41514" data-toggle="collapse" data-parent="#navigation">craft\config <b class="caret"></b></a><div id="navigation-41514" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-config-dbcacheconfig.html">DbCacheConfig</a>
+<a class="list-group-item" href="./craft-config-dbconfig.html">DbConfig</a>
+<a class="list-group-item" href="./craft-config-filecacheconfig.html">FileCacheConfig</a>
+<a class="list-group-item" href="./craft-config-generalconfig.html">GeneralConfig</a>
+<a class="list-group-item" href="./craft-config-memcacheconfig.html">MemCacheConfig</a></div>
+<a class="list-group-item" href="#navigation-41515" data-toggle="collapse" data-parent="#navigation">craft\console <b class="caret"></b></a><div id="navigation-41515" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-console-application.html">Application</a>
+<a class="list-group-item" href="./craft-console-request.html">Request</a>
+<a class="list-group-item" href="./craft-console-user.html">User</a></div>
+<a class="list-group-item" href="#navigation-41516" data-toggle="collapse" data-parent="#navigation">craft\console\controllers <b class="caret"></b></a><div id="navigation-41516" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-console-controllers-installcontroller.html">InstallController</a>
+<a class="list-group-item" href="./craft-console-controllers-migratecontroller.html">MigrateController</a>
+<a class="list-group-item" href="./craft-console-controllers-setupcontroller.html">SetupController</a></div>
+<a class="list-group-item" href="#navigation-41517" data-toggle="collapse" data-parent="#navigation">craft\controllers <b class="caret"></b></a><div id="navigation-41517" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-controllers-appcontroller.html">AppController</a>
+<a class="list-group-item" href="./craft-controllers-assettransformscontroller.html">AssetTransformsController</a>
+<a class="list-group-item" href="./craft-controllers-assetscontroller.html">AssetsController</a>
+<a class="list-group-item" href="./craft-controllers-baseelementscontroller.html">BaseElementsController</a>
+<a class="list-group-item" href="./craft-controllers-baseentriescontroller.html">BaseEntriesController</a>
+<a class="list-group-item" href="./craft-controllers-categoriescontroller.html">CategoriesController</a>
+<a class="list-group-item" href="./craft-controllers-chartscontroller.html">ChartsController</a>
+<a class="list-group-item" href="./craft-controllers-dashboardcontroller.html">DashboardController</a>
+<a class="list-group-item" href="./craft-controllers-elementindexsettingscontroller.html">ElementIndexSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-elementindexescontroller.html">ElementIndexesController</a>
+<a class="list-group-item" href="./craft-controllers-elementscontroller.html">ElementsController</a>
+<a class="list-group-item" href="./craft-controllers-entriescontroller.html">EntriesController</a>
+<a class="list-group-item" href="./craft-controllers-entryrevisionscontroller.html">EntryRevisionsController</a>
+<a class="list-group-item" href="./craft-controllers-fieldscontroller.html">FieldsController</a>
+<a class="list-group-item" href="./craft-controllers-globalscontroller.html">GlobalsController</a>
+<a class="list-group-item" href="./craft-controllers-installcontroller.html">InstallController</a>
+<a class="list-group-item" href="./craft-controllers-pluginscontroller.html">PluginsController</a>
+<a class="list-group-item" href="./craft-controllers-queuecontroller.html">QueueController</a>
+<a class="list-group-item" href="./craft-controllers-rebrandcontroller.html">RebrandController</a>
+<a class="list-group-item" href="./craft-controllers-routescontroller.html">RoutesController</a>
+<a class="list-group-item" href="./craft-controllers-sectionscontroller.html">SectionsController</a>
+<a class="list-group-item" href="./craft-controllers-sitescontroller.html">SitesController</a>
+<a class="list-group-item" href="./craft-controllers-structurescontroller.html">StructuresController</a>
+<a class="list-group-item" href="./craft-controllers-systemmessagescontroller.html">SystemMessagesController</a>
+<a class="list-group-item" href="./craft-controllers-systemsettingscontroller.html">SystemSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-tagscontroller.html">TagsController</a>
+<a class="list-group-item" href="./craft-controllers-templatescontroller.html">TemplatesController</a>
+<a class="list-group-item" href="./craft-controllers-updatercontroller.html">UpdaterController</a>
+<a class="list-group-item" href="./craft-controllers-usersettingscontroller.html">UserSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-userscontroller.html">UsersController</a>
+<a class="list-group-item" href="./craft-controllers-utilitiescontroller.html">UtilitiesController</a>
+<a class="list-group-item" href="./craft-controllers-volumescontroller.html">VolumesController</a></div>
+<a class="list-group-item" href="#navigation-41518" data-toggle="collapse" data-parent="#navigation">craft\db <b class="caret"></b></a><div id="navigation-41518" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./craft-db-command.html">Command</a>
+<a class="list-group-item" href="./craft-db-connection.html">Connection</a>
+<a class="list-group-item" href="./craft-db-fixedorderexpression.html">FixedOrderExpression</a>
+<a class="list-group-item" href="./craft-db-migration.html">Migration</a>
+<a class="list-group-item" href="./craft-db-migrationmanager.html">MigrationManager</a>
+<a class="list-group-item" href="./craft-db-query.html">Query</a>
+<a class="list-group-item" href="./craft-db-queryabortedexception.html">QueryAbortedException</a>
+<a class="list-group-item" href="./craft-db-structuredelementquery.html">StructuredElementQuery</a>
+<a class="list-group-item" href="./craft-db-tableschema.html">TableSchema</a></div>
+<a class="list-group-item" href="#navigation-41519" data-toggle="collapse" data-parent="#navigation">craft\db\mysql <b class="caret"></b></a><div id="navigation-41519" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-mysql-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./craft-db-mysql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./craft-db-mysql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-41520" data-toggle="collapse" data-parent="#navigation">craft\db\pgsql <b class="caret"></b></a><div id="navigation-41520" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-pgsql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./craft-db-pgsql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-41521" data-toggle="collapse" data-parent="#navigation">craft\debug <b class="caret"></b></a><div id="navigation-41521" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-debug-deprecatedpanel.html">DeprecatedPanel</a>
+<a class="list-group-item" href="./craft-debug-userpanel.html">UserPanel</a></div>
+<a class="list-group-item" href="#navigation-41522" data-toggle="collapse" data-parent="#navigation">craft\elements <b class="caret"></b></a><div id="navigation-41522" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-elements-asset.html">Asset</a>
+<a class="list-group-item" href="./craft-elements-category.html">Category</a>
+<a class="list-group-item" href="./craft-elements-entry.html">Entry</a>
+<a class="list-group-item" href="./craft-elements-globalset.html">GlobalSet</a>
+<a class="list-group-item" href="./craft-elements-matrixblock.html">MatrixBlock</a>
+<a class="list-group-item" href="./craft-elements-tag.html">Tag</a>
+<a class="list-group-item" href="./craft-elements-user.html">User</a></div>
+<a class="list-group-item" href="#navigation-41523" data-toggle="collapse" data-parent="#navigation">craft\elements\actions <b class="caret"></b></a><div id="navigation-41523" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-elements-actions-copyreferencetag.html">CopyReferenceTag</a>
+<a class="list-group-item" href="./craft-elements-actions-delete.html">Delete</a>
+<a class="list-group-item" href="./craft-elements-actions-deleteassets.html">DeleteAssets</a>
+<a class="list-group-item" href="./craft-elements-actions-deleteusers.html">DeleteUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-downloadassetfile.html">DownloadAssetFile</a>
+<a class="list-group-item" href="./craft-elements-actions-edit.html">Edit</a>
+<a class="list-group-item" href="./craft-elements-actions-editimage.html">EditImage</a>
+<a class="list-group-item" href="./craft-elements-actions-newchild.html">NewChild</a>
+<a class="list-group-item" href="./craft-elements-actions-renamefile.html">RenameFile</a>
+<a class="list-group-item" href="./craft-elements-actions-replacefile.html">ReplaceFile</a>
+<a class="list-group-item" href="./craft-elements-actions-setstatus.html">SetStatus</a>
+<a class="list-group-item" href="./craft-elements-actions-suspendusers.html">SuspendUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-unsuspendusers.html">UnsuspendUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-view.html">View</a></div>
+<a class="list-group-item" href="#navigation-41524" data-toggle="collapse" data-parent="#navigation">craft\elements\db <b class="caret"></b></a><div id="navigation-41524" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-elements-db-assetquery.html">AssetQuery</a>
+<a class="list-group-item" href="./craft-elements-db-categoryquery.html">CategoryQuery</a>
+<a class="list-group-item" href="./craft-elements-db-elementquery.html">ElementQuery</a>
+<a class="list-group-item" href="./craft-elements-db-elementqueryinterface.html">ElementQueryInterface</a>
+<a class="list-group-item" href="./craft-elements-db-elementrelationparamparser.html">ElementRelationParamParser</a>
+<a class="list-group-item" href="./craft-elements-db-entryquery.html">EntryQuery</a>
+<a class="list-group-item" href="./craft-elements-db-globalsetquery.html">GlobalSetQuery</a>
+<a class="list-group-item" href="./craft-elements-db-matrixblockquery.html">MatrixBlockQuery</a>
+<a class="list-group-item" href="./craft-elements-db-tagquery.html">TagQuery</a>
+<a class="list-group-item" href="./craft-elements-db-userquery.html">UserQuery</a></div>
+<a class="list-group-item" href="#navigation-41525" data-toggle="collapse" data-parent="#navigation">craft\enums <b class="caret"></b></a><div id="navigation-41525" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-enums-licensekeystatus.html">LicenseKeyStatus</a>
+<a class="list-group-item" href="./craft-enums-patchmanifestfileaction.html">PatchManifestFileAction</a>
+<a class="list-group-item" href="./craft-enums-periodtype.html">PeriodType</a>
+<a class="list-group-item" href="./craft-enums-pluginupdatestatus.html">PluginUpdateStatus</a>
+<a class="list-group-item" href="./craft-enums-versionupdatestatus.html">VersionUpdateStatus</a></div>
+<a class="list-group-item" href="#navigation-41526" data-toggle="collapse" data-parent="#navigation">craft\errors <b class="caret"></b></a><div id="navigation-41526" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-errors-actioncancelledexception.html">ActionCancelledException</a>
+<a class="list-group-item" href="./craft-errors-assetconflictexception.html">AssetConflictException</a>
+<a class="list-group-item" href="./craft-errors-assetdisallowedextensionexception.html">AssetDisallowedExtensionException</a>
+<a class="list-group-item" href="./craft-errors-assetexception.html">AssetException</a>
+<a class="list-group-item" href="./craft-errors-assetlogicexception.html">AssetLogicException</a>
+<a class="list-group-item" href="./craft-errors-assetmissingexception.html">AssetMissingException</a>
+<a class="list-group-item" href="./craft-errors-assettransformexception.html">AssetTransformException</a>
+<a class="list-group-item" href="./craft-errors-categorygroupnotfoundexception.html">CategoryGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-categorynotfoundexception.html">CategoryNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-dbconnectexception.html">DbConnectException</a>
+<a class="list-group-item" href="./craft-errors-dbupdateexception.html">DbUpdateException</a>
+<a class="list-group-item" href="./craft-errors-downloadpackageexception.html">DownloadPackageException</a>
+<a class="list-group-item" href="./craft-errors-elementexception.html">ElementException</a>
+<a class="list-group-item" href="./craft-errors-elementnotfoundexception.html">ElementNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-elementsaveexception.html">ElementSaveException</a>
+<a class="list-group-item" href="./craft-errors-entrydraftnotfoundexception.html">EntryDraftNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-entrynotfoundexception.html">EntryNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-entrytypenotfoundexception.html">EntryTypeNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-etexception.html">EtException</a>
+<a class="list-group-item" href="./craft-errors-fieldgroupnotfoundexception.html">FieldGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-fieldnotfoundexception.html">FieldNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-fileexception.html">FileException</a>
+<a class="list-group-item" href="./craft-errors-filepermissionsexception.html">FilePermissionsException</a>
+<a class="list-group-item" href="./craft-errors-globalsetnotfoundexception.html">GlobalSetNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-imageexception.html">ImageException</a>
+<a class="list-group-item" href="./craft-errors-invalidlicensekeyexception.html">InvalidLicenseKeyException</a>
+<a class="list-group-item" href="./craft-errors-invalidpluginexception.html">InvalidPluginException</a>
+<a class="list-group-item" href="./craft-errors-invalidsubpathexception.html">InvalidSubpathException</a>
+<a class="list-group-item" href="./craft-errors-invalidtypeexception.html">InvalidTypeException</a>
+<a class="list-group-item" href="./craft-errors-invalidvolumeexception.html">InvalidVolumeException</a>
+<a class="list-group-item" href="./craft-errors-matrixblocknotfoundexception.html">MatrixBlockNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-matrixblocktypenotfoundexception.html">MatrixBlockTypeNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-migrateexception.html">MigrateException</a>
+<a class="list-group-item" href="./craft-errors-migrationexception.html">MigrationException</a>
+<a class="list-group-item" href="./craft-errors-minimumrequirementexception.html">MinimumRequirementException</a>
+<a class="list-group-item" href="./craft-errors-missingcomponentexception.html">MissingComponentException</a>
+<a class="list-group-item" href="./craft-errors-missingfileexception.html">MissingFileException</a>
+<a class="list-group-item" href="./craft-errors-operationabortedexception.html">OperationAbortedException</a>
+<a class="list-group-item" href="./craft-errors-routenotfoundexception.html">RouteNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-sectionnotfoundexception.html">SectionNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-shellcommandexception.html">ShellCommandException</a>
+<a class="list-group-item" href="./craft-errors-sitenotfoundexception.html">SiteNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-structurenotfoundexception.html">StructureNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-taggroupnotfoundexception.html">TagGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-tagnotfoundexception.html">TagNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-uploadfailedexception.html">UploadFailedException</a>
+<a class="list-group-item" href="./craft-errors-usergroupnotfoundexception.html">UserGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-usernotfoundexception.html">UserNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-validatepackageexception.html">ValidatePackageException</a>
+<a class="list-group-item" href="./craft-errors-validationexception.html">ValidationException</a>
+<a class="list-group-item" href="./craft-errors-volumeexception.html">VolumeException</a>
+<a class="list-group-item" href="./craft-errors-volumeobjectexistsexception.html">VolumeObjectExistsException</a>
+<a class="list-group-item" href="./craft-errors-volumeobjectnotfoundexception.html">VolumeObjectNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-widgetnotfoundexception.html">WidgetNotFoundException</a></div>
+<a class="list-group-item" href="#navigation-41527" data-toggle="collapse" data-parent="#navigation">craft\et <b class="caret"></b></a><div id="navigation-41527" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-et-ettransport.html">EtTransport</a></div>
+<a class="list-group-item" href="#navigation-41528" data-toggle="collapse" data-parent="#navigation">craft\events <b class="caret"></b></a><div id="navigation-41528" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-events-assetevent.html">AssetEvent</a>
+<a class="list-group-item" href="./craft-events-assettransformevent.html">AssetTransformEvent</a>
+<a class="list-group-item" href="./craft-events-backupevent.html">BackupEvent</a>
+<a class="list-group-item" href="./craft-events-cancelableevent.html">CancelableEvent</a>
+<a class="list-group-item" href="./craft-events-categorygroupevent.html">CategoryGroupEvent</a>
+<a class="list-group-item" href="./craft-events-definebehaviorsevent.html">DefineBehaviorsEvent</a>
+<a class="list-group-item" href="./craft-events-definecomponentsevent.html">DefineComponentsEvent</a>
+<a class="list-group-item" href="./craft-events-deletesiteevent.html">DeleteSiteEvent</a>
+<a class="list-group-item" href="./craft-events-draftevent.html">DraftEvent</a>
+<a class="list-group-item" href="./craft-events-editionchangeevent.html">EditionChangeEvent</a>
+<a class="list-group-item" href="./craft-events-elementactionevent.html">ElementActionEvent</a>
+<a class="list-group-item" href="./craft-events-elementcontentevent.html">ElementContentEvent</a>
+<a class="list-group-item" href="./craft-events-elementevent.html">ElementEvent</a>
+<a class="list-group-item" href="./craft-events-elementstructureevent.html">ElementStructureEvent</a>
+<a class="list-group-item" href="./craft-events-entrytypeevent.html">EntryTypeEvent</a>
+<a class="list-group-item" href="./craft-events-errorevent.html">ErrorEvent</a>
+<a class="list-group-item" href="./craft-events-exceptionevent.html">ExceptionEvent</a>
+<a class="list-group-item" href="./craft-events-fieldelementevent.html">FieldElementEvent</a>
+<a class="list-group-item" href="./craft-events-fieldevent.html">FieldEvent</a>
+<a class="list-group-item" href="./craft-events-fieldgroupevent.html">FieldGroupEvent</a>
+<a class="list-group-item" href="./craft-events-fieldlayoutevent.html">FieldLayoutEvent</a>
+<a class="list-group-item" href="./craft-events-generatetransformevent.html">GenerateTransformEvent</a>
+<a class="list-group-item" href="./craft-events-getasseturlevent.html">GetAssetUrlEvent</a>
+<a class="list-group-item" href="./craft-events-globalsetcontentevent.html">GlobalSetContentEvent</a>
+<a class="list-group-item" href="./craft-events-globalsetevent.html">GlobalSetEvent</a>
+<a class="list-group-item" href="./craft-events-loginfailureevent.html">LoginFailureEvent</a>
+<a class="list-group-item" href="./craft-events-mergeelementsevent.html">MergeElementsEvent</a>
+<a class="list-group-item" href="./craft-events-modelevent.html">ModelEvent</a>
+<a class="list-group-item" href="./craft-events-moveelementevent.html">MoveElementEvent</a>
+<a class="list-group-item" href="./craft-events-pluginevent.html">PluginEvent</a>
+<a class="list-group-item" href="./craft-events-populateelementevent.html">PopulateElementEvent</a>
+<a class="list-group-item" href="./craft-events-registerassetfilekindsevent.html">RegisterAssetFileKindsEvent</a>
+<a class="list-group-item" href="./craft-events-registercacheoptionsevent.html">RegisterCacheOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registercomponenttypesevent.html">RegisterComponentTypesEvent</a>
+<a class="list-group-item" href="./craft-events-registercpalertsevent.html">RegisterCpAlertsEvent</a>
+<a class="list-group-item" href="./craft-events-registercpnavitemsevent.html">RegisterCpNavItemsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementactionsevent.html">RegisterElementActionsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementdefaulttableattributesevent.html">RegisterElementDefaultTableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementhtmlattributesevent.html">RegisterElementHtmlAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsearchableattributesevent.html">RegisterElementSearchableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsortoptionsevent.html">RegisterElementSortOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsourcesevent.html">RegisterElementSourcesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementtableattributesevent.html">RegisterElementTableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registeremailmessagesevent.html">RegisterEmailMessagesEvent</a>
+<a class="list-group-item" href="./craft-events-registerredactorpluginevent.html">RegisterRedactorPluginEvent</a>
+<a class="list-group-item" href="./craft-events-registerrichtextlinkoptionsevent.html">RegisterRichTextLinkOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registertemplaterootsevent.html">RegisterTemplateRootsEvent</a>
+<a class="list-group-item" href="./craft-events-registerurlrulesevent.html">RegisterUrlRulesEvent</a>
+<a class="list-group-item" href="./craft-events-registeruseractionsevent.html">RegisterUserActionsEvent</a>
+<a class="list-group-item" href="./craft-events-registeruserpermissionsevent.html">RegisterUserPermissionsEvent</a>
+<a class="list-group-item" href="./craft-events-reordersitesevent.html">ReorderSitesEvent</a>
+<a class="list-group-item" href="./craft-events-replaceassetevent.html">ReplaceAssetEvent</a>
+<a class="list-group-item" href="./craft-events-resolveresourcepathevent.html">ResolveResourcePathEvent</a>
+<a class="list-group-item" href="./craft-events-restoreevent.html">RestoreEvent</a>
+<a class="list-group-item" href="./craft-events-routeevent.html">RouteEvent</a>
+<a class="list-group-item" href="./craft-events-searchevent.html">SearchEvent</a>
+<a class="list-group-item" href="./craft-events-sectionevent.html">SectionEvent</a>
+<a class="list-group-item" href="./craft-events-setassetfilenameevent.html">SetAssetFilenameEvent</a>
+<a class="list-group-item" href="./craft-events-setelementrouteevent.html">SetElementRouteEvent</a>
+<a class="list-group-item" href="./craft-events-setelementtableattributehtmlevent.html">SetElementTableAttributeHtmlEvent</a>
+<a class="list-group-item" href="./craft-events-setstatusevent.html">SetStatusEvent</a>
+<a class="list-group-item" href="./craft-events-siteevent.html">SiteEvent</a>
+<a class="list-group-item" href="./craft-events-taggroupevent.html">TagGroupEvent</a>
+<a class="list-group-item" href="./craft-events-templateevent.html">TemplateEvent</a>
+<a class="list-group-item" href="./craft-events-userassigngroupevent.html">UserAssignGroupEvent</a>
+<a class="list-group-item" href="./craft-events-userevent.html">UserEvent</a>
+<a class="list-group-item" href="./craft-events-usergroupevent.html">UserGroupEvent</a>
+<a class="list-group-item" href="./craft-events-usergroupsassignevent.html">UserGroupsAssignEvent</a>
+<a class="list-group-item" href="./craft-events-versionevent.html">VersionEvent</a>
+<a class="list-group-item" href="./craft-events-volumeevent.html">VolumeEvent</a>
+<a class="list-group-item" href="./craft-events-widgetevent.html">WidgetEvent</a></div>
+<a class="list-group-item" href="#navigation-41529" data-toggle="collapse" data-parent="#navigation">craft\feeds <b class="caret"></b></a><div id="navigation-41529" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-feeds-feeds.html">Feeds</a>
+<a class="list-group-item" href="./craft-feeds-guzzleclient.html">GuzzleClient</a></div>
+<a class="list-group-item" href="#navigation-41530" data-toggle="collapse" data-parent="#navigation">craft\fields <b class="caret"></b></a><div id="navigation-41530" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-fields-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-fields-baseoptionsfield.html">BaseOptionsField</a>
+<a class="list-group-item" href="./craft-fields-baserelationfield.html">BaseRelationField</a>
+<a class="list-group-item" href="./craft-fields-categories.html">Categories</a>
+<a class="list-group-item" href="./craft-fields-checkboxes.html">Checkboxes</a>
+<a class="list-group-item" href="./craft-fields-color.html">Color</a>
+<a class="list-group-item" href="./craft-fields-date.html">Date</a>
+<a class="list-group-item" href="./craft-fields-dropdown.html">Dropdown</a>
+<a class="list-group-item" href="./craft-fields-email.html">Email</a>
+<a class="list-group-item" href="./craft-fields-entries.html">Entries</a>
+<a class="list-group-item" href="./craft-fields-lightswitch.html">Lightswitch</a>
+<a class="list-group-item" href="./craft-fields-matrix.html">Matrix</a>
+<a class="list-group-item" href="./craft-fields-missingfield.html">MissingField</a>
+<a class="list-group-item" href="./craft-fields-multiselect.html">MultiSelect</a>
+<a class="list-group-item" href="./craft-fields-number.html">Number</a>
+<a class="list-group-item" href="./craft-fields-plaintext.html">PlainText</a>
+<a class="list-group-item" href="./craft-fields-positionselect.html">PositionSelect</a>
+<a class="list-group-item" href="./craft-fields-radiobuttons.html">RadioButtons</a>
+<a class="list-group-item" href="./craft-fields-richtext.html">RichText</a>
+<a class="list-group-item" href="./craft-fields-table.html">Table</a>
+<a class="list-group-item" href="./craft-fields-tags.html">Tags</a>
+<a class="list-group-item" href="./craft-fields-url.html">Url</a>
+<a class="list-group-item" href="./craft-fields-users.html">Users</a></div>
+<a class="list-group-item" href="#navigation-41531" data-toggle="collapse" data-parent="#navigation">craft\fields\data <b class="caret"></b></a><div id="navigation-41531" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-fields-data-multioptionsfielddata.html">MultiOptionsFieldData</a>
+<a class="list-group-item" href="./craft-fields-data-optiondata.html">OptionData</a>
+<a class="list-group-item" href="./craft-fields-data-richtextdata.html">RichTextData</a>
+<a class="list-group-item" href="./craft-fields-data-singleoptionfielddata.html">SingleOptionFieldData</a></div>
+<a class="list-group-item" href="#navigation-41532" data-toggle="collapse" data-parent="#navigation">craft\helpers <b class="caret"></b></a><div id="navigation-41532" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-helpers-app.html">App</a>
+<a class="list-group-item" href="./craft-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./craft-helpers-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-helpers-charthelper.html">ChartHelper</a>
+<a class="list-group-item" href="./craft-helpers-component.html">Component</a>
+<a class="list-group-item" href="./craft-helpers-confighelper.html">ConfigHelper</a>
+<a class="list-group-item" href="./craft-helpers-console.html">Console</a>
+<a class="list-group-item" href="./craft-helpers-cp.html">Cp</a>
+<a class="list-group-item" href="./craft-helpers-datetimehelper.html">DateTimeHelper</a>
+<a class="list-group-item" href="./craft-helpers-db.html">Db</a>
+<a class="list-group-item" href="./craft-helpers-elementhelper.html">ElementHelper</a>
+<a class="list-group-item" href="./craft-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./craft-helpers-html.html">Html</a>
+<a class="list-group-item" href="./craft-helpers-htmlpurifier.html">HtmlPurifier</a>
+<a class="list-group-item" href="./craft-helpers-image.html">Image</a>
+<a class="list-group-item" href="./craft-helpers-json.html">Json</a>
+<a class="list-group-item" href="./craft-helpers-localization.html">Localization</a>
+<a class="list-group-item" href="./craft-helpers-mailerhelper.html">MailerHelper</a>
+<a class="list-group-item" href="./craft-helpers-migrationhelper.html">MigrationHelper</a>
+<a class="list-group-item" href="./craft-helpers-number.html">Number</a>
+<a class="list-group-item" href="./craft-helpers-path.html">Path</a>
+<a class="list-group-item" href="./craft-helpers-search.html">Search</a>
+<a class="list-group-item" href="./craft-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./craft-helpers-stringy.html">Stringy</a>
+<a class="list-group-item" href="./craft-helpers-template.html">Template</a>
+<a class="list-group-item" href="./craft-helpers-urlhelper.html">UrlHelper</a></div>
+<a class="list-group-item" href="#navigation-41533" data-toggle="collapse" data-parent="#navigation">craft\i18n <b class="caret"></b></a><div id="navigation-41533" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-i18n-formatter.html">Formatter</a>
+<a class="list-group-item" href="./craft-i18n-i18n.html">I18N</a>
+<a class="list-group-item" href="./craft-i18n-locale.html">Locale</a>
+<a class="list-group-item" href="./craft-i18n-phpmessagesource.html">PhpMessageSource</a></div>
+<a class="list-group-item" href="#navigation-41534" data-toggle="collapse" data-parent="#navigation">craft\image <b class="caret"></b></a><div id="navigation-41534" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-image-raster.html">Raster</a>
+<a class="list-group-item" href="./craft-image-svg.html">Svg</a></div>
+<a class="list-group-item" href="#navigation-41535" data-toggle="collapse" data-parent="#navigation">craft\log <b class="caret"></b></a><div id="navigation-41535" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-log-filetarget.html">FileTarget</a></div>
+<a class="list-group-item" href="#navigation-41536" data-toggle="collapse" data-parent="#navigation">craft\mail <b class="caret"></b></a><div id="navigation-41536" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mail-mailer.html">Mailer</a>
+<a class="list-group-item" href="./craft-mail-message.html">Message</a></div>
+<a class="list-group-item" href="#navigation-41537" data-toggle="collapse" data-parent="#navigation">craft\mail\transportadapters <b class="caret"></b></a><div id="navigation-41537" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mail-transportadapters-basetransportadapter.html">BaseTransportAdapter</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-gmail.html">Gmail</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-php.html">Php</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-sendmail.html">Sendmail</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-smtp.html">Smtp</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-transportadapterinterface.html">TransportAdapterInterface</a></div>
+<a class="list-group-item" href="#navigation-41538" data-toggle="collapse" data-parent="#navigation">craft\migrations <b class="caret"></b></a><div id="navigation-41538" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-migrations-creatematrixcontenttable.html">CreateMatrixContentTable</a>
+<a class="list-group-item" href="./craft-migrations-install.html">Install</a></div>
+<a class="list-group-item" href="#navigation-41539" data-toggle="collapse" data-parent="#navigation">craft\models <b class="caret"></b></a><div id="navigation-41539" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-models-appupdate.html">AppUpdate</a>
+<a class="list-group-item" href="./craft-models-appupdaterelease.html">AppUpdateRelease</a>
+<a class="list-group-item" href="./craft-models-assetindexdata.html">AssetIndexData</a>
+<a class="list-group-item" href="./craft-models-assettransform.html">AssetTransform</a>
+<a class="list-group-item" href="./craft-models-assettransformindex.html">AssetTransformIndex</a>
+<a class="list-group-item" href="./craft-models-baseentryrevisionmodel.html">BaseEntryRevisionModel</a>
+<a class="list-group-item" href="./craft-models-categorygroup.html">CategoryGroup</a>
+<a class="list-group-item" href="./craft-models-categorygroup_sitesettings.html">CategoryGroup_SiteSettings</a>
+<a class="list-group-item" href="./craft-models-craftsupport.html">CraftSupport</a>
+<a class="list-group-item" href="./craft-models-deprecationerror.html">DeprecationError</a>
+<a class="list-group-item" href="./craft-models-entrydraft.html">EntryDraft</a>
+<a class="list-group-item" href="./craft-models-entrytype.html">EntryType</a>
+<a class="list-group-item" href="./craft-models-entryversion.html">EntryVersion</a>
+<a class="list-group-item" href="./craft-models-et.html">Et</a>
+<a class="list-group-item" href="./craft-models-fieldgroup.html">FieldGroup</a>
+<a class="list-group-item" href="./craft-models-fieldlayout.html">FieldLayout</a>
+<a class="list-group-item" href="./craft-models-fieldlayouttab.html">FieldLayoutTab</a>
+<a class="list-group-item" href="./craft-models-foldercriteria.html">FolderCriteria</a>
+<a class="list-group-item" href="./craft-models-info.html">Info</a>
+<a class="list-group-item" href="./craft-models-mailsettings.html">MailSettings</a>
+<a class="list-group-item" href="./craft-models-matrixblocktype.html">MatrixBlockType</a>
+<a class="list-group-item" href="./craft-models-matrixsettings.html">MatrixSettings</a>
+<a class="list-group-item" href="./craft-models-pluginupdate.html">PluginUpdate</a>
+<a class="list-group-item" href="./craft-models-section.html">Section</a>
+<a class="list-group-item" href="./craft-models-section_sitesettings.html">Section_SiteSettings</a>
+<a class="list-group-item" href="./craft-models-site.html">Site</a>
+<a class="list-group-item" href="./craft-models-structure.html">Structure</a>
+<a class="list-group-item" href="./craft-models-systemmessage.html">SystemMessage</a>
+<a class="list-group-item" href="./craft-models-taggroup.html">TagGroup</a>
+<a class="list-group-item" href="./craft-models-update.html">Update</a>
+<a class="list-group-item" href="./craft-models-updaterelease.html">UpdateRelease</a>
+<a class="list-group-item" href="./craft-models-upgradeinfo.html">UpgradeInfo</a>
+<a class="list-group-item" href="./craft-models-upgradepurchase.html">UpgradePurchase</a>
+<a class="list-group-item" href="./craft-models-url.html">Url</a>
+<a class="list-group-item" href="./craft-models-usergroup.html">UserGroup</a>
+<a class="list-group-item" href="./craft-models-volumefolder.html">VolumeFolder</a></div>
+<a class="list-group-item" href="#navigation-41540" data-toggle="collapse" data-parent="#navigation">craft\mutex <b class="caret"></b></a><div id="navigation-41540" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mutex-filemutex.html">FileMutex</a></div>
+<a class="list-group-item" href="#navigation-41541" data-toggle="collapse" data-parent="#navigation">craft\queue <b class="caret"></b></a><div id="navigation-41541" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-queue-basejob.html">BaseJob</a>
+<a class="list-group-item" href="./craft-queue-command.html">Command</a>
+<a class="list-group-item" href="./craft-queue-infoaction.html">InfoAction</a>
+<a class="list-group-item" href="./craft-queue-jobinterface.html">JobInterface</a>
+<a class="list-group-item" href="./craft-queue-queue.html">Queue</a>
+<a class="list-group-item" href="./craft-queue-queueinterface.html">QueueInterface</a></div>
+<a class="list-group-item" href="#navigation-41542" data-toggle="collapse" data-parent="#navigation">craft\queue\jobs <b class="caret"></b></a><div id="navigation-41542" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-queue-jobs-deletestaletemplatecaches.html">DeleteStaleTemplateCaches</a>
+<a class="list-group-item" href="./craft-queue-jobs-findandreplace.html">FindAndReplace</a>
+<a class="list-group-item" href="./craft-queue-jobs-generatependingtransforms.html">GeneratePendingTransforms</a>
+<a class="list-group-item" href="./craft-queue-jobs-localizerelations.html">LocalizeRelations</a>
+<a class="list-group-item" href="./craft-queue-jobs-resaveelements.html">ResaveElements</a>
+<a class="list-group-item" href="./craft-queue-jobs-updateelementslugsanduris.html">UpdateElementSlugsAndUris</a></div>
+<a class="list-group-item" href="#navigation-41543" data-toggle="collapse" data-parent="#navigation">craft\records <b class="caret"></b></a><div id="navigation-41543" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-records-asset.html">Asset</a>
+<a class="list-group-item" href="./craft-records-assetindexdata.html">AssetIndexData</a>
+<a class="list-group-item" href="./craft-records-assettransform.html">AssetTransform</a>
+<a class="list-group-item" href="./craft-records-category.html">Category</a>
+<a class="list-group-item" href="./craft-records-categorygroup.html">CategoryGroup</a>
+<a class="list-group-item" href="./craft-records-categorygroup_sitesettings.html">CategoryGroup_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-element.html">Element</a>
+<a class="list-group-item" href="./craft-records-element_sitesettings.html">Element_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-entry.html">Entry</a>
+<a class="list-group-item" href="./craft-records-entrydraft.html">EntryDraft</a>
+<a class="list-group-item" href="./craft-records-entrytype.html">EntryType</a>
+<a class="list-group-item" href="./craft-records-entryversion.html">EntryVersion</a>
+<a class="list-group-item" href="./craft-records-field.html">Field</a>
+<a class="list-group-item" href="./craft-records-fieldgroup.html">FieldGroup</a>
+<a class="list-group-item" href="./craft-records-fieldlayout.html">FieldLayout</a>
+<a class="list-group-item" href="./craft-records-fieldlayoutfield.html">FieldLayoutField</a>
+<a class="list-group-item" href="./craft-records-fieldlayouttab.html">FieldLayoutTab</a>
+<a class="list-group-item" href="./craft-records-globalset.html">GlobalSet</a>
+<a class="list-group-item" href="./craft-records-matrixblock.html">MatrixBlock</a>
+<a class="list-group-item" href="./craft-records-matrixblocktype.html">MatrixBlockType</a>
+<a class="list-group-item" href="./craft-records-migration.html">Migration</a>
+<a class="list-group-item" href="./craft-records-plugin.html">Plugin</a>
+<a class="list-group-item" href="./craft-records-route.html">Route</a>
+<a class="list-group-item" href="./craft-records-section.html">Section</a>
+<a class="list-group-item" href="./craft-records-section_sitesettings.html">Section_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-session.html">Session</a>
+<a class="list-group-item" href="./craft-records-site.html">Site</a>
+<a class="list-group-item" href="./craft-records-structure.html">Structure</a>
+<a class="list-group-item" href="./craft-records-structureelement.html">StructureElement</a>
+<a class="list-group-item" href="./craft-records-systemmessage.html">SystemMessage</a>
+<a class="list-group-item" href="./craft-records-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-records-tag.html">Tag</a>
+<a class="list-group-item" href="./craft-records-taggroup.html">TagGroup</a>
+<a class="list-group-item" href="./craft-records-token.html">Token</a>
+<a class="list-group-item" href="./craft-records-user.html">User</a>
+<a class="list-group-item" href="./craft-records-usergroup.html">UserGroup</a>
+<a class="list-group-item" href="./craft-records-usergroup_user.html">UserGroup_User</a>
+<a class="list-group-item" href="./craft-records-userpermission.html">UserPermission</a>
+<a class="list-group-item" href="./craft-records-userpermission_user.html">UserPermission_User</a>
+<a class="list-group-item" href="./craft-records-userpermission_usergroup.html">UserPermission_UserGroup</a>
+<a class="list-group-item" href="./craft-records-volume.html">Volume</a>
+<a class="list-group-item" href="./craft-records-volumefolder.html">VolumeFolder</a>
+<a class="list-group-item" href="./craft-records-widget.html">Widget</a></div>
+<a class="list-group-item" href="#navigation-41544" data-toggle="collapse" data-parent="#navigation">craft\search <b class="caret"></b></a><div id="navigation-41544" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-search-searchquery.html">SearchQuery</a>
+<a class="list-group-item" href="./craft-search-searchqueryterm.html">SearchQueryTerm</a>
+<a class="list-group-item" href="./craft-search-searchquerytermgroup.html">SearchQueryTermGroup</a></div>
+<a class="list-group-item active" href="#navigation-41545" data-toggle="collapse" data-parent="#navigation">craft\services <b class="caret"></b></a><div id="navigation-41545" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./craft-services-assetindexer.html">AssetIndexer</a>
+<a class="list-group-item" href="./craft-services-assettransforms.html">AssetTransforms</a>
+<a class="list-group-item active" href="./craft-services-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-services-categories.html">Categories</a>
+<a class="list-group-item" href="./craft-services-composer.html">Composer</a>
+<a class="list-group-item" href="./craft-services-config.html">Config</a>
+<a class="list-group-item" href="./craft-services-content.html">Content</a>
+<a class="list-group-item" href="./craft-services-dashboard.html">Dashboard</a>
+<a class="list-group-item" href="./craft-services-deprecator.html">Deprecator</a>
+<a class="list-group-item" href="./craft-services-elementindexes.html">ElementIndexes</a>
+<a class="list-group-item" href="./craft-services-elements.html">Elements</a>
+<a class="list-group-item" href="./craft-services-entries.html">Entries</a>
+<a class="list-group-item" href="./craft-services-entryrevisions.html">EntryRevisions</a>
+<a class="list-group-item" href="./craft-services-et.html">Et</a>
+<a class="list-group-item" href="./craft-services-fields.html">Fields</a>
+<a class="list-group-item" href="./craft-services-globals.html">Globals</a>
+<a class="list-group-item" href="./craft-services-matrix.html">Matrix</a>
+<a class="list-group-item" href="./craft-services-path.html">Path</a>
+<a class="list-group-item" href="./craft-services-plugins.html">Plugins</a>
+<a class="list-group-item" href="./craft-services-relations.html">Relations</a>
+<a class="list-group-item" href="./craft-services-routes.html">Routes</a>
+<a class="list-group-item" href="./craft-services-search.html">Search</a>
+<a class="list-group-item" href="./craft-services-sections.html">Sections</a>
+<a class="list-group-item" href="./craft-services-security.html">Security</a>
+<a class="list-group-item" href="./craft-services-sites.html">Sites</a>
+<a class="list-group-item" href="./craft-services-structures.html">Structures</a>
+<a class="list-group-item" href="./craft-services-systemmessages.html">SystemMessages</a>
+<a class="list-group-item" href="./craft-services-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-services-tags.html">Tags</a>
+<a class="list-group-item" href="./craft-services-templatecaches.html">TemplateCaches</a>
+<a class="list-group-item" href="./craft-services-tokens.html">Tokens</a>
+<a class="list-group-item" href="./craft-services-updates.html">Updates</a>
+<a class="list-group-item" href="./craft-services-usergroups.html">UserGroups</a>
+<a class="list-group-item" href="./craft-services-userpermissions.html">UserPermissions</a>
+<a class="list-group-item" href="./craft-services-users.html">Users</a>
+<a class="list-group-item" href="./craft-services-utilities.html">Utilities</a>
+<a class="list-group-item" href="./craft-services-volumes.html">Volumes</a></div>
+<a class="list-group-item" href="#navigation-41546" data-toggle="collapse" data-parent="#navigation">craft\utilities <b class="caret"></b></a><div id="navigation-41546" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-utilities-assetindexes.html">AssetIndexes</a>
+<a class="list-group-item" href="./craft-utilities-clearcaches.html">ClearCaches</a>
+<a class="list-group-item" href="./craft-utilities-dbbackup.html">DbBackup</a>
+<a class="list-group-item" href="./craft-utilities-deprecationerrors.html">DeprecationErrors</a>
+<a class="list-group-item" href="./craft-utilities-findandreplace.html">FindAndReplace</a>
+<a class="list-group-item" href="./craft-utilities-migrations.html">Migrations</a>
+<a class="list-group-item" href="./craft-utilities-phpinfo.html">PhpInfo</a>
+<a class="list-group-item" href="./craft-utilities-searchindexes.html">SearchIndexes</a>
+<a class="list-group-item" href="./craft-utilities-systemreport.html">SystemReport</a>
+<a class="list-group-item" href="./craft-utilities-updates.html">Updates</a></div>
+<a class="list-group-item" href="#navigation-41547" data-toggle="collapse" data-parent="#navigation">craft\validators <b class="caret"></b></a><div id="navigation-41547" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-validators-arrayvalidator.html">ArrayValidator</a>
+<a class="list-group-item" href="./craft-validators-assetlocationvalidator.html">AssetLocationValidator</a>
+<a class="list-group-item" href="./craft-validators-datetimevalidator.html">DateTimeValidator</a>
+<a class="list-group-item" href="./craft-validators-elementurivalidator.html">ElementUriValidator</a>
+<a class="list-group-item" href="./craft-validators-handlevalidator.html">HandleValidator</a>
+<a class="list-group-item" href="./craft-validators-languagevalidator.html">LanguageValidator</a>
+<a class="list-group-item" href="./craft-validators-singlesectionurivalidator.html">SingleSectionUriValidator</a>
+<a class="list-group-item" href="./craft-validators-siteidvalidator.html">SiteIdValidator</a>
+<a class="list-group-item" href="./craft-validators-slugvalidator.html">SlugValidator</a>
+<a class="list-group-item" href="./craft-validators-uniquevalidator.html">UniqueValidator</a>
+<a class="list-group-item" href="./craft-validators-uriformatvalidator.html">UriFormatValidator</a>
+<a class="list-group-item" href="./craft-validators-urivalidator.html">UriValidator</a>
+<a class="list-group-item" href="./craft-validators-urlvalidator.html">UrlValidator</a>
+<a class="list-group-item" href="./craft-validators-userpasswordvalidator.html">UserPasswordValidator</a>
+<a class="list-group-item" href="./craft-validators-usernamevalidator.html">UsernameValidator</a></div>
+<a class="list-group-item" href="#navigation-41548" data-toggle="collapse" data-parent="#navigation">craft\volumes <b class="caret"></b></a><div id="navigation-41548" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-volumes-local.html">Local</a>
+<a class="list-group-item" href="./craft-volumes-missingvolume.html">MissingVolume</a>
+<a class="list-group-item" href="./craft-volumes-temp.html">Temp</a></div>
+<a class="list-group-item" href="#navigation-41549" data-toggle="collapse" data-parent="#navigation">craft\web <b class="caret"></b></a><div id="navigation-41549" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-application.html">Application</a>
+<a class="list-group-item" href="./craft-web-assetbundle.html">AssetBundle</a>
+<a class="list-group-item" href="./craft-web-assetmanager.html">AssetManager</a>
+<a class="list-group-item" href="./craft-web-controller.html">Controller</a>
+<a class="list-group-item" href="./craft-web-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./craft-web-request.html">Request</a>
+<a class="list-group-item" href="./craft-web-response.html">Response</a>
+<a class="list-group-item" href="./craft-web-serviceunavailablehttpexception.html">ServiceUnavailableHttpException</a>
+<a class="list-group-item" href="./craft-web-session.html">Session</a>
+<a class="list-group-item" href="./craft-web-uploadedfile.html">UploadedFile</a>
+<a class="list-group-item" href="./craft-web-urlmanager.html">UrlManager</a>
+<a class="list-group-item" href="./craft-web-urlrule.html">UrlRule</a>
+<a class="list-group-item" href="./craft-web-user.html">User</a>
+<a class="list-group-item" href="./craft-web-view.html">View</a></div>
+<a class="list-group-item" href="#navigation-41550" data-toggle="collapse" data-parent="#navigation">craft\web\assets\assetindexes <b class="caret"></b></a><div id="navigation-41550" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-assetindexes-assetindexesasset.html">AssetIndexesAsset</a></div>
+<a class="list-group-item" href="#navigation-41551" data-toggle="collapse" data-parent="#navigation">craft\web\assets\clearcaches <b class="caret"></b></a><div id="navigation-41551" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-clearcaches-clearcachesasset.html">ClearCachesAsset</a></div>
+<a class="list-group-item" href="#navigation-41552" data-toggle="collapse" data-parent="#navigation">craft\web\assets\colorpicker <b class="caret"></b></a><div id="navigation-41552" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-colorpicker-colorpickerasset.html">ColorpickerAsset</a></div>
+<a class="list-group-item" href="#navigation-41553" data-toggle="collapse" data-parent="#navigation">craft\web\assets\cp <b class="caret"></b></a><div id="navigation-41553" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-cp-cpasset.html">CpAsset</a></div>
+<a class="list-group-item" href="#navigation-41554" data-toggle="collapse" data-parent="#navigation">craft\web\assets\craftsupport <b class="caret"></b></a><div id="navigation-41554" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-craftsupport-craftsupportasset.html">CraftSupportAsset</a></div>
+<a class="list-group-item" href="#navigation-41555" data-toggle="collapse" data-parent="#navigation">craft\web\assets\d3 <b class="caret"></b></a><div id="navigation-41555" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-d3-d3asset.html">D3Asset</a></div>
+<a class="list-group-item" href="#navigation-41556" data-toggle="collapse" data-parent="#navigation">craft\web\assets\dashboard <b class="caret"></b></a><div id="navigation-41556" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-dashboard-dashboardasset.html">DashboardAsset</a></div>
+<a class="list-group-item" href="#navigation-41557" data-toggle="collapse" data-parent="#navigation">craft\web\assets\datepickeri18n <b class="caret"></b></a><div id="navigation-41557" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-datepickeri18n-datepickeri18nasset.html">DatepickerI18nAsset</a></div>
+<a class="list-group-item" href="#navigation-41558" data-toggle="collapse" data-parent="#navigation">craft\web\assets\dbbackup <b class="caret"></b></a><div id="navigation-41558" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-dbbackup-dbbackupasset.html">DbBackupAsset</a></div>
+<a class="list-group-item" href="#navigation-41559" data-toggle="collapse" data-parent="#navigation">craft\web\assets\deprecationerrors <b class="caret"></b></a><div id="navigation-41559" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-deprecationerrors-deprecationerrorsasset.html">DeprecationErrorsAsset</a></div>
+<a class="list-group-item" href="#navigation-41560" data-toggle="collapse" data-parent="#navigation">craft\web\assets\editcategory <b class="caret"></b></a><div id="navigation-41560" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-editcategory-editcategoryasset.html">EditCategoryAsset</a></div>
+<a class="list-group-item" href="#navigation-41561" data-toggle="collapse" data-parent="#navigation">craft\web\assets\editentry <b class="caret"></b></a><div id="navigation-41561" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-editentry-editentryasset.html">EditEntryAsset</a></div>
+<a class="list-group-item" href="#navigation-41562" data-toggle="collapse" data-parent="#navigation">craft\web\assets\edittransform <b class="caret"></b></a><div id="navigation-41562" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-edittransform-edittransformasset.html">EditTransformAsset</a></div>
+<a class="list-group-item" href="#navigation-41563" data-toggle="collapse" data-parent="#navigation">craft\web\assets\edituser <b class="caret"></b></a><div id="navigation-41563" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-edituser-edituserasset.html">EditUserAsset</a></div>
+<a class="list-group-item" href="#navigation-41564" data-toggle="collapse" data-parent="#navigation">craft\web\assets\elementresizedetector <b class="caret"></b></a><div id="navigation-41564" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-elementresizedetector-elementresizedetectorasset.html">ElementResizeDetectorAsset</a></div>
+<a class="list-group-item" href="#navigation-41565" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fabric <b class="caret"></b></a><div id="navigation-41565" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fabric-fabricasset.html">FabricAsset</a></div>
+<a class="list-group-item" href="#navigation-41566" data-toggle="collapse" data-parent="#navigation">craft\web\assets\feed <b class="caret"></b></a><div id="navigation-41566" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-feed-feedasset.html">FeedAsset</a></div>
+<a class="list-group-item" href="#navigation-41567" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fields <b class="caret"></b></a><div id="navigation-41567" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fields-fieldsasset.html">FieldsAsset</a></div>
+<a class="list-group-item" href="#navigation-41568" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fileupload <b class="caret"></b></a><div id="navigation-41568" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fileupload-fileuploadasset.html">FileUploadAsset</a></div>
+<a class="list-group-item" href="#navigation-41569" data-toggle="collapse" data-parent="#navigation">craft\web\assets\findreplace <b class="caret"></b></a><div id="navigation-41569" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-findreplace-findreplaceasset.html">FindReplaceAsset</a></div>
+<a class="list-group-item" href="#navigation-41570" data-toggle="collapse" data-parent="#navigation">craft\web\assets\garnish <b class="caret"></b></a><div id="navigation-41570" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-garnish-garnishasset.html">GarnishAsset</a></div>
+<a class="list-group-item" href="#navigation-41571" data-toggle="collapse" data-parent="#navigation">craft\web\assets\generalsettings <b class="caret"></b></a><div id="navigation-41571" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-generalsettings-generalsettingsasset.html">GeneralSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-41572" data-toggle="collapse" data-parent="#navigation">craft\web\assets\imageeditor <b class="caret"></b></a><div id="navigation-41572" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-imageeditor-imageeditorasset.html">ImageEditorAsset</a></div>
+<a class="list-group-item" href="#navigation-41573" data-toggle="collapse" data-parent="#navigation">craft\web\assets\installer <b class="caret"></b></a><div id="navigation-41573" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-installer-installerasset.html">InstallerAsset</a></div>
+<a class="list-group-item" href="#navigation-41574" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jquerypayment <b class="caret"></b></a><div id="navigation-41574" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jquerypayment-jquerypaymentasset.html">JqueryPaymentAsset</a></div>
+<a class="list-group-item" href="#navigation-41575" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jquerytouchevents <b class="caret"></b></a><div id="navigation-41575" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jquerytouchevents-jquerytoucheventsasset.html">JqueryTouchEventsAsset</a></div>
+<a class="list-group-item" href="#navigation-41576" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jqueryui <b class="caret"></b></a><div id="navigation-41576" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jqueryui-jqueryuiasset.html">JqueryUiAsset</a></div>
+<a class="list-group-item" href="#navigation-41577" data-toggle="collapse" data-parent="#navigation">craft\web\assets\login <b class="caret"></b></a><div id="navigation-41577" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-login-loginasset.html">LoginAsset</a></div>
+<a class="list-group-item" href="#navigation-41578" data-toggle="collapse" data-parent="#navigation">craft\web\assets\matrix <b class="caret"></b></a><div id="navigation-41578" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-matrix-matrixasset.html">MatrixAsset</a></div>
+<a class="list-group-item" href="#navigation-41579" data-toggle="collapse" data-parent="#navigation">craft\web\assets\matrixsettings <b class="caret"></b></a><div id="navigation-41579" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-matrixsettings-matrixsettingsasset.html">MatrixSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-41580" data-toggle="collapse" data-parent="#navigation">craft\web\assets\newusers <b class="caret"></b></a><div id="navigation-41580" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-newusers-newusersasset.html">NewUsersAsset</a></div>
+<a class="list-group-item" href="#navigation-41581" data-toggle="collapse" data-parent="#navigation">craft\web\assets\picturefill <b class="caret"></b></a><div id="navigation-41581" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-picturefill-picturefillasset.html">PicturefillAsset</a></div>
+<a class="list-group-item" href="#navigation-41582" data-toggle="collapse" data-parent="#navigation">craft\web\assets\plugins <b class="caret"></b></a><div id="navigation-41582" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-plugins-pluginsasset.html">PluginsAsset</a></div>
+<a class="list-group-item" href="#navigation-41583" data-toggle="collapse" data-parent="#navigation">craft\web\assets\positionselect <b class="caret"></b></a><div id="navigation-41583" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-positionselect-positionselectasset.html">PositionSelectAsset</a></div>
+<a class="list-group-item" href="#navigation-41584" data-toggle="collapse" data-parent="#navigation">craft\web\assets\quickpost <b class="caret"></b></a><div id="navigation-41584" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-quickpost-quickpostasset.html">QuickPostAsset</a></div>
+<a class="list-group-item" href="#navigation-41585" data-toggle="collapse" data-parent="#navigation">craft\web\assets\qunit <b class="caret"></b></a><div id="navigation-41585" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-qunit-qunitasset.html">QunitAsset</a></div>
+<a class="list-group-item" href="#navigation-41586" data-toggle="collapse" data-parent="#navigation">craft\web\assets\recententries <b class="caret"></b></a><div id="navigation-41586" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-recententries-recententriesasset.html">RecentEntriesAsset</a></div>
+<a class="list-group-item" href="#navigation-41587" data-toggle="collapse" data-parent="#navigation">craft\web\assets\redactor <b class="caret"></b></a><div id="navigation-41587" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-redactor-redactorasset.html">RedactorAsset</a></div>
+<a class="list-group-item" href="#navigation-41588" data-toggle="collapse" data-parent="#navigation">craft\web\assets\richtext <b class="caret"></b></a><div id="navigation-41588" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-richtext-richtextasset.html">RichTextAsset</a></div>
+<a class="list-group-item" href="#navigation-41589" data-toggle="collapse" data-parent="#navigation">craft\web\assets\routes <b class="caret"></b></a><div id="navigation-41589" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-routes-routesasset.html">RoutesAsset</a></div>
+<a class="list-group-item" href="#navigation-41590" data-toggle="collapse" data-parent="#navigation">craft\web\assets\searchindexes <b class="caret"></b></a><div id="navigation-41590" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-searchindexes-searchindexesasset.html">SearchIndexesAsset</a></div>
+<a class="list-group-item" href="#navigation-41591" data-toggle="collapse" data-parent="#navigation">craft\web\assets\selectize <b class="caret"></b></a><div id="navigation-41591" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-selectize-selectizeasset.html">SelectizeAsset</a></div>
+<a class="list-group-item" href="#navigation-41592" data-toggle="collapse" data-parent="#navigation">craft\web\assets\sites <b class="caret"></b></a><div id="navigation-41592" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-sites-sitesasset.html">SitesAsset</a></div>
+<a class="list-group-item" href="#navigation-41593" data-toggle="collapse" data-parent="#navigation">craft\web\assets\systemmessages <b class="caret"></b></a><div id="navigation-41593" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-systemmessages-systemmessagesasset.html">SystemMessagesAsset</a></div>
+<a class="list-group-item" href="#navigation-41594" data-toggle="collapse" data-parent="#navigation">craft\web\assets\tablesettings <b class="caret"></b></a><div id="navigation-41594" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-tablesettings-tablesettingsasset.html">TableSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-41595" data-toggle="collapse" data-parent="#navigation">craft\web\assets\timepicker <b class="caret"></b></a><div id="navigation-41595" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-timepicker-timepickerasset.html">TimepickerAsset</a></div>
+<a class="list-group-item" href="#navigation-41596" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updater <b class="caret"></b></a><div id="navigation-41596" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updater-updaterasset.html">UpdaterAsset</a></div>
+<a class="list-group-item" href="#navigation-41597" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updates <b class="caret"></b></a><div id="navigation-41597" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updates-updatesasset.html">UpdatesAsset</a></div>
+<a class="list-group-item" href="#navigation-41598" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updateswidget <b class="caret"></b></a><div id="navigation-41598" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updateswidget-updateswidgetasset.html">UpdatesWidgetAsset</a></div>
+<a class="list-group-item" href="#navigation-41599" data-toggle="collapse" data-parent="#navigation">craft\web\assets\userpermissions <b class="caret"></b></a><div id="navigation-41599" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-userpermissions-userpermissionsasset.html">UserPermissionsAsset</a></div>
+<a class="list-group-item" href="#navigation-41600" data-toggle="collapse" data-parent="#navigation">craft\web\assets\utilities <b class="caret"></b></a><div id="navigation-41600" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-utilities-utilitiesasset.html">UtilitiesAsset</a></div>
+<a class="list-group-item" href="#navigation-41601" data-toggle="collapse" data-parent="#navigation">craft\web\assets\velocity <b class="caret"></b></a><div id="navigation-41601" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-velocity-velocityasset.html">VelocityAsset</a></div>
+<a class="list-group-item" href="#navigation-41602" data-toggle="collapse" data-parent="#navigation">craft\web\assets\whatsnew <b class="caret"></b></a><div id="navigation-41602" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-whatsnew-whatsnewasset.html">WhatsNewAsset</a></div>
+<a class="list-group-item" href="#navigation-41603" data-toggle="collapse" data-parent="#navigation">craft\web\assets\xregexp <b class="caret"></b></a><div id="navigation-41603" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-xregexp-xregexpasset.html">XregexpAsset</a></div>
+<a class="list-group-item" href="#navigation-41604" data-toggle="collapse" data-parent="#navigation">craft\web\twig <b class="caret"></b></a><div id="navigation-41604" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-environment.html">Environment</a>
+<a class="list-group-item" href="./craft-web-twig-extension.html">Extension</a>
+<a class="list-group-item" href="./craft-web-twig-template.html">Template</a>
+<a class="list-group-item" href="./craft-web-twig-templateloader.html">TemplateLoader</a>
+<a class="list-group-item" href="./craft-web-twig-templateloaderexception.html">TemplateLoaderException</a></div>
+<a class="list-group-item" href="#navigation-41605" data-toggle="collapse" data-parent="#navigation">craft\web\twig\nodes <b class="caret"></b></a><div id="navigation-41605" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-nodes-cachenode.html">CacheNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-exitnode.html">ExitNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-getattrnode.html">GetAttrNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-headernode.html">HeaderNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-hooknode.html">HookNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-namespacenode.html">NamespaceNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-navitem_node.html">NavItem_Node</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-navnode.html">NavNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-paginatenode.html">PaginateNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-redirectnode.html">RedirectNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-registerresourcenode.html">RegisterResourceNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireadminnode.html">RequireAdminNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireeditionnode.html">RequireEditionNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireloginnode.html">RequireLoginNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requirepermissionnode.html">RequirePermissionNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-switchnode.html">SwitchNode</a></div>
+<a class="list-group-item" href="#navigation-41606" data-toggle="collapse" data-parent="#navigation">craft\web\twig\nodevisitors <b class="caret"></b></a><div id="navigation-41606" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-nodevisitors-baseeventtagvisitor.html">BaseEventTagVisitor</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-eventtagadder.html">EventTagAdder</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-eventtagfinder.html">EventTagFinder</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-getattradjuster.html">GetAttrAdjuster</a></div>
+<a class="list-group-item" href="#navigation-41607" data-toggle="collapse" data-parent="#navigation">craft\web\twig\tokenparsers <b class="caret"></b></a><div id="navigation-41607" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-tokenparsers-cachetokenparser.html">CacheTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-exittokenparser.html">ExitTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-headertokenparser.html">HeaderTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-hooktokenparser.html">HookTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-namespacetokenparser.html">NamespaceTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-navtokenparser.html">NavTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-paginatetokenparser.html">PaginateTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-redirecttokenparser.html">RedirectTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-registerresourcetokenparser.html">RegisterResourceTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requireadmintokenparser.html">RequireAdminTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requireeditiontokenparser.html">RequireEditionTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requirelogintokenparser.html">RequireLoginTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requirepermissiontokenparser.html">RequirePermissionTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-switchtokenparser.html">SwitchTokenParser</a></div>
+<a class="list-group-item" href="#navigation-41608" data-toggle="collapse" data-parent="#navigation">craft\web\twig\variables <b class="caret"></b></a><div id="navigation-41608" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-variables-categorygroups.html">CategoryGroups</a>
+<a class="list-group-item" href="./craft-web-twig-variables-config.html">Config</a>
+<a class="list-group-item" href="./craft-web-twig-variables-cp.html">Cp</a>
+<a class="list-group-item" href="./craft-web-twig-variables-craftvariable.html">CraftVariable</a>
+<a class="list-group-item" href="./craft-web-twig-variables-deprecator.html">Deprecator</a>
+<a class="list-group-item" href="./craft-web-twig-variables-elementindexes.html">ElementIndexes</a>
+<a class="list-group-item" href="./craft-web-twig-variables-emailmessages.html">EmailMessages</a>
+<a class="list-group-item" href="./craft-web-twig-variables-entryrevisions.html">EntryRevisions</a>
+<a class="list-group-item" href="./craft-web-twig-variables-feeds.html">Feeds</a>
+<a class="list-group-item" href="./craft-web-twig-variables-fields.html">Fields</a>
+<a class="list-group-item" href="./craft-web-twig-variables-globals.html">Globals</a>
+<a class="list-group-item" href="./craft-web-twig-variables-i18n.html">I18N</a>
+<a class="list-group-item" href="./craft-web-twig-variables-image.html">Image</a>
+<a class="list-group-item" href="./craft-web-twig-variables-io.html">Io</a>
+<a class="list-group-item" href="./craft-web-twig-variables-paginate.html">Paginate</a>
+<a class="list-group-item" href="./craft-web-twig-variables-rebrand.html">Rebrand</a>
+<a class="list-group-item" href="./craft-web-twig-variables-request.html">Request</a>
+<a class="list-group-item" href="./craft-web-twig-variables-routes.html">Routes</a>
+<a class="list-group-item" href="./craft-web-twig-variables-sections.html">Sections</a>
+<a class="list-group-item" href="./craft-web-twig-variables-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-web-twig-variables-usergroups.html">UserGroups</a>
+<a class="list-group-item" href="./craft-web-twig-variables-userpermissions.html">UserPermissions</a>
+<a class="list-group-item" href="./craft-web-twig-variables-usersession.html">UserSession</a></div>
+<a class="list-group-item" href="#navigation-41609" data-toggle="collapse" data-parent="#navigation">craft\widgets <b class="caret"></b></a><div id="navigation-41609" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-widgets-craftsupport.html">CraftSupport</a>
+<a class="list-group-item" href="./craft-widgets-feed.html">Feed</a>
+<a class="list-group-item" href="./craft-widgets-missingwidget.html">MissingWidget</a>
+<a class="list-group-item" href="./craft-widgets-newusers.html">NewUsers</a>
+<a class="list-group-item" href="./craft-widgets-quickpost.html">QuickPost</a>
+<a class="list-group-item" href="./craft-widgets-recententries.html">RecentEntries</a>
+<a class="list-group-item" href="./craft-widgets-updates.html">Updates</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class craft\services\Assets</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+                | <a href="#events">Events</a>
+        </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="craft-services-assets.html">craft\services\Assets</a> &raquo;
+<a href="yii-base-component.html">yii\base\Component</a> &raquo;
+<a href="yii-base-object.html">yii\base\Object</a></td></tr>
+                <tr><th>Implements</th><td><a href="yii-base-configurable.html">yii\base\Configurable</a></td></tr>
+                                    <tr><th>Available since version</th><td>3.0</td></tr>
+            </table>
+
+<div class="class-description">
+    <p><strong>Class Assets service.</strong></p>
+    <p>An instance of the Assets service is globally accessible in Craft via [[Application::assets <code>Craft::$app-&gt;getAssets()</code>]].</p>
+
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="$behaviors">
+        <td><a href="yii-base-component.html#$behaviors-detail">$behaviors</a></td>
+        <td><a href="yii-base-behavior.html">yii\base\Behavior</a>[]</td>
+        <td>List of behaviors attached to this component</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr id="$currentUserTemporaryUploadFolder">
+        <td><a href="craft-services-assets.html#$currentUserTemporaryUploadFolder-detail">$currentUserTemporaryUploadFolder</a></td>
+        <td><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+        <td></td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="$totalAssets">
+        <td><a href="craft-services-assets.html#$totalAssets-detail">$totalAssets</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a></td>
+        <td></td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="$userTemporaryUploadFolder">
+        <td><a href="craft-services-assets.html#$userTemporaryUploadFolder-detail">$userTemporaryUploadFolder</a></td>
+        <td><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+        <td></td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="__call()">
+        <td><a href="yii-base-component.html#__call()-detail">__call()</a></td>
+        <td>Calls the named method which is not a class method.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__clone()">
+        <td><a href="yii-base-component.html#__clone()-detail">__clone()</a></td>
+        <td>This method is called after the object is created by cloning an existing one.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__construct()">
+        <td><a href="yii-base-object.html#__construct()-detail">__construct()</a></td>
+        <td>Constructor.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr class="inherited" id="__get()">
+        <td><a href="yii-base-component.html#__get()-detail">__get()</a></td>
+        <td>Returns the value of a component property.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__isset()">
+        <td><a href="yii-base-component.html#__isset()-detail">__isset()</a></td>
+        <td>Checks if a property is set, i.e. defined and not null.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__set()">
+        <td><a href="yii-base-component.html#__set()-detail">__set()</a></td>
+        <td>Sets the value of a component property.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__unset()">
+        <td><a href="yii-base-component.html#__unset()-detail">__unset()</a></td>
+        <td>Sets a component property to be null.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehavior()">
+        <td><a href="yii-base-component.html#attachBehavior()-detail">attachBehavior()</a></td>
+        <td>Attaches a behavior to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehaviors()">
+        <td><a href="yii-base-component.html#attachBehaviors()-detail">attachBehaviors()</a></td>
+        <td>Attaches a list of behaviors to the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="behaviors()">
+        <td><a href="yii-base-component.html#behaviors()-detail">behaviors()</a></td>
+        <td>Returns a list of behaviors that this component should behave as.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="canGetProperty()">
+        <td><a href="yii-base-component.html#canGetProperty()-detail">canGetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be read.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="canSetProperty()">
+        <td><a href="yii-base-component.html#canSetProperty()-detail">canSetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be set.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="className()">
+        <td><a href="yii-base-object.html#className()-detail">className()</a></td>
+        <td>Returns the fully qualified name of this class.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr id="createFolder()">
+        <td><a href="craft-services-assets.html#createFolder()-detail">createFolder()</a></td>
+        <td>Save an Asset folder.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="deleteFoldersByIds()">
+        <td><a href="craft-services-assets.html#deleteFoldersByIds()-detail">deleteFoldersByIds()</a></td>
+        <td>Deletes a folder by its ID.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehavior()">
+        <td><a href="yii-base-component.html#detachBehavior()-detail">detachBehavior()</a></td>
+        <td>Detaches a behavior from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehaviors()">
+        <td><a href="yii-base-component.html#detachBehaviors()-detail">detachBehaviors()</a></td>
+        <td>Detaches all behaviors from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="ensureBehaviors()">
+        <td><a href="yii-base-component.html#ensureBehaviors()-detail">ensureBehaviors()</a></td>
+        <td>Makes sure that the behaviors declared in <a href="yii-base-component.html#behaviors()-detail">behaviors()</a> are attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr id="ensureFolderByFullPathAndVolumeId()">
+        <td><a href="craft-services-assets.html#ensureFolderByFullPathAndVolumeId()-detail">ensureFolderByFullPathAndVolumeId()</a></td>
+        <td>Ensure a folder entry exists in the DB for the full path and return it's id.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="findFolder()">
+        <td><a href="craft-services-assets.html#findFolder()-detail">findFolder()</a></td>
+        <td>Finds the first folder that matches a given criteria.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="findFolders()">
+        <td><a href="craft-services-assets.html#findFolders()-detail">findFolders()</a></td>
+        <td>Finds folders that match a given criteria.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getAllDescendantFolders()">
+        <td><a href="craft-services-assets.html#getAllDescendantFolders()-detail">getAllDescendantFolders()</a></td>
+        <td>Returns all of the folders that are descendants of a given folder.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getAssetById()">
+        <td><a href="craft-services-assets.html#getAssetById()-detail">getAssetById()</a></td>
+        <td>Returns a file by its ID.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getAssetUrl()">
+        <td><a href="craft-services-assets.html#getAssetUrl()-detail">getAssetUrl()</a></td>
+        <td>Returns the URL for an asset, possibly with a given transform applied.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr class="inherited" id="getBehavior()">
+        <td><a href="yii-base-component.html#getBehavior()-detail">getBehavior()</a></td>
+        <td>Returns the named behavior object.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="getBehaviors()">
+        <td><a href="yii-base-component.html#getBehaviors()-detail">getBehaviors()</a></td>
+        <td>Returns all behaviors attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr id="getCurrentUserTemporaryUploadFolder()">
+        <td><a href="craft-services-assets.html#getCurrentUserTemporaryUploadFolder()-detail">getCurrentUserTemporaryUploadFolder()</a></td>
+        <td>Return the current user's temporary upload folder.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getFolderById()">
+        <td><a href="craft-services-assets.html#getFolderById()-detail">getFolderById()</a></td>
+        <td>Returns a folder by its ID.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getFolderTreeByFolderId()">
+        <td><a href="craft-services-assets.html#getFolderTreeByFolderId()-detail">getFolderTreeByFolderId()</a></td>
+        <td>Get the folder tree for Assets by a folder id.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getFolderTreeByVolumeIds()">
+        <td><a href="craft-services-assets.html#getFolderTreeByVolumeIds()-detail">getFolderTreeByVolumeIds()</a></td>
+        <td>Get the folder tree for Assets by volume ids</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getNameReplacementInFolder()">
+        <td><a href="craft-services-assets.html#getNameReplacementInFolder()-detail">getNameReplacementInFolder()</a></td>
+        <td>Find a replacement for a filename</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getRootFolderByVolumeId()">
+        <td><a href="craft-services-assets.html#getRootFolderByVolumeId()-detail">getRootFolderByVolumeId()</a></td>
+        <td>Returns the root folder for a given volume ID.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getThumbUrl()">
+        <td><a href="craft-services-assets.html#getThumbUrl()-detail">getThumbUrl()</a></td>
+        <td>Returns the CP thumbnail URL for a given asset.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getTotalAssets()">
+        <td><a href="craft-services-assets.html#getTotalAssets()-detail">getTotalAssets()</a></td>
+        <td>Gets the total number of assets that match a given criteria.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getTotalFolders()">
+        <td><a href="craft-services-assets.html#getTotalFolders()-detail">getTotalFolders()</a></td>
+        <td>Gets the total number of folders that match a given criteria.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="getUserTemporaryUploadFolder()">
+        <td><a href="craft-services-assets.html#getUserTemporaryUploadFolder()-detail">getUserTemporaryUploadFolder()</a></td>
+        <td>Get the user's temporary upload folder.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr class="inherited" id="hasEventHandlers()">
+        <td><a href="yii-base-component.html#hasEventHandlers()-detail">hasEventHandlers()</a></td>
+        <td>Returns a value indicating whether there is any handler attached to the named event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasMethod()">
+        <td><a href="yii-base-component.html#hasMethod()-detail">hasMethod()</a></td>
+        <td>Returns a value indicating whether a method is defined.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasProperty()">
+        <td><a href="yii-base-component.html#hasProperty()-detail">hasProperty()</a></td>
+        <td>Returns a value indicating whether a property is defined for this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="init()">
+        <td><a href="yii-base-object.html#init()-detail">init()</a></td>
+        <td>Initializes the object.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr id="moveAsset()">
+        <td><a href="craft-services-assets.html#moveAsset()-detail">moveAsset()</a></td>
+        <td>Move or rename an Asset.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr class="inherited" id="off()">
+        <td><a href="yii-base-component.html#off()-detail">off()</a></td>
+        <td>Detaches an existing event handler from this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="on()">
+        <td><a href="yii-base-component.html#on()-detail">on()</a></td>
+        <td>Attaches an event handler to an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr id="renameFolderById()">
+        <td><a href="craft-services-assets.html#renameFolderById()-detail">renameFolderById()</a></td>
+        <td>Rename a folder by it's id.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="replaceAssetFile()">
+        <td><a href="craft-services-assets.html#replaceAssetFile()-detail">replaceAssetFile()</a></td>
+        <td>Replace an Asset's file.</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr id="storeFolderRecord()">
+        <td><a href="craft-services-assets.html#storeFolderRecord()-detail">storeFolderRecord()</a></td>
+        <td>Store a folder by model</td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+            <tr class="inherited" id="trigger()">
+        <td><a href="yii-base-component.html#trigger()-detail">trigger()</a></td>
+        <td>Triggers an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="events"></a>
+<div class="summary doc-event">
+    <h2>Events</h2>
+
+    <p><a href="#" class="toggle">Hide inherited events</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+    <colgroup>
+        <col class="col-event" />
+        <col class="col-type" />
+        <col class="col-description" />
+        <col class="col-defined" />
+    </colgroup>
+    <tr>
+        <th>Event</th><th>Type</th><th>Description</th><th>Defined By</th>
+    </tr>
+        <tr id="EVENT_AFTER_REPLACE_ASSET">
+        <td><a href="craft-services-assets.html#EVENT_AFTER_REPLACE_ASSET-detail">EVENT_AFTER_REPLACE_ASSET</a></td>
+        <td>\craft\services\AssetEvent</td>
+        <td>
+            The event that is triggered after an asset is replaced.                    </td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+        <tr id="EVENT_BEFORE_REPLACE_ASSET">
+        <td><a href="craft-services-assets.html#EVENT_BEFORE_REPLACE_ASSET-detail">EVENT_BEFORE_REPLACE_ASSET</a></td>
+        <td>\craft\services\AssetEvent</td>
+        <td>
+            The event that is triggered before an asset is replaced.                    </td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+        <tr id="EVENT_GET_ASSET_URL">
+        <td><a href="craft-services-assets.html#EVENT_GET_ASSET_URL-detail">EVENT_GET_ASSET_URL</a></td>
+        <td>\craft\services\AssetGenerateTransformEvent</td>
+        <td>
+            The event that is triggered when a transform is being generated for an Asset.                    </td>
+        <td><a href="craft-services-assets.html">craft\services\Assets</a></td>
+    </tr>
+        </table>
+</div>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$currentUserTemporaryUploadFolder-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#$currentUserTemporaryUploadFolder-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $currentUserTemporaryUploadFolder        <span class="detail-header-tag small">
+            public                         <em>read-only</em>                         property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <strong><a href="craft-services-assets.html#getCurrentUserTemporaryUploadFolder()-detail">getCurrentUserTemporaryUploadFolder</a></strong> ( )</div>
+
+
+    <div class="detail-header h3" id="$totalAssets-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#$totalAssets-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $totalAssets        <span class="detail-header-tag small">
+            public                         <em>read-only</em>                         property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.integer">integer</a></span> <strong><a href="craft-services-assets.html#getTotalAssets()-detail">getTotalAssets</a></strong> ( <span style="color: #0000BB">$criteria&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</div>
+
+
+    <div class="detail-header h3" id="$userTemporaryUploadFolder-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#$userTemporaryUploadFolder-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $userTemporaryUploadFolder        <span class="detail-header-tag small">
+            public                         <em>read-only</em>                         property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <strong><a href="craft-services-assets.html#getUserTemporaryUploadFolder()-detail">getUserTemporaryUploadFolder</a></strong> ( <span class="signature-type"><a href="craft-elements-user.html">craft\elements\User</a></span> <span style="color: #0000BB">$userModel&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="createFolder()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#createFolder()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        createFolder()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Save an Asset folder.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-services-assets.html#createFolder()-detail">createFolder</a></strong> ( <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <span style="color: #0000BB">$folder</span>, <span class="signature-type">\craft\services\bool</span> <span style="color: #0000BB">$indexExisting&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folder</span></td>
+                  <td class="param-type-col"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$indexExisting</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Set to true to just index the folder if it already exists on volume.</p>
+</td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetconflictexception.html">craft\errors\AssetConflictException</a></td>
+                  <td class="param-desc-col"><p>if a folder already exists with such a name</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-base-invalidparamexception.html">yii\base\InvalidParamException</a></td>
+                  <td class="param-desc-col"><p>if $folder doesn’t have a parent</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-volumeobjectexistsexception.html">craft\errors\VolumeObjectExistsException</a></td>
+                  <td class="param-desc-col"><p>if the file actually exists on the volume, but on in the index</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="deleteFoldersByIds()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#deleteFoldersByIds()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        deleteFoldersByIds()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Deletes a folder by its ID.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-services-assets.html#deleteFoldersByIds()-detail">deleteFoldersByIds</a></strong> ( <span style="color: #0000BB">$folderIds</span>, <span class="signature-type">\craft\services\bool</span> <span style="color: #0000BB">$deleteDir&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folderIds</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$deleteDir</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Should the volume directory be deleted along the record, if applicable. Defaults to true.</p>
+</td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-volumeexception.html">craft\errors\VolumeException</a></td>
+                  <td class="param-desc-col"><p>If deleting a single folder and it cannot be deleted.</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="ensureFolderByFullPathAndVolumeId()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#ensureFolderByFullPathAndVolumeId()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        ensureFolderByFullPathAndVolumeId()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Ensure a folder entry exists in the DB for the full path and return it's id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.integer">integer</a></span> <strong><a href="craft-services-assets.html#ensureFolderByFullPathAndVolumeId()-detail">ensureFolderByFullPathAndVolumeId</a></strong> ( <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$fullPath</span>, <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$volumeId</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$fullPath</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The path to ensure the folder exists at.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$volumeId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findFolder()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#findFolder()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findFolder()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Finds the first folder that matches a given criteria.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="craft-services-assets.html#findFolder()-detail">findFolder</a></strong> ( <span style="color: #0000BB">$criteria&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$criteria</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findFolders()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#findFolders()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findFolders()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Finds folders that match a given criteria.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>[]</span> <strong><a href="craft-services-assets.html#findFolders()-detail">findFolders</a></strong> ( <span style="color: #0000BB">$criteria&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$criteria</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getAllDescendantFolders()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getAllDescendantFolders()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getAllDescendantFolders()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns all of the folders that are descendants of a given folder.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="craft-services-assets.html#getAllDescendantFolders()-detail">getAllDescendantFolders</a></strong> ( <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <span style="color: #0000BB">$parentFolder</span>, <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$orderBy&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'path'</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$parentFolder</span></td>
+                  <td class="param-type-col"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$orderBy</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getAssetById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getAssetById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getAssetById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns a file by its ID.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-elements-asset.html">craft\elements\Asset</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="craft-services-assets.html#getAssetById()-detail">getAssetById</a></strong> ( <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$assetId</span>, <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$siteId&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$assetId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$siteId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getAssetUrl()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getAssetUrl()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getAssetUrl()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns the URL for an asset, possibly with a given transform applied.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="craft-services-assets.html#getAssetUrl()-detail">getAssetUrl</a></strong> ( <span class="signature-type"><a href="craft-elements-asset.html">craft\elements\Asset</a></span> <span style="color: #0000BB">$asset</span>, <span style="color: #0000BB">$transform&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$asset</span></td>
+                  <td class="param-type-col"><a href="craft-elements-asset.html">craft\elements\Asset</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$transform</span></td>
+                  <td class="param-type-col"><a href="craft-models-assettransform.html">craft\models\AssetTransform</a>|<a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getCurrentUserTemporaryUploadFolder()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getCurrentUserTemporaryUploadFolder()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getCurrentUserTemporaryUploadFolder()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Return the current user's temporary upload folder.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <strong><a href="craft-services-assets.html#getCurrentUserTemporaryUploadFolder()-detail">getCurrentUserTemporaryUploadFolder</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getFolderById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getFolderById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getFolderById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns a folder by its ID.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="craft-services-assets.html#getFolderById()-detail">getFolderById</a></strong> ( <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$folderId</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folderId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getFolderTreeByFolderId()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getFolderTreeByFolderId()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getFolderTreeByFolderId()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Get the folder tree for Assets by a folder id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="craft-services-assets.html#getFolderTreeByFolderId()-detail">getFolderTreeByFolderId</a></strong> ( <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$folderId</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folderId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getFolderTreeByVolumeIds()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getFolderTreeByVolumeIds()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getFolderTreeByVolumeIds()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Get the folder tree for Assets by volume ids</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="craft-services-assets.html#getFolderTreeByVolumeIds()-detail">getFolderTreeByVolumeIds</a></strong> ( <span style="color: #0000BB">$allowedVolumeIds</span>, <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <span style="color: #0000BB">$additionalCriteria&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$allowedVolumeIds</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$additionalCriteria</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>Additional criteria for filtering the tree</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getNameReplacementInFolder()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getNameReplacementInFolder()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getNameReplacementInFolder()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Find a replacement for a filename</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="craft-services-assets.html#getNameReplacementInFolder()-detail">getNameReplacementInFolder</a></strong> ( <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$originalFilename</span>, <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$folderId</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$originalFilename</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The original filename for which to find a replacement.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folderId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"><p>THe folder in which to find the replacement</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>If a suitable filename replacement cannot be found.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetlogicexception.html">craft\errors\AssetLogicException</a></td>
+                  <td class="param-desc-col"><p>If a suitable filename replacement cannot be found.</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-base-invalidparamexception.html">yii\base\InvalidParamException</a></td>
+                  <td class="param-desc-col"><p>If $folderId is invalid</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getRootFolderByVolumeId()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getRootFolderByVolumeId()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getRootFolderByVolumeId()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns the root folder for a given volume ID.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="craft-services-assets.html#getRootFolderByVolumeId()-detail">getRootFolderByVolumeId</a></strong> ( <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$volumeId</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$volumeId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"><p>The volume ID</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>The root folder in that volume, or null if the volume doesn’t exist</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getThumbUrl()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getThumbUrl()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getThumbUrl()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Returns the CP thumbnail URL for a given asset.</strong></p>
+
+        
+        <p>See also <a href="craft-elements-asset.html#getThumbUrl()-detail">craft\elements\Asset::getThumbUrl()</a>.</p>    </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="craft-services-assets.html#getThumbUrl()-detail">getThumbUrl</a></strong> ( <span class="signature-type"><a href="craft-elements-asset.html">craft\elements\Asset</a></span> <span style="color: #0000BB">$asset</span>, <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$size</span>, <span class="signature-type">\craft\services\bool</span> <span style="color: #0000BB">$generate&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$asset</span></td>
+                  <td class="param-type-col"><a href="craft-elements-asset.html">craft\elements\Asset</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$size</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$generate</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Whether the thumbnail should be generated if it doesn't exist yet.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getTotalAssets()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getTotalAssets()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getTotalAssets()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Gets the total number of assets that match a given criteria.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.integer">integer</a></span> <strong><a href="craft-services-assets.html#getTotalAssets()-detail">getTotalAssets</a></strong> ( <span style="color: #0000BB">$criteria&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$criteria</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getTotalFolders()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getTotalFolders()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getTotalFolders()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Gets the total number of folders that match a given criteria.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.integer">integer</a></span> <strong><a href="craft-services-assets.html#getTotalFolders()-detail">getTotalFolders</a></strong> ( <span style="color: #0000BB">$criteria</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$criteria</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getUserTemporaryUploadFolder()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#getUserTemporaryUploadFolder()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getUserTemporaryUploadFolder()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Get the user's temporary upload folder.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <strong><a href="craft-services-assets.html#getUserTemporaryUploadFolder()-detail">getUserTemporaryUploadFolder</a></strong> ( <span class="signature-type"><a href="craft-elements-user.html">craft\elements\User</a></span> <span style="color: #0000BB">$userModel&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$userModel</span></td>
+                  <td class="param-type-col"><a href="craft-elements-user.html">craft\elements\User</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="moveAsset()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#moveAsset()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        moveAsset()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Move or rename an Asset.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.boolean">boolean</a></span> <strong><a href="craft-services-assets.html#moveAsset()-detail">moveAsset</a></strong> ( <span class="signature-type"><a href="craft-elements-asset.html">craft\elements\Asset</a></span> <span style="color: #0000BB">$asset</span>, <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <span style="color: #0000BB">$folder</span>, <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$filename&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$asset</span></td>
+                  <td class="param-type-col"><a href="craft-elements-asset.html">craft\elements\Asset</a></td>
+                  <td class="param-desc-col"><p>The asset whose file should be renamed</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folder</span></td>
+                  <td class="param-type-col"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+                  <td class="param-desc-col"><p>The Volume Folder to move the Asset to.</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$filename</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The new filename</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Whether the asset was renamed successfully</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetlogicexception.html">craft\errors\AssetLogicException</a></td>
+                  <td class="param-desc-col"><p>if the asset’s volume is missing</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="renameFolderById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#renameFolderById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        renameFolderById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Rename a folder by it's id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="craft-services-assets.html#renameFolderById()-detail">renameFolderById</a></strong> ( <span class="signature-type">\craft\services\int</span> <span style="color: #0000BB">$folderId</span>, <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$newName</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folderId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$newName</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The new folder name after cleaning it.</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetconflictexception.html">craft\errors\AssetConflictException</a></td>
+                  <td class="param-desc-col"><p>If a folder already exists with such name in Assets Index</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetlogicexception.html">craft\errors\AssetLogicException</a></td>
+                  <td class="param-desc-col"><p>If the folder to be renamed can't be found or trying to rename the top folder.</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-volumeobjectexistsexception.html">craft\errors\VolumeObjectExistsException</a></td>
+                  <td class="param-desc-col"><p>If a folder already exists with such name in the Volume, but not in Index</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-volumeobjectnotfoundexception.html">craft\errors\VolumeObjectNotFoundException</a></td>
+                  <td class="param-desc-col"><p>If the folder to be renamed can't be found in the Volume.</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="replaceAssetFile()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#replaceAssetFile()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        replaceAssetFile()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Replace an Asset's file.</strong></p>
+
+        <p>Replace an Asset's file by it's id, a local file and the filename to use.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-services-assets.html#replaceAssetFile()-detail">replaceAssetFile</a></strong> ( <span class="signature-type"><a href="craft-elements-asset.html">craft\elements\Asset</a></span> <span style="color: #0000BB">$asset</span>, <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$pathOnServer</span>, <span class="signature-type">\craft\services\string</span> <span style="color: #0000BB">$filename</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$asset</span></td>
+                  <td class="param-type-col"><a href="craft-elements-asset.html">craft\elements\Asset</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$pathOnServer</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$filename</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-actioncancelledexception.html">craft\errors\ActionCancelledException</a></td>
+                  <td class="param-desc-col"><p>If something prevented the Asset replacement via Event.</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-fileexception.html">craft\errors\FileException</a></td>
+                  <td class="param-desc-col"><p>If there was a problem with the actual file.</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="craft-errors-assetlogicexception.html">craft\errors\AssetLogicException</a></td>
+                  <td class="param-desc-col"><p>If the Asset to be replaced cannot be found.</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="storeFolderRecord()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#storeFolderRecord()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        storeFolderRecord()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Store a folder by model</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-services-assets.html#storeFolderRecord()-detail">storeFolderRecord</a></strong> ( <span class="signature-type"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></span> <span style="color: #0000BB">$folder</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$folder</span></td>
+                  <td class="param-type-col"><a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+</div>
+    <h2>Event Details</h2>
+
+<div class="event-doc">
+    <div class="detail-header h3" id="EVENT_AFTER_REPLACE_ASSET-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#EVENT_AFTER_REPLACE_ASSET-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        EVENT_AFTER_REPLACE_ASSET        <span class="detail-header-tag small">
+        event
+        of type \craft\services\AssetEvent                </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The event that is triggered after an asset is replaced.</p>
+
+            </div>
+
+    <div class="detail-header h3" id="EVENT_BEFORE_REPLACE_ASSET-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#EVENT_BEFORE_REPLACE_ASSET-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        EVENT_BEFORE_REPLACE_ASSET        <span class="detail-header-tag small">
+        event
+        of type \craft\services\AssetEvent                </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The event that is triggered before an asset is replaced.</p>
+
+            </div>
+
+    <div class="detail-header h3" id="EVENT_GET_ASSET_URL-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-services-assets.html#EVENT_GET_ASSET_URL-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        EVENT_GET_ASSET_URL        <span class="detail-header-tag small">
+        event
+        of type \craft\services\AssetGenerateTransformEvent                </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The event that is triggered when a transform is being generated for an Asset.</p>
+
+            </div>
+
+</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sun, 29 Oct 2017 03:11:05 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

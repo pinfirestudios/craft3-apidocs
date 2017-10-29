@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/c4da7381/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/9a33b857/solarized_light.css" rel="stylesheet">
+<link href="./assets/3118fc63/style.css" rel="stylesheet">
+<script src="./assets/f4a7ebb6/jquery.js"></script>
+<script src="./assets/c4da7381/js/bootstrap.js"></script>
+<script src="./assets/c1668e13/jssearch.js"></script>    <title>Configurable, yii\base\Configurable - Craft CMS 3 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w74921" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w74921-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Craft CMS 3 API Documentation</a></div><div id="w74921-collapse" class="collapse navbar-collapse"><ul id="w74922" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-74890" data-toggle="collapse" data-parent="#navigation">Not namespaced classes <b class="caret"></b></a><div id="navigation-74890" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii.html">Yii</a>
+<a class="list-group-item" href="./yiirequirementchecker.html">YiiRequirementChecker</a></div>
+<a class="list-group-item" href="#navigation-74891" data-toggle="collapse" data-parent="#navigation">yii <b class="caret"></b></a><div id="navigation-74891" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-baseyii.html">BaseYii</a></div>
+<a class="list-group-item active" href="#navigation-74892" data-toggle="collapse" data-parent="#navigation">yii\base <b class="caret"></b></a><div id="navigation-74892" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./yii-base-action.html">Action</a>
+<a class="list-group-item" href="./yii-base-actionevent.html">ActionEvent</a>
+<a class="list-group-item" href="./yii-base-actionfilter.html">ActionFilter</a>
+<a class="list-group-item" href="./yii-base-application.html">Application</a>
+<a class="list-group-item" href="./yii-base-arrayaccesstrait.html">ArrayAccessTrait</a>
+<a class="list-group-item" href="./yii-base-arrayable.html">Arrayable</a>
+<a class="list-group-item" href="./yii-base-arrayabletrait.html">ArrayableTrait</a>
+<a class="list-group-item" href="./yii-base-behavior.html">Behavior</a>
+<a class="list-group-item" href="./yii-base-bootstrapinterface.html">BootstrapInterface</a>
+<a class="list-group-item" href="./yii-base-component.html">Component</a>
+<a class="list-group-item active" href="./yii-base-configurable.html">Configurable</a>
+<a class="list-group-item" href="./yii-base-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-base-dynamicmodel.html">DynamicModel</a>
+<a class="list-group-item" href="./yii-base-errorexception.html">ErrorException</a>
+<a class="list-group-item" href="./yii-base-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-base-event.html">Event</a>
+<a class="list-group-item" href="./yii-base-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-base-exitexception.html">ExitException</a>
+<a class="list-group-item" href="./yii-base-inlineaction.html">InlineAction</a>
+<a class="list-group-item" href="./yii-base-invalidcallexception.html">InvalidCallException</a>
+<a class="list-group-item" href="./yii-base-invalidconfigexception.html">InvalidConfigException</a>
+<a class="list-group-item" href="./yii-base-invalidparamexception.html">InvalidParamException</a>
+<a class="list-group-item" href="./yii-base-invalidrouteexception.html">InvalidRouteException</a>
+<a class="list-group-item" href="./yii-base-invalidvalueexception.html">InvalidValueException</a>
+<a class="list-group-item" href="./yii-base-model.html">Model</a>
+<a class="list-group-item" href="./yii-base-modelevent.html">ModelEvent</a>
+<a class="list-group-item" href="./yii-base-module.html">Module</a>
+<a class="list-group-item" href="./yii-base-notsupportedexception.html">NotSupportedException</a>
+<a class="list-group-item" href="./yii-base-object.html">Object</a>
+<a class="list-group-item" href="./yii-base-request.html">Request</a>
+<a class="list-group-item" href="./yii-base-response.html">Response</a>
+<a class="list-group-item" href="./yii-base-security.html">Security</a>
+<a class="list-group-item" href="./yii-base-theme.html">Theme</a>
+<a class="list-group-item" href="./yii-base-unknownclassexception.html">UnknownClassException</a>
+<a class="list-group-item" href="./yii-base-unknownmethodexception.html">UnknownMethodException</a>
+<a class="list-group-item" href="./yii-base-unknownpropertyexception.html">UnknownPropertyException</a>
+<a class="list-group-item" href="./yii-base-userexception.html">UserException</a>
+<a class="list-group-item" href="./yii-base-view.html">View</a>
+<a class="list-group-item" href="./yii-base-viewcontextinterface.html">ViewContextInterface</a>
+<a class="list-group-item" href="./yii-base-viewevent.html">ViewEvent</a>
+<a class="list-group-item" href="./yii-base-viewnotfoundexception.html">ViewNotFoundException</a>
+<a class="list-group-item" href="./yii-base-viewrenderer.html">ViewRenderer</a>
+<a class="list-group-item" href="./yii-base-widget.html">Widget</a>
+<a class="list-group-item" href="./yii-base-widgetevent.html">WidgetEvent</a></div>
+<a class="list-group-item" href="#navigation-74893" data-toggle="collapse" data-parent="#navigation">yii\behaviors <b class="caret"></b></a><div id="navigation-74893" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-behaviors-attributebehavior.html">AttributeBehavior</a>
+<a class="list-group-item" href="./yii-behaviors-attributetypecastbehavior.html">AttributeTypecastBehavior</a>
+<a class="list-group-item" href="./yii-behaviors-blameablebehavior.html">BlameableBehavior</a>
+<a class="list-group-item" href="./yii-behaviors-sluggablebehavior.html">SluggableBehavior</a>
+<a class="list-group-item" href="./yii-behaviors-timestampbehavior.html">TimestampBehavior</a></div>
+<a class="list-group-item" href="#navigation-74894" data-toggle="collapse" data-parent="#navigation">yii\caching <b class="caret"></b></a><div id="navigation-74894" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-caching-apccache.html">ApcCache</a>
+<a class="list-group-item" href="./yii-caching-arraycache.html">ArrayCache</a>
+<a class="list-group-item" href="./yii-caching-cache.html">Cache</a>
+<a class="list-group-item" href="./yii-caching-chaineddependency.html">ChainedDependency</a>
+<a class="list-group-item" href="./yii-caching-dbcache.html">DbCache</a>
+<a class="list-group-item" href="./yii-caching-dbdependency.html">DbDependency</a>
+<a class="list-group-item" href="./yii-caching-dbquerydependency.html">DbQueryDependency</a>
+<a class="list-group-item" href="./yii-caching-dependency.html">Dependency</a>
+<a class="list-group-item" href="./yii-caching-dummycache.html">DummyCache</a>
+<a class="list-group-item" href="./yii-caching-expressiondependency.html">ExpressionDependency</a>
+<a class="list-group-item" href="./yii-caching-filecache.html">FileCache</a>
+<a class="list-group-item" href="./yii-caching-filedependency.html">FileDependency</a>
+<a class="list-group-item" href="./yii-caching-memcache.html">MemCache</a>
+<a class="list-group-item" href="./yii-caching-memcacheserver.html">MemCacheServer</a>
+<a class="list-group-item" href="./yii-caching-tagdependency.html">TagDependency</a>
+<a class="list-group-item" href="./yii-caching-wincache.html">WinCache</a>
+<a class="list-group-item" href="./yii-caching-xcache.html">XCache</a>
+<a class="list-group-item" href="./yii-caching-zenddatacache.html">ZendDataCache</a></div>
+<a class="list-group-item" href="#navigation-74895" data-toggle="collapse" data-parent="#navigation">yii\captcha <b class="caret"></b></a><div id="navigation-74895" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-captcha-captcha.html">Captcha</a>
+<a class="list-group-item" href="./yii-captcha-captchaaction.html">CaptchaAction</a>
+<a class="list-group-item" href="./yii-captcha-captchaasset.html">CaptchaAsset</a>
+<a class="list-group-item" href="./yii-captcha-captchavalidator.html">CaptchaValidator</a></div>
+<a class="list-group-item" href="#navigation-74896" data-toggle="collapse" data-parent="#navigation">yii\console <b class="caret"></b></a><div id="navigation-74896" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-application.html">Application</a>
+<a class="list-group-item" href="./yii-console-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-console-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-console-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-console-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-console-request.html">Request</a>
+<a class="list-group-item" href="./yii-console-response.html">Response</a>
+<a class="list-group-item" href="./yii-console-unknowncommandexception.html">UnknownCommandException</a></div>
+<a class="list-group-item" href="#navigation-74897" data-toggle="collapse" data-parent="#navigation">yii\console\controllers <b class="caret"></b></a><div id="navigation-74897" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-controllers-assetcontroller.html">AssetController</a>
+<a class="list-group-item" href="./yii-console-controllers-basemigratecontroller.html">BaseMigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-cachecontroller.html">CacheController</a>
+<a class="list-group-item" href="./yii-console-controllers-fixturecontroller.html">FixtureController</a>
+<a class="list-group-item" href="./yii-console-controllers-helpcontroller.html">HelpController</a>
+<a class="list-group-item" href="./yii-console-controllers-messagecontroller.html">MessageController</a>
+<a class="list-group-item" href="./yii-console-controllers-migratecontroller.html">MigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-servecontroller.html">ServeController</a></div>
+<a class="list-group-item" href="#navigation-74898" data-toggle="collapse" data-parent="#navigation">yii\data <b class="caret"></b></a><div id="navigation-74898" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-data-activedataprovider.html">ActiveDataProvider</a>
+<a class="list-group-item" href="./yii-data-arraydataprovider.html">ArrayDataProvider</a>
+<a class="list-group-item" href="./yii-data-basedataprovider.html">BaseDataProvider</a>
+<a class="list-group-item" href="./yii-data-dataproviderinterface.html">DataProviderInterface</a>
+<a class="list-group-item" href="./yii-data-pagination.html">Pagination</a>
+<a class="list-group-item" href="./yii-data-sort.html">Sort</a>
+<a class="list-group-item" href="./yii-data-sqldataprovider.html">SqlDataProvider</a></div>
+<a class="list-group-item" href="#navigation-74899" data-toggle="collapse" data-parent="#navigation">yii\db <b class="caret"></b></a><div id="navigation-74899" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-activequery.html">ActiveQuery</a>
+<a class="list-group-item" href="./yii-db-activequeryinterface.html">ActiveQueryInterface</a>
+<a class="list-group-item" href="./yii-db-activequerytrait.html">ActiveQueryTrait</a>
+<a class="list-group-item" href="./yii-db-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./yii-db-activerecordinterface.html">ActiveRecordInterface</a>
+<a class="list-group-item" href="./yii-db-activerelationtrait.html">ActiveRelationTrait</a>
+<a class="list-group-item" href="./yii-db-aftersaveevent.html">AfterSaveEvent</a>
+<a class="list-group-item" href="./yii-db-baseactiverecord.html">BaseActiveRecord</a>
+<a class="list-group-item" href="./yii-db-batchqueryresult.html">BatchQueryResult</a>
+<a class="list-group-item" href="./yii-db-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-command.html">Command</a>
+<a class="list-group-item" href="./yii-db-connection.html">Connection</a>
+<a class="list-group-item" href="./yii-db-datareader.html">DataReader</a>
+<a class="list-group-item" href="./yii-db-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-db-expression.html">Expression</a>
+<a class="list-group-item" href="./yii-db-integrityexception.html">IntegrityException</a>
+<a class="list-group-item" href="./yii-db-migration.html">Migration</a>
+<a class="list-group-item" href="./yii-db-migrationinterface.html">MigrationInterface</a>
+<a class="list-group-item" href="./yii-db-query.html">Query</a>
+<a class="list-group-item" href="./yii-db-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-queryinterface.html">QueryInterface</a>
+<a class="list-group-item" href="./yii-db-querytrait.html">QueryTrait</a>
+<a class="list-group-item" href="./yii-db-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-schemabuildertrait.html">SchemaBuilderTrait</a>
+<a class="list-group-item" href="./yii-db-staleobjectexception.html">StaleObjectException</a>
+<a class="list-group-item" href="./yii-db-tableschema.html">TableSchema</a>
+<a class="list-group-item" href="./yii-db-transaction.html">Transaction</a>
+<a class="list-group-item" href="./yii-db-viewfindertrait.html">ViewFinderTrait</a></div>
+<a class="list-group-item" href="#navigation-74900" data-toggle="collapse" data-parent="#navigation">yii\db\cubrid <b class="caret"></b></a><div id="navigation-74900" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-cubrid-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-74901" data-toggle="collapse" data-parent="#navigation">yii\db\mssql <b class="caret"></b></a><div id="navigation-74901" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mssql-pdo.html">PDO</a>
+<a class="list-group-item" href="./yii-db-mssql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mssql-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-mssql-sqlsrvpdo.html">SqlsrvPDO</a>
+<a class="list-group-item" href="./yii-db-mssql-tableschema.html">TableSchema</a></div>
+<a class="list-group-item" href="#navigation-74902" data-toggle="collapse" data-parent="#navigation">yii\db\mysql <b class="caret"></b></a><div id="navigation-74902" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mysql-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-74903" data-toggle="collapse" data-parent="#navigation">yii\db\oci <b class="caret"></b></a><div id="navigation-74903" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-oci-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-74904" data-toggle="collapse" data-parent="#navigation">yii\db\pgsql <b class="caret"></b></a><div id="navigation-74904" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-pgsql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-74905" data-toggle="collapse" data-parent="#navigation">yii\db\sqlite <b class="caret"></b></a><div id="navigation-74905" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-sqlite-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-74906" data-toggle="collapse" data-parent="#navigation">yii\di <b class="caret"></b></a><div id="navigation-74906" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-di-container.html">Container</a>
+<a class="list-group-item" href="./yii-di-instance.html">Instance</a>
+<a class="list-group-item" href="./yii-di-notinstantiableexception.html">NotInstantiableException</a>
+<a class="list-group-item" href="./yii-di-servicelocator.html">ServiceLocator</a></div>
+<a class="list-group-item" href="#navigation-74907" data-toggle="collapse" data-parent="#navigation">yii\filters <b class="caret"></b></a><div id="navigation-74907" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-filters-accesscontrol.html">AccessControl</a>
+<a class="list-group-item" href="./yii-filters-accessrule.html">AccessRule</a>
+<a class="list-group-item" href="./yii-filters-contentnegotiator.html">ContentNegotiator</a>
+<a class="list-group-item" href="./yii-filters-cors.html">Cors</a>
+<a class="list-group-item" href="./yii-filters-hostcontrol.html">HostControl</a>
+<a class="list-group-item" href="./yii-filters-httpcache.html">HttpCache</a>
+<a class="list-group-item" href="./yii-filters-pagecache.html">PageCache</a>
+<a class="list-group-item" href="./yii-filters-ratelimitinterface.html">RateLimitInterface</a>
+<a class="list-group-item" href="./yii-filters-ratelimiter.html">RateLimiter</a>
+<a class="list-group-item" href="./yii-filters-verbfilter.html">VerbFilter</a></div>
+<a class="list-group-item" href="#navigation-74908" data-toggle="collapse" data-parent="#navigation">yii\filters\auth <b class="caret"></b></a><div id="navigation-74908" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-filters-auth-authinterface.html">AuthInterface</a>
+<a class="list-group-item" href="./yii-filters-auth-authmethod.html">AuthMethod</a>
+<a class="list-group-item" href="./yii-filters-auth-compositeauth.html">CompositeAuth</a>
+<a class="list-group-item" href="./yii-filters-auth-httpbasicauth.html">HttpBasicAuth</a>
+<a class="list-group-item" href="./yii-filters-auth-httpbearerauth.html">HttpBearerAuth</a>
+<a class="list-group-item" href="./yii-filters-auth-queryparamauth.html">QueryParamAuth</a></div>
+<a class="list-group-item" href="#navigation-74909" data-toggle="collapse" data-parent="#navigation">yii\grid <b class="caret"></b></a><div id="navigation-74909" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-grid-actioncolumn.html">ActionColumn</a>
+<a class="list-group-item" href="./yii-grid-checkboxcolumn.html">CheckboxColumn</a>
+<a class="list-group-item" href="./yii-grid-column.html">Column</a>
+<a class="list-group-item" href="./yii-grid-datacolumn.html">DataColumn</a>
+<a class="list-group-item" href="./yii-grid-gridview.html">GridView</a>
+<a class="list-group-item" href="./yii-grid-gridviewasset.html">GridViewAsset</a>
+<a class="list-group-item" href="./yii-grid-radiobuttoncolumn.html">RadioButtonColumn</a>
+<a class="list-group-item" href="./yii-grid-serialcolumn.html">SerialColumn</a></div>
+<a class="list-group-item" href="#navigation-74910" data-toggle="collapse" data-parent="#navigation">yii\helpers <b class="caret"></b></a><div id="navigation-74910" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-basearrayhelper.html">BaseArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseconsole.html">BaseConsole</a>
+<a class="list-group-item" href="./yii-helpers-basefilehelper.html">BaseFileHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseformatconverter.html">BaseFormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-basehtml.html">BaseHtml</a>
+<a class="list-group-item" href="./yii-helpers-basehtmlpurifier.html">BaseHtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-baseinflector.html">BaseInflector</a>
+<a class="list-group-item" href="./yii-helpers-basejson.html">BaseJson</a>
+<a class="list-group-item" href="./yii-helpers-basemarkdown.html">BaseMarkdown</a>
+<a class="list-group-item" href="./yii-helpers-basestringhelper.html">BaseStringHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseurl.html">BaseUrl</a>
+<a class="list-group-item" href="./yii-helpers-basevardumper.html">BaseVarDumper</a>
+<a class="list-group-item" href="./yii-helpers-console.html">Console</a>
+<a class="list-group-item" href="./yii-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./yii-helpers-formatconverter.html">FormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-html.html">Html</a>
+<a class="list-group-item" href="./yii-helpers-htmlpurifier.html">HtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-inflector.html">Inflector</a>
+<a class="list-group-item" href="./yii-helpers-json.html">Json</a>
+<a class="list-group-item" href="./yii-helpers-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-helpers-replacearrayvalue.html">ReplaceArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./yii-helpers-unsetarrayvalue.html">UnsetArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-url.html">Url</a>
+<a class="list-group-item" href="./yii-helpers-vardumper.html">VarDumper</a></div>
+<a class="list-group-item" href="#navigation-74911" data-toggle="collapse" data-parent="#navigation">yii\i18n <b class="caret"></b></a><div id="navigation-74911" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-i18n-dbmessagesource.html">DbMessageSource</a>
+<a class="list-group-item" href="./yii-i18n-formatter.html">Formatter</a>
+<a class="list-group-item" href="./yii-i18n-gettextfile.html">GettextFile</a>
+<a class="list-group-item" href="./yii-i18n-gettextmessagesource.html">GettextMessageSource</a>
+<a class="list-group-item" href="./yii-i18n-gettextmofile.html">GettextMoFile</a>
+<a class="list-group-item" href="./yii-i18n-gettextpofile.html">GettextPoFile</a>
+<a class="list-group-item" href="./yii-i18n-i18n.html">I18N</a>
+<a class="list-group-item" href="./yii-i18n-messageformatter.html">MessageFormatter</a>
+<a class="list-group-item" href="./yii-i18n-messagesource.html">MessageSource</a>
+<a class="list-group-item" href="./yii-i18n-missingtranslationevent.html">MissingTranslationEvent</a>
+<a class="list-group-item" href="./yii-i18n-phpmessagesource.html">PhpMessageSource</a></div>
+<a class="list-group-item" href="#navigation-74912" data-toggle="collapse" data-parent="#navigation">yii\log <b class="caret"></b></a><div id="navigation-74912" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-log-dbtarget.html">DbTarget</a>
+<a class="list-group-item" href="./yii-log-dispatcher.html">Dispatcher</a>
+<a class="list-group-item" href="./yii-log-emailtarget.html">EmailTarget</a>
+<a class="list-group-item" href="./yii-log-filetarget.html">FileTarget</a>
+<a class="list-group-item" href="./yii-log-logger.html">Logger</a>
+<a class="list-group-item" href="./yii-log-syslogtarget.html">SyslogTarget</a>
+<a class="list-group-item" href="./yii-log-target.html">Target</a></div>
+<a class="list-group-item" href="#navigation-74913" data-toggle="collapse" data-parent="#navigation">yii\mail <b class="caret"></b></a><div id="navigation-74913" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-mail-basemailer.html">BaseMailer</a>
+<a class="list-group-item" href="./yii-mail-basemessage.html">BaseMessage</a>
+<a class="list-group-item" href="./yii-mail-mailevent.html">MailEvent</a>
+<a class="list-group-item" href="./yii-mail-mailerinterface.html">MailerInterface</a>
+<a class="list-group-item" href="./yii-mail-messageinterface.html">MessageInterface</a></div>
+<a class="list-group-item" href="#navigation-74914" data-toggle="collapse" data-parent="#navigation">yii\mutex <b class="caret"></b></a><div id="navigation-74914" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-mutex-dbmutex.html">DbMutex</a>
+<a class="list-group-item" href="./yii-mutex-filemutex.html">FileMutex</a>
+<a class="list-group-item" href="./yii-mutex-mutex.html">Mutex</a>
+<a class="list-group-item" href="./yii-mutex-mysqlmutex.html">MysqlMutex</a>
+<a class="list-group-item" href="./yii-mutex-oraclemutex.html">OracleMutex</a>
+<a class="list-group-item" href="./yii-mutex-pgsqlmutex.html">PgsqlMutex</a></div>
+<a class="list-group-item" href="#navigation-74915" data-toggle="collapse" data-parent="#navigation">yii\rbac <b class="caret"></b></a><div id="navigation-74915" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-rbac-assignment.html">Assignment</a>
+<a class="list-group-item" href="./yii-rbac-basemanager.html">BaseManager</a>
+<a class="list-group-item" href="./yii-rbac-checkaccessinterface.html">CheckAccessInterface</a>
+<a class="list-group-item" href="./yii-rbac-dbmanager.html">DbManager</a>
+<a class="list-group-item" href="./yii-rbac-item.html">Item</a>
+<a class="list-group-item" href="./yii-rbac-managerinterface.html">ManagerInterface</a>
+<a class="list-group-item" href="./yii-rbac-permission.html">Permission</a>
+<a class="list-group-item" href="./yii-rbac-phpmanager.html">PhpManager</a>
+<a class="list-group-item" href="./yii-rbac-role.html">Role</a>
+<a class="list-group-item" href="./yii-rbac-rule.html">Rule</a></div>
+<a class="list-group-item" href="#navigation-74916" data-toggle="collapse" data-parent="#navigation">yii\rest <b class="caret"></b></a><div id="navigation-74916" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-rest-action.html">Action</a>
+<a class="list-group-item" href="./yii-rest-activecontroller.html">ActiveController</a>
+<a class="list-group-item" href="./yii-rest-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-rest-createaction.html">CreateAction</a>
+<a class="list-group-item" href="./yii-rest-deleteaction.html">DeleteAction</a>
+<a class="list-group-item" href="./yii-rest-indexaction.html">IndexAction</a>
+<a class="list-group-item" href="./yii-rest-optionsaction.html">OptionsAction</a>
+<a class="list-group-item" href="./yii-rest-serializer.html">Serializer</a>
+<a class="list-group-item" href="./yii-rest-updateaction.html">UpdateAction</a>
+<a class="list-group-item" href="./yii-rest-urlrule.html">UrlRule</a>
+<a class="list-group-item" href="./yii-rest-viewaction.html">ViewAction</a></div>
+<a class="list-group-item" href="#navigation-74917" data-toggle="collapse" data-parent="#navigation">yii\test <b class="caret"></b></a><div id="navigation-74917" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-test-activefixture.html">ActiveFixture</a>
+<a class="list-group-item" href="./yii-test-arrayfixture.html">ArrayFixture</a>
+<a class="list-group-item" href="./yii-test-baseactivefixture.html">BaseActiveFixture</a>
+<a class="list-group-item" href="./yii-test-dbfixture.html">DbFixture</a>
+<a class="list-group-item" href="./yii-test-fixture.html">Fixture</a>
+<a class="list-group-item" href="./yii-test-fixturetrait.html">FixtureTrait</a>
+<a class="list-group-item" href="./yii-test-initdbfixture.html">InitDbFixture</a></div>
+<a class="list-group-item" href="#navigation-74918" data-toggle="collapse" data-parent="#navigation">yii\validators <b class="caret"></b></a><div id="navigation-74918" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-validators-booleanvalidator.html">BooleanValidator</a>
+<a class="list-group-item" href="./yii-validators-comparevalidator.html">CompareValidator</a>
+<a class="list-group-item" href="./yii-validators-datevalidator.html">DateValidator</a>
+<a class="list-group-item" href="./yii-validators-defaultvaluevalidator.html">DefaultValueValidator</a>
+<a class="list-group-item" href="./yii-validators-eachvalidator.html">EachValidator</a>
+<a class="list-group-item" href="./yii-validators-emailvalidator.html">EmailValidator</a>
+<a class="list-group-item" href="./yii-validators-existvalidator.html">ExistValidator</a>
+<a class="list-group-item" href="./yii-validators-filevalidator.html">FileValidator</a>
+<a class="list-group-item" href="./yii-validators-filtervalidator.html">FilterValidator</a>
+<a class="list-group-item" href="./yii-validators-imagevalidator.html">ImageValidator</a>
+<a class="list-group-item" href="./yii-validators-inlinevalidator.html">InlineValidator</a>
+<a class="list-group-item" href="./yii-validators-ipvalidator.html">IpValidator</a>
+<a class="list-group-item" href="./yii-validators-numbervalidator.html">NumberValidator</a>
+<a class="list-group-item" href="./yii-validators-punycodeasset.html">PunycodeAsset</a>
+<a class="list-group-item" href="./yii-validators-rangevalidator.html">RangeValidator</a>
+<a class="list-group-item" href="./yii-validators-regularexpressionvalidator.html">RegularExpressionValidator</a>
+<a class="list-group-item" href="./yii-validators-requiredvalidator.html">RequiredValidator</a>
+<a class="list-group-item" href="./yii-validators-safevalidator.html">SafeValidator</a>
+<a class="list-group-item" href="./yii-validators-stringvalidator.html">StringValidator</a>
+<a class="list-group-item" href="./yii-validators-uniquevalidator.html">UniqueValidator</a>
+<a class="list-group-item" href="./yii-validators-urlvalidator.html">UrlValidator</a>
+<a class="list-group-item" href="./yii-validators-validationasset.html">ValidationAsset</a>
+<a class="list-group-item" href="./yii-validators-validator.html">Validator</a></div>
+<a class="list-group-item" href="#navigation-74919" data-toggle="collapse" data-parent="#navigation">yii\web <b class="caret"></b></a><div id="navigation-74919" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-web-application.html">Application</a>
+<a class="list-group-item" href="./yii-web-assetbundle.html">AssetBundle</a>
+<a class="list-group-item" href="./yii-web-assetconverter.html">AssetConverter</a>
+<a class="list-group-item" href="./yii-web-assetconverterinterface.html">AssetConverterInterface</a>
+<a class="list-group-item" href="./yii-web-assetmanager.html">AssetManager</a>
+<a class="list-group-item" href="./yii-web-badrequesthttpexception.html">BadRequestHttpException</a>
+<a class="list-group-item" href="./yii-web-cachesession.html">CacheSession</a>
+<a class="list-group-item" href="./yii-web-compositeurlrule.html">CompositeUrlRule</a>
+<a class="list-group-item" href="./yii-web-conflicthttpexception.html">ConflictHttpException</a>
+<a class="list-group-item" href="./yii-web-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-web-cookie.html">Cookie</a>
+<a class="list-group-item" href="./yii-web-cookiecollection.html">CookieCollection</a>
+<a class="list-group-item" href="./yii-web-dbsession.html">DbSession</a>
+<a class="list-group-item" href="./yii-web-erroraction.html">ErrorAction</a>
+<a class="list-group-item" href="./yii-web-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-web-forbiddenhttpexception.html">ForbiddenHttpException</a>
+<a class="list-group-item" href="./yii-web-gonehttpexception.html">GoneHttpException</a>
+<a class="list-group-item" href="./yii-web-groupurlrule.html">GroupUrlRule</a>
+<a class="list-group-item" href="./yii-web-headercollection.html">HeaderCollection</a>
+<a class="list-group-item" href="./yii-web-htmlresponseformatter.html">HtmlResponseFormatter</a>
+<a class="list-group-item" href="./yii-web-httpexception.html">HttpException</a>
+<a class="list-group-item" href="./yii-web-identityinterface.html">IdentityInterface</a>
+<a class="list-group-item" href="./yii-web-jqueryasset.html">JqueryAsset</a>
+<a class="list-group-item" href="./yii-web-jsexpression.html">JsExpression</a>
+<a class="list-group-item" href="./yii-web-jsonparser.html">JsonParser</a>
+<a class="list-group-item" href="./yii-web-jsonresponseformatter.html">JsonResponseFormatter</a>
+<a class="list-group-item" href="./yii-web-link.html">Link</a>
+<a class="list-group-item" href="./yii-web-linkable.html">Linkable</a>
+<a class="list-group-item" href="./yii-web-methodnotallowedhttpexception.html">MethodNotAllowedHttpException</a>
+<a class="list-group-item" href="./yii-web-multifieldsession.html">MultiFieldSession</a>
+<a class="list-group-item" href="./yii-web-multipartformdataparser.html">MultipartFormDataParser</a>
+<a class="list-group-item" href="./yii-web-notacceptablehttpexception.html">NotAcceptableHttpException</a>
+<a class="list-group-item" href="./yii-web-notfoundhttpexception.html">NotFoundHttpException</a>
+<a class="list-group-item" href="./yii-web-rangenotsatisfiablehttpexception.html">RangeNotSatisfiableHttpException</a>
+<a class="list-group-item" href="./yii-web-request.html">Request</a>
+<a class="list-group-item" href="./yii-web-requestparserinterface.html">RequestParserInterface</a>
+<a class="list-group-item" href="./yii-web-response.html">Response</a>
+<a class="list-group-item" href="./yii-web-responseformatterinterface.html">ResponseFormatterInterface</a>
+<a class="list-group-item" href="./yii-web-servererrorhttpexception.html">ServerErrorHttpException</a>
+<a class="list-group-item" href="./yii-web-session.html">Session</a>
+<a class="list-group-item" href="./yii-web-sessioniterator.html">SessionIterator</a>
+<a class="list-group-item" href="./yii-web-toomanyrequestshttpexception.html">TooManyRequestsHttpException</a>
+<a class="list-group-item" href="./yii-web-unauthorizedhttpexception.html">UnauthorizedHttpException</a>
+<a class="list-group-item" href="./yii-web-unprocessableentityhttpexception.html">UnprocessableEntityHttpException</a>
+<a class="list-group-item" href="./yii-web-unsupportedmediatypehttpexception.html">UnsupportedMediaTypeHttpException</a>
+<a class="list-group-item" href="./yii-web-uploadedfile.html">UploadedFile</a>
+<a class="list-group-item" href="./yii-web-urlmanager.html">UrlManager</a>
+<a class="list-group-item" href="./yii-web-urlnormalizer.html">UrlNormalizer</a>
+<a class="list-group-item" href="./yii-web-urlnormalizerredirectexception.html">UrlNormalizerRedirectException</a>
+<a class="list-group-item" href="./yii-web-urlrule.html">UrlRule</a>
+<a class="list-group-item" href="./yii-web-urlruleinterface.html">UrlRuleInterface</a>
+<a class="list-group-item" href="./yii-web-user.html">User</a>
+<a class="list-group-item" href="./yii-web-userevent.html">UserEvent</a>
+<a class="list-group-item" href="./yii-web-view.html">View</a>
+<a class="list-group-item" href="./yii-web-viewaction.html">ViewAction</a>
+<a class="list-group-item" href="./yii-web-xmlresponseformatter.html">XmlResponseFormatter</a>
+<a class="list-group-item" href="./yii-web-yiiasset.html">YiiAsset</a></div>
+<a class="list-group-item" href="#navigation-74920" data-toggle="collapse" data-parent="#navigation">yii\widgets <b class="caret"></b></a><div id="navigation-74920" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-widgets-activefield.html">ActiveField</a>
+<a class="list-group-item" href="./yii-widgets-activeform.html">ActiveForm</a>
+<a class="list-group-item" href="./yii-widgets-activeformasset.html">ActiveFormAsset</a>
+<a class="list-group-item" href="./yii-widgets-baselistview.html">BaseListView</a>
+<a class="list-group-item" href="./yii-widgets-block.html">Block</a>
+<a class="list-group-item" href="./yii-widgets-breadcrumbs.html">Breadcrumbs</a>
+<a class="list-group-item" href="./yii-widgets-contentdecorator.html">ContentDecorator</a>
+<a class="list-group-item" href="./yii-widgets-detailview.html">DetailView</a>
+<a class="list-group-item" href="./yii-widgets-fragmentcache.html">FragmentCache</a>
+<a class="list-group-item" href="./yii-widgets-inputwidget.html">InputWidget</a>
+<a class="list-group-item" href="./yii-widgets-linkpager.html">LinkPager</a>
+<a class="list-group-item" href="./yii-widgets-linksorter.html">LinkSorter</a>
+<a class="list-group-item" href="./yii-widgets-listview.html">ListView</a>
+<a class="list-group-item" href="./yii-widgets-maskedinput.html">MaskedInput</a>
+<a class="list-group-item" href="./yii-widgets-maskedinputasset.html">MaskedInputAsset</a>
+<a class="list-group-item" href="./yii-widgets-menu.html">Menu</a>
+<a class="list-group-item" href="./yii-widgets-pjax.html">Pjax</a>
+<a class="list-group-item" href="./yii-widgets-pjaxasset.html">PjaxAsset</a>
+<a class="list-group-item" href="./yii-widgets-spaceless.html">Spaceless</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Interface yii\base\Configurable</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+                </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+                                <tr><th>Implemented by</th><td><a href="craft-app-web-urlrule.html">craft\app\web\UrlRule</a>, <a href="craft-base-component.html">craft\base\Component</a>, <a href="craft-base-element.html">craft\base\Element</a>, <a href="craft-base-elementaction.html">craft\base\ElementAction</a>, <a href="craft-base-field.html">craft\base\Field</a>, <a href="craft-base-flysystemvolume.html">craft\base\FlysystemVolume</a>, <a href="craft-base-image.html">craft\base\Image</a>, <a href="craft-base-model.html">craft\base\Model</a>, <a href="craft-base-plugin.html">craft\base\Plugin</a>, <a href="craft-base-savablecomponent.html">craft\base\SavableComponent</a>, <a href="craft-base-utility.html">craft\base\Utility</a>, <a href="craft-base-volume.html">craft\base\Volume</a>, <a href="craft-base-widget.html">craft\base\Widget</a>, <a href="craft-behaviors-fieldlayoutbehavior.html">craft\behaviors\FieldLayoutBehavior</a>, <a href="craft-behaviors-sessionbehavior.html">craft\behaviors\SessionBehavior</a>, <a href="craft-cache-apppathdependency.html">craft\cache\AppPathDependency</a>, <a href="craft-config-dbcacheconfig.html">craft\config\DbCacheConfig</a>, <a href="craft-config-dbconfig.html">craft\config\DbConfig</a>, <a href="craft-config-filecacheconfig.html">craft\config\FileCacheConfig</a>, <a href="craft-config-generalconfig.html">craft\config\GeneralConfig</a>, <a href="craft-config-memcacheconfig.html">craft\config\MemCacheConfig</a>, <a href="craft-console-application.html">craft\console\Application</a>, <a href="craft-console-request.html">craft\console\Request</a>, <a href="craft-console-user.html">craft\console\User</a>, <a href="craft-console-controllers-installcontroller.html">craft\console\controllers\InstallController</a>, <a href="craft-console-controllers-migratecontroller.html">craft\console\controllers\MigrateController</a>, <a href="craft-console-controllers-setupcontroller.html">craft\console\controllers\SetupController</a>, <a href="craft-controllers-appcontroller.html">craft\controllers\AppController</a>, <a href="craft-controllers-assettransformscontroller.html">craft\controllers\AssetTransformsController</a>, <a href="craft-controllers-assetscontroller.html">craft\controllers\AssetsController</a>, <a href="craft-controllers-baseelementscontroller.html">craft\controllers\BaseElementsController</a>, <a href="craft-controllers-baseentriescontroller.html">craft\controllers\BaseEntriesController</a>, <a href="craft-controllers-categoriescontroller.html">craft\controllers\CategoriesController</a>, <a href="craft-controllers-chartscontroller.html">craft\controllers\ChartsController</a>, <a href="craft-controllers-dashboardcontroller.html">craft\controllers\DashboardController</a>, <a href="craft-controllers-elementindexsettingscontroller.html">craft\controllers\ElementIndexSettingsController</a>, <a href="craft-controllers-elementindexescontroller.html">craft\controllers\ElementIndexesController</a>, <a href="craft-controllers-elementscontroller.html">craft\controllers\ElementsController</a>, <a href="craft-controllers-entriescontroller.html">craft\controllers\EntriesController</a>, <a href="craft-controllers-entryrevisionscontroller.html">craft\controllers\EntryRevisionsController</a>, <a href="craft-controllers-fieldscontroller.html">craft\controllers\FieldsController</a>, <a href="craft-controllers-globalscontroller.html">craft\controllers\GlobalsController</a>, <a href="craft-controllers-installcontroller.html">craft\controllers\InstallController</a>, <a href="craft-controllers-pluginscontroller.html">craft\controllers\PluginsController</a>, <a href="craft-controllers-queuecontroller.html">craft\controllers\QueueController</a>, <a href="craft-controllers-rebrandcontroller.html">craft\controllers\RebrandController</a>, <a href="craft-controllers-routescontroller.html">craft\controllers\RoutesController</a>, <a href="craft-controllers-sectionscontroller.html">craft\controllers\SectionsController</a>, <a href="craft-controllers-sitescontroller.html">craft\controllers\SitesController</a>, <a href="craft-controllers-structurescontroller.html">craft\controllers\StructuresController</a>, <a href="craft-controllers-systemmessagescontroller.html">craft\controllers\SystemMessagesController</a>, <a href="craft-controllers-systemsettingscontroller.html">craft\controllers\SystemSettingsController</a>, <a href="craft-controllers-tagscontroller.html">craft\controllers\TagsController</a>, <a href="craft-controllers-templatescontroller.html">craft\controllers\TemplatesController</a>, <a href="craft-controllers-updatercontroller.html">craft\controllers\UpdaterController</a>, <a href="craft-controllers-usersettingscontroller.html">craft\controllers\UserSettingsController</a>, <a href="craft-controllers-userscontroller.html">craft\controllers\UsersController</a>, <a href="craft-controllers-utilitiescontroller.html">craft\controllers\UtilitiesController</a>, <a href="craft-controllers-volumescontroller.html">craft\controllers\VolumesController</a>, <a href="craft-db-activerecord.html">craft\db\ActiveRecord</a>, <a href="craft-db-command.html">craft\db\Command</a>, <a href="craft-db-connection.html">craft\db\Connection</a>, <a href="craft-db-fixedorderexpression.html">craft\db\FixedOrderExpression</a>, <a href="craft-db-migration.html">craft\db\Migration</a>, <a href="craft-db-migrationmanager.html">craft\db\MigrationManager</a>, <a href="craft-db-query.html">craft\db\Query</a>, <a href="craft-db-structuredelementquery.html">craft\db\StructuredElementQuery</a>, <a href="craft-db-tableschema.html">craft\db\TableSchema</a>, <a href="craft-db-mysql-columnschemabuilder.html">craft\db\mysql\ColumnSchemaBuilder</a>, <a href="craft-db-mysql-querybuilder.html">craft\db\mysql\QueryBuilder</a>, <a href="craft-db-mysql-schema.html">craft\db\mysql\Schema</a>, <a href="craft-db-pgsql-querybuilder.html">craft\db\pgsql\QueryBuilder</a>, <a href="craft-db-pgsql-schema.html">craft\db\pgsql\Schema</a>, <a href="craft-elements-asset.html">craft\elements\Asset</a>, <a href="craft-elements-category.html">craft\elements\Category</a>, <a href="craft-elements-entry.html">craft\elements\Entry</a>, <a href="craft-elements-globalset.html">craft\elements\GlobalSet</a>, <a href="craft-elements-matrixblock.html">craft\elements\MatrixBlock</a>, <a href="craft-elements-tag.html">craft\elements\Tag</a>, <a href="craft-elements-user.html">craft\elements\User</a>, <a href="craft-elements-actions-copyreferencetag.html">craft\elements\actions\CopyReferenceTag</a>, <a href="craft-elements-actions-delete.html">craft\elements\actions\Delete</a>, <a href="craft-elements-actions-deleteassets.html">craft\elements\actions\DeleteAssets</a>, <a href="craft-elements-actions-deleteusers.html">craft\elements\actions\DeleteUsers</a>, <a href="craft-elements-actions-downloadassetfile.html">craft\elements\actions\DownloadAssetFile</a>, <a href="craft-elements-actions-edit.html">craft\elements\actions\Edit</a>, <a href="craft-elements-actions-editimage.html">craft\elements\actions\EditImage</a>, <a href="craft-elements-actions-newchild.html">craft\elements\actions\NewChild</a>, <a href="craft-elements-actions-renamefile.html">craft\elements\actions\RenameFile</a>, <a href="craft-elements-actions-replacefile.html">craft\elements\actions\ReplaceFile</a>, <a href="craft-elements-actions-setstatus.html">craft\elements\actions\SetStatus</a>, <a href="craft-elements-actions-suspendusers.html">craft\elements\actions\SuspendUsers</a>, <a href="craft-elements-actions-unsuspendusers.html">craft\elements\actions\UnsuspendUsers</a>, <a href="craft-elements-actions-view.html">craft\elements\actions\View</a>, <a href="craft-elements-db-assetquery.html">craft\elements\db\AssetQuery</a>, <a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a>, <a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a>, <a href="craft-elements-db-entryquery.html">craft\elements\db\EntryQuery</a>, <a href="craft-elements-db-globalsetquery.html">craft\elements\db\GlobalSetQuery</a>, <a href="craft-elements-db-matrixblockquery.html">craft\elements\db\MatrixBlockQuery</a>, <a href="craft-elements-db-tagquery.html">craft\elements\db\TagQuery</a>, <a href="craft-elements-db-userquery.html">craft\elements\db\UserQuery</a>, <a href="craft-events-assetevent.html">craft\events\AssetEvent</a>, <a href="craft-events-assettransformevent.html">craft\events\AssetTransformEvent</a>, <a href="craft-events-backupevent.html">craft\events\BackupEvent</a>, <a href="craft-events-cancelableevent.html">craft\events\CancelableEvent</a>, <a href="craft-events-categorygroupevent.html">craft\events\CategoryGroupEvent</a>, <a href="craft-events-definebehaviorsevent.html">craft\events\DefineBehaviorsEvent</a>, <a href="craft-events-definecomponentsevent.html">craft\events\DefineComponentsEvent</a>, <a href="craft-events-deletesiteevent.html">craft\events\DeleteSiteEvent</a>, <a href="craft-events-draftevent.html">craft\events\DraftEvent</a>, <a href="craft-events-editionchangeevent.html">craft\events\EditionChangeEvent</a>, <a href="craft-events-elementactionevent.html">craft\events\ElementActionEvent</a>, <a href="craft-events-elementcontentevent.html">craft\events\ElementContentEvent</a>, <a href="craft-events-elementevent.html">craft\events\ElementEvent</a>, <a href="craft-events-elementstructureevent.html">craft\events\ElementStructureEvent</a>, <a href="craft-events-entrytypeevent.html">craft\events\EntryTypeEvent</a>, <a href="craft-events-errorevent.html">craft\events\ErrorEvent</a>, <a href="craft-events-exceptionevent.html">craft\events\ExceptionEvent</a>, <a href="craft-events-fieldelementevent.html">craft\events\FieldElementEvent</a>, <a href="craft-events-fieldevent.html">craft\events\FieldEvent</a>, <a href="craft-events-fieldgroupevent.html">craft\events\FieldGroupEvent</a>, <a href="craft-events-fieldlayoutevent.html">craft\events\FieldLayoutEvent</a>, <a href="craft-events-generatetransformevent.html">craft\events\GenerateTransformEvent</a>, <a href="craft-events-getasseturlevent.html">craft\events\GetAssetUrlEvent</a>, <a href="craft-events-globalsetcontentevent.html">craft\events\GlobalSetContentEvent</a>, <a href="craft-events-globalsetevent.html">craft\events\GlobalSetEvent</a>, <a href="craft-events-loginfailureevent.html">craft\events\LoginFailureEvent</a>, <a href="craft-events-mergeelementsevent.html">craft\events\MergeElementsEvent</a>, <a href="craft-events-modelevent.html">craft\events\ModelEvent</a>, <a href="craft-events-moveelementevent.html">craft\events\MoveElementEvent</a>, <a href="craft-events-pluginevent.html">craft\events\PluginEvent</a>, <a href="craft-events-populateelementevent.html">craft\events\PopulateElementEvent</a>, <a href="craft-events-registerassetfilekindsevent.html">craft\events\RegisterAssetFileKindsEvent</a>, <a href="craft-events-registercacheoptionsevent.html">craft\events\RegisterCacheOptionsEvent</a>, <a href="craft-events-registercomponenttypesevent.html">craft\events\RegisterComponentTypesEvent</a>, <a href="craft-events-registercpalertsevent.html">craft\events\RegisterCpAlertsEvent</a>, <a href="craft-events-registercpnavitemsevent.html">craft\events\RegisterCpNavItemsEvent</a>, <a href="craft-events-registerelementactionsevent.html">craft\events\RegisterElementActionsEvent</a>, <a href="craft-events-registerelementdefaulttableattributesevent.html">craft\events\RegisterElementDefaultTableAttributesEvent</a>, <a href="craft-events-registerelementhtmlattributesevent.html">craft\events\RegisterElementHtmlAttributesEvent</a>, <a href="craft-events-registerelementsearchableattributesevent.html">craft\events\RegisterElementSearchableAttributesEvent</a>, <a href="craft-events-registerelementsortoptionsevent.html">craft\events\RegisterElementSortOptionsEvent</a>, <a href="craft-events-registerelementsourcesevent.html">craft\events\RegisterElementSourcesEvent</a>, <a href="craft-events-registerelementtableattributesevent.html">craft\events\RegisterElementTableAttributesEvent</a>, <a href="craft-events-registeremailmessagesevent.html">craft\events\RegisterEmailMessagesEvent</a>, <a href="craft-events-registerredactorpluginevent.html">craft\events\RegisterRedactorPluginEvent</a>, <a href="craft-events-registerrichtextlinkoptionsevent.html">craft\events\RegisterRichTextLinkOptionsEvent</a>, <a href="craft-events-registertemplaterootsevent.html">craft\events\RegisterTemplateRootsEvent</a>, <a href="craft-events-registerurlrulesevent.html">craft\events\RegisterUrlRulesEvent</a>, <a href="craft-events-registeruseractionsevent.html">craft\events\RegisterUserActionsEvent</a>, <a href="craft-events-registeruserpermissionsevent.html">craft\events\RegisterUserPermissionsEvent</a>, <a href="craft-events-reordersitesevent.html">craft\events\ReorderSitesEvent</a>, <a href="craft-events-replaceassetevent.html">craft\events\ReplaceAssetEvent</a>, <a href="craft-events-resolveresourcepathevent.html">craft\events\ResolveResourcePathEvent</a>, <a href="craft-events-restoreevent.html">craft\events\RestoreEvent</a>, <a href="craft-events-routeevent.html">craft\events\RouteEvent</a>, <a href="craft-events-searchevent.html">craft\events\SearchEvent</a>, <a href="craft-events-sectionevent.html">craft\events\SectionEvent</a>, <a href="craft-events-setassetfilenameevent.html">craft\events\SetAssetFilenameEvent</a>, <a href="craft-events-setelementrouteevent.html">craft\events\SetElementRouteEvent</a>, <a href="craft-events-setelementtableattributehtmlevent.html">craft\events\SetElementTableAttributeHtmlEvent</a>, <a href="craft-events-setstatusevent.html">craft\events\SetStatusEvent</a>, <a href="craft-events-siteevent.html">craft\events\SiteEvent</a>, <a href="craft-events-taggroupevent.html">craft\events\TagGroupEvent</a>, <a href="craft-events-templateevent.html">craft\events\TemplateEvent</a>, <a href="craft-events-userassigngroupevent.html">craft\events\UserAssignGroupEvent</a>, <a href="craft-events-userevent.html">craft\events\UserEvent</a>, <a href="craft-events-usergroupevent.html">craft\events\UserGroupEvent</a>, <a href="craft-events-usergroupsassignevent.html">craft\events\UserGroupsAssignEvent</a>, <a href="craft-events-versionevent.html">craft\events\VersionEvent</a>, <a href="craft-events-volumeevent.html">craft\events\VolumeEvent</a>, <a href="craft-events-widgetevent.html">craft\events\WidgetEvent</a>, <a href="craft-feeds-feeds.html">craft\feeds\Feeds</a>, <a href="craft-fields-assets.html">craft\fields\Assets</a>, <a href="craft-fields-baseoptionsfield.html">craft\fields\BaseOptionsField</a>, <a href="craft-fields-baserelationfield.html">craft\fields\BaseRelationField</a>, <a href="craft-fields-categories.html">craft\fields\Categories</a>, <a href="craft-fields-checkboxes.html">craft\fields\Checkboxes</a>, <a href="craft-fields-color.html">craft\fields\Color</a>, <a href="craft-fields-date.html">craft\fields\Date</a>, <a href="craft-fields-dropdown.html">craft\fields\Dropdown</a>, <a href="craft-fields-email.html">craft\fields\Email</a>, <a href="craft-fields-entries.html">craft\fields\Entries</a>, <a href="craft-fields-lightswitch.html">craft\fields\Lightswitch</a>, <a href="craft-fields-matrix.html">craft\fields\Matrix</a>, <a href="craft-fields-missingfield.html">craft\fields\MissingField</a>, <a href="craft-fields-multiselect.html">craft\fields\MultiSelect</a>, <a href="craft-fields-number.html">craft\fields\Number</a>, <a href="craft-fields-plaintext.html">craft\fields\PlainText</a>, <a href="craft-fields-positionselect.html">craft\fields\PositionSelect</a>, <a href="craft-fields-radiobuttons.html">craft\fields\RadioButtons</a>, <a href="craft-fields-richtext.html">craft\fields\RichText</a>, <a href="craft-fields-table.html">craft\fields\Table</a>, <a href="craft-fields-tags.html">craft\fields\Tags</a>, <a href="craft-fields-url.html">craft\fields\Url</a>, <a href="craft-fields-users.html">craft\fields\Users</a>, <a href="craft-i18n-formatter.html">craft\i18n\Formatter</a>, <a href="craft-i18n-i18n.html">craft\i18n\I18N</a>, <a href="craft-i18n-locale.html">craft\i18n\Locale</a>, <a href="craft-i18n-phpmessagesource.html">craft\i18n\PhpMessageSource</a>, <a href="craft-image-raster.html">craft\image\Raster</a>, <a href="craft-image-svg.html">craft\image\Svg</a>, <a href="craft-log-filetarget.html">craft\log\FileTarget</a>, <a href="craft-mail-transportadapters-basetransportadapter.html">craft\mail\transportadapters\BaseTransportAdapter</a>, <a href="craft-mail-transportadapters-gmail.html">craft\mail\transportadapters\Gmail</a>, <a href="craft-mail-transportadapters-php.html">craft\mail\transportadapters\Php</a>, <a href="craft-mail-transportadapters-sendmail.html">craft\mail\transportadapters\Sendmail</a>, <a href="craft-mail-transportadapters-smtp.html">craft\mail\transportadapters\Smtp</a>, <a href="craft-migrations-creatematrixcontenttable.html">craft\migrations\CreateMatrixContentTable</a>, <a href="craft-migrations-install.html">craft\migrations\Install</a>, <a href="craft-models-appupdate.html">craft\models\AppUpdate</a>, <a href="craft-models-appupdaterelease.html">craft\models\AppUpdateRelease</a>, <a href="craft-models-assetindexdata.html">craft\models\AssetIndexData</a>, <a href="craft-models-assettransform.html">craft\models\AssetTransform</a>, <a href="craft-models-assettransformindex.html">craft\models\AssetTransformIndex</a>, <a href="craft-models-baseentryrevisionmodel.html">craft\models\BaseEntryRevisionModel</a>, <a href="craft-models-categorygroup.html">craft\models\CategoryGroup</a>, <a href="craft-models-categorygroup_sitesettings.html">craft\models\CategoryGroup_SiteSettings</a>, <a href="craft-models-craftsupport.html">craft\models\CraftSupport</a>, <a href="craft-models-deprecationerror.html">craft\models\DeprecationError</a>, <a href="craft-models-entrydraft.html">craft\models\EntryDraft</a>, <a href="craft-models-entrytype.html">craft\models\EntryType</a>, <a href="craft-models-entryversion.html">craft\models\EntryVersion</a>, <a href="craft-models-et.html">craft\models\Et</a>, <a href="craft-models-fieldgroup.html">craft\models\FieldGroup</a>, <a href="craft-models-fieldlayout.html">craft\models\FieldLayout</a>, <a href="craft-models-fieldlayouttab.html">craft\models\FieldLayoutTab</a>, <a href="craft-models-foldercriteria.html">craft\models\FolderCriteria</a>, <a href="craft-models-info.html">craft\models\Info</a>, <a href="craft-models-mailsettings.html">craft\models\MailSettings</a>, <a href="craft-models-matrixblocktype.html">craft\models\MatrixBlockType</a>, <a href="craft-models-matrixsettings.html">craft\models\MatrixSettings</a>, <a href="craft-models-pluginupdate.html">craft\models\PluginUpdate</a>, <a href="craft-models-section.html">craft\models\Section</a>, <a href="craft-models-section_sitesettings.html">craft\models\Section_SiteSettings</a>, <a href="craft-models-site.html">craft\models\Site</a>, <a href="craft-models-structure.html">craft\models\Structure</a>, <a href="craft-models-systemmessage.html">craft\models\SystemMessage</a>, <a href="craft-models-taggroup.html">craft\models\TagGroup</a>, <a href="craft-models-update.html">craft\models\Update</a>, <a href="craft-models-updaterelease.html">craft\models\UpdateRelease</a>, <a href="craft-models-upgradeinfo.html">craft\models\UpgradeInfo</a>, <a href="craft-models-upgradepurchase.html">craft\models\UpgradePurchase</a>, <a href="craft-models-url.html">craft\models\Url</a>, <a href="craft-models-usergroup.html">craft\models\UserGroup</a>, <a href="craft-models-volumefolder.html">craft\models\VolumeFolder</a>, <a href="craft-mutex-filemutex.html">craft\mutex\FileMutex</a>, <a href="craft-queue-basejob.html">craft\queue\BaseJob</a>, <a href="craft-queue-jobs-deletestaletemplatecaches.html">craft\queue\jobs\DeleteStaleTemplateCaches</a>, <a href="craft-queue-jobs-findandreplace.html">craft\queue\jobs\FindAndReplace</a>, <a href="craft-queue-jobs-generatependingtransforms.html">craft\queue\jobs\GeneratePendingTransforms</a>, <a href="craft-queue-jobs-localizerelations.html">craft\queue\jobs\LocalizeRelations</a>, <a href="craft-queue-jobs-resaveelements.html">craft\queue\jobs\ResaveElements</a>, <a href="craft-queue-jobs-updateelementslugsanduris.html">craft\queue\jobs\UpdateElementSlugsAndUris</a>, <a href="craft-records-asset.html">craft\records\Asset</a>, <a href="craft-records-assetindexdata.html">craft\records\AssetIndexData</a>, <a href="craft-records-assettransform.html">craft\records\AssetTransform</a>, <a href="craft-records-category.html">craft\records\Category</a>, <a href="craft-records-categorygroup.html">craft\records\CategoryGroup</a>, <a href="craft-records-categorygroup_sitesettings.html">craft\records\CategoryGroup_SiteSettings</a>, <a href="craft-records-element.html">craft\records\Element</a>, <a href="craft-records-element_sitesettings.html">craft\records\Element_SiteSettings</a>, <a href="craft-records-entry.html">craft\records\Entry</a>, <a href="craft-records-entrydraft.html">craft\records\EntryDraft</a>, <a href="craft-records-entrytype.html">craft\records\EntryType</a>, <a href="craft-records-entryversion.html">craft\records\EntryVersion</a>, <a href="craft-records-field.html">craft\records\Field</a>, <a href="craft-records-fieldgroup.html">craft\records\FieldGroup</a>, <a href="craft-records-fieldlayout.html">craft\records\FieldLayout</a>, <a href="craft-records-fieldlayoutfield.html">craft\records\FieldLayoutField</a>, <a href="craft-records-fieldlayouttab.html">craft\records\FieldLayoutTab</a>, <a href="craft-records-globalset.html">craft\records\GlobalSet</a>, <a href="craft-records-matrixblock.html">craft\records\MatrixBlock</a>, <a href="craft-records-matrixblocktype.html">craft\records\MatrixBlockType</a>, <a href="craft-records-migration.html">craft\records\Migration</a>, <a href="craft-records-plugin.html">craft\records\Plugin</a>, <a href="craft-records-route.html">craft\records\Route</a>, <a href="craft-records-section.html">craft\records\Section</a>, <a href="craft-records-section_sitesettings.html">craft\records\Section_SiteSettings</a>, <a href="craft-records-session.html">craft\records\Session</a>, <a href="craft-records-site.html">craft\records\Site</a>, <a href="craft-records-structure.html">craft\records\Structure</a>, <a href="craft-records-structureelement.html">craft\records\StructureElement</a>, <a href="craft-records-systemmessage.html">craft\records\SystemMessage</a>, <a href="craft-records-systemsettings.html">craft\records\SystemSettings</a>, <a href="craft-records-tag.html">craft\records\Tag</a>, <a href="craft-records-taggroup.html">craft\records\TagGroup</a>, <a href="craft-records-token.html">craft\records\Token</a>, <a href="craft-records-user.html">craft\records\User</a>, <a href="craft-records-usergroup.html">craft\records\UserGroup</a>, <a href="craft-records-usergroup_user.html">craft\records\UserGroup_User</a>, <a href="craft-records-userpermission.html">craft\records\UserPermission</a>, <a href="craft-records-userpermission_user.html">craft\records\UserPermission_User</a>, <a href="craft-records-userpermission_usergroup.html">craft\records\UserPermission_UserGroup</a>, <a href="craft-records-volume.html">craft\records\Volume</a>, <a href="craft-records-volumefolder.html">craft\records\VolumeFolder</a>, <a href="craft-records-widget.html">craft\records\Widget</a>, <a href="craft-services-assetindexer.html">craft\services\AssetIndexer</a>, <a href="craft-services-assettransforms.html">craft\services\AssetTransforms</a>, <a href="craft-services-assets.html">craft\services\Assets</a>, <a href="craft-services-categories.html">craft\services\Categories</a>, <a href="craft-services-composer.html">craft\services\Composer</a>, <a href="craft-services-config.html">craft\services\Config</a>, <a href="craft-services-content.html">craft\services\Content</a>, <a href="craft-services-dashboard.html">craft\services\Dashboard</a>, <a href="craft-services-deprecator.html">craft\services\Deprecator</a>, <a href="craft-services-elementindexes.html">craft\services\ElementIndexes</a>, <a href="craft-services-elements.html">craft\services\Elements</a>, <a href="craft-services-entries.html">craft\services\Entries</a>, <a href="craft-services-entryrevisions.html">craft\services\EntryRevisions</a>, <a href="craft-services-et.html">craft\services\Et</a>, <a href="craft-services-fields.html">craft\services\Fields</a>, <a href="craft-services-globals.html">craft\services\Globals</a>, <a href="craft-services-matrix.html">craft\services\Matrix</a>, <a href="craft-services-path.html">craft\services\Path</a>, <a href="craft-services-plugins.html">craft\services\Plugins</a>, <a href="craft-services-relations.html">craft\services\Relations</a>, <a href="craft-services-routes.html">craft\services\Routes</a>, <a href="craft-services-search.html">craft\services\Search</a>, <a href="craft-services-sections.html">craft\services\Sections</a>, <a href="craft-services-security.html">craft\services\Security</a>, <a href="craft-services-sites.html">craft\services\Sites</a>, <a href="craft-services-structures.html">craft\services\Structures</a>, <a href="craft-services-systemmessages.html">craft\services\SystemMessages</a>, <a href="craft-services-systemsettings.html">craft\services\SystemSettings</a>, <a href="craft-services-tags.html">craft\services\Tags</a>, <a href="craft-services-templatecaches.html">craft\services\TemplateCaches</a>, <a href="craft-services-tokens.html">craft\services\Tokens</a>, <a href="craft-services-updates.html">craft\services\Updates</a>, <a href="craft-services-usergroups.html">craft\services\UserGroups</a>, <a href="craft-services-userpermissions.html">craft\services\UserPermissions</a>, <a href="craft-services-users.html">craft\services\Users</a>, <a href="craft-services-utilities.html">craft\services\Utilities</a>, <a href="craft-services-volumes.html">craft\services\Volumes</a>, <a href="craft-utilities-assetindexes.html">craft\utilities\AssetIndexes</a>, <a href="craft-utilities-clearcaches.html">craft\utilities\ClearCaches</a>, <a href="craft-utilities-dbbackup.html">craft\utilities\DbBackup</a>, <a href="craft-utilities-deprecationerrors.html">craft\utilities\DeprecationErrors</a>, <a href="craft-utilities-findandreplace.html">craft\utilities\FindAndReplace</a>, <a href="craft-utilities-migrations.html">craft\utilities\Migrations</a>, <a href="craft-utilities-phpinfo.html">craft\utilities\PhpInfo</a>, <a href="craft-utilities-searchindexes.html">craft\utilities\SearchIndexes</a>, <a href="craft-utilities-systemreport.html">craft\utilities\SystemReport</a>, <a href="craft-utilities-updates.html">craft\utilities\Updates</a>, <a href="craft-validators-arrayvalidator.html">craft\validators\ArrayValidator</a>, <a href="craft-validators-assetlocationvalidator.html">craft\validators\AssetLocationValidator</a>, <a href="craft-validators-datetimevalidator.html">craft\validators\DateTimeValidator</a>, <a href="craft-validators-elementurivalidator.html">craft\validators\ElementUriValidator</a>, <a href="craft-validators-handlevalidator.html">craft\validators\HandleValidator</a>, <a href="craft-validators-languagevalidator.html">craft\validators\LanguageValidator</a>, <a href="craft-validators-singlesectionurivalidator.html">craft\validators\SingleSectionUriValidator</a>, <a href="craft-validators-siteidvalidator.html">craft\validators\SiteIdValidator</a>, <a href="craft-validators-slugvalidator.html">craft\validators\SlugValidator</a>, <a href="craft-validators-uniquevalidator.html">craft\validators\UniqueValidator</a>, <a href="craft-validators-uriformatvalidator.html">craft\validators\UriFormatValidator</a>, <a href="craft-validators-urivalidator.html">craft\validators\UriValidator</a>, <a href="craft-validators-urlvalidator.html">craft\validators\UrlValidator</a>, <a href="craft-validators-userpasswordvalidator.html">craft\validators\UserPasswordValidator</a>, <a href="craft-validators-usernamevalidator.html">craft\validators\UsernameValidator</a>, <a href="craft-volumes-local.html">craft\volumes\Local</a>, <a href="craft-volumes-missingvolume.html">craft\volumes\MissingVolume</a>, <a href="craft-volumes-temp.html">craft\volumes\Temp</a>, <a href="craft-web-application.html">craft\web\Application</a>, <a href="craft-web-assetbundle.html">craft\web\AssetBundle</a>, <a href="craft-web-assetmanager.html">craft\web\AssetManager</a>, <a href="craft-web-controller.html">craft\web\Controller</a>, <a href="craft-web-errorhandler.html">craft\web\ErrorHandler</a>, <a href="craft-web-request.html">craft\web\Request</a>, <a href="craft-web-response.html">craft\web\Response</a>, <a href="craft-web-session.html">craft\web\Session</a>, <a href="craft-web-uploadedfile.html">craft\web\UploadedFile</a>, <a href="craft-web-urlmanager.html">craft\web\UrlManager</a>, <a href="craft-web-urlrule.html">craft\web\UrlRule</a>, <a href="craft-web-user.html">craft\web\User</a>, <a href="craft-web-view.html">craft\web\View</a>, <a href="craft-web-assets-assetindexes-assetindexesasset.html">craft\web\assets\assetindexes\AssetIndexesAsset</a>, <a href="craft-web-assets-clearcaches-clearcachesasset.html">craft\web\assets\clearcaches\ClearCachesAsset</a>, <a href="craft-web-assets-colorpicker-colorpickerasset.html">craft\web\assets\colorpicker\ColorpickerAsset</a>, <a href="craft-web-assets-cp-cpasset.html">craft\web\assets\cp\CpAsset</a>, <a href="craft-web-assets-craftsupport-craftsupportasset.html">craft\web\assets\craftsupport\CraftSupportAsset</a>, <a href="craft-web-assets-d3-d3asset.html">craft\web\assets\d3\D3Asset</a>, <a href="craft-web-assets-dashboard-dashboardasset.html">craft\web\assets\dashboard\DashboardAsset</a>, <a href="craft-web-assets-datepickeri18n-datepickeri18nasset.html">craft\web\assets\datepickeri18n\DatepickerI18nAsset</a>, <a href="craft-web-assets-dbbackup-dbbackupasset.html">craft\web\assets\dbbackup\DbBackupAsset</a>, <a href="craft-web-assets-deprecationerrors-deprecationerrorsasset.html">craft\web\assets\deprecationerrors\DeprecationErrorsAsset</a>, <a href="craft-web-assets-editcategory-editcategoryasset.html">craft\web\assets\editcategory\EditCategoryAsset</a>, <a href="craft-web-assets-editentry-editentryasset.html">craft\web\assets\editentry\EditEntryAsset</a>, <a href="craft-web-assets-edittransform-edittransformasset.html">craft\web\assets\edittransform\EditTransformAsset</a>, <a href="craft-web-assets-edituser-edituserasset.html">craft\web\assets\edituser\EditUserAsset</a>, <a href="craft-web-assets-elementresizedetector-elementresizedetectorasset.html">craft\web\assets\elementresizedetector\ElementResizeDetectorAsset</a>, <a href="craft-web-assets-fabric-fabricasset.html">craft\web\assets\fabric\FabricAsset</a>, <a href="craft-web-assets-feed-feedasset.html">craft\web\assets\feed\FeedAsset</a>, <a href="craft-web-assets-fields-fieldsasset.html">craft\web\assets\fields\FieldsAsset</a>, <a href="craft-web-assets-fileupload-fileuploadasset.html">craft\web\assets\fileupload\FileUploadAsset</a>, <a href="craft-web-assets-findreplace-findreplaceasset.html">craft\web\assets\findreplace\FindReplaceAsset</a>, <a href="craft-web-assets-garnish-garnishasset.html">craft\web\assets\garnish\GarnishAsset</a>, <a href="craft-web-assets-generalsettings-generalsettingsasset.html">craft\web\assets\generalsettings\GeneralSettingsAsset</a>, <a href="craft-web-assets-imageeditor-imageeditorasset.html">craft\web\assets\imageeditor\ImageEditorAsset</a>, <a href="craft-web-assets-installer-installerasset.html">craft\web\assets\installer\InstallerAsset</a>, <a href="craft-web-assets-jquerypayment-jquerypaymentasset.html">craft\web\assets\jquerypayment\JqueryPaymentAsset</a>, <a href="craft-web-assets-jquerytouchevents-jquerytoucheventsasset.html">craft\web\assets\jquerytouchevents\JqueryTouchEventsAsset</a>, <a href="craft-web-assets-jqueryui-jqueryuiasset.html">craft\web\assets\jqueryui\JqueryUiAsset</a>, <a href="craft-web-assets-login-loginasset.html">craft\web\assets\login\LoginAsset</a>, <a href="craft-web-assets-matrix-matrixasset.html">craft\web\assets\matrix\MatrixAsset</a>, <a href="craft-web-assets-matrixsettings-matrixsettingsasset.html">craft\web\assets\matrixsettings\MatrixSettingsAsset</a>, <a href="craft-web-assets-newusers-newusersasset.html">craft\web\assets\newusers\NewUsersAsset</a>, <a href="craft-web-assets-picturefill-picturefillasset.html">craft\web\assets\picturefill\PicturefillAsset</a>, <a href="craft-web-assets-plugins-pluginsasset.html">craft\web\assets\plugins\PluginsAsset</a>, <a href="craft-web-assets-positionselect-positionselectasset.html">craft\web\assets\positionselect\PositionSelectAsset</a>, <a href="craft-web-assets-quickpost-quickpostasset.html">craft\web\assets\quickpost\QuickPostAsset</a>, <a href="craft-web-assets-qunit-qunitasset.html">craft\web\assets\qunit\QunitAsset</a>, <a href="craft-web-assets-recententries-recententriesasset.html">craft\web\assets\recententries\RecentEntriesAsset</a>, <a href="craft-web-assets-redactor-redactorasset.html">craft\web\assets\redactor\RedactorAsset</a>, <a href="craft-web-assets-richtext-richtextasset.html">craft\web\assets\richtext\RichTextAsset</a>, <a href="craft-web-assets-routes-routesasset.html">craft\web\assets\routes\RoutesAsset</a>, <a href="craft-web-assets-searchindexes-searchindexesasset.html">craft\web\assets\searchindexes\SearchIndexesAsset</a>, <a href="craft-web-assets-selectize-selectizeasset.html">craft\web\assets\selectize\SelectizeAsset</a>, <a href="craft-web-assets-sites-sitesasset.html">craft\web\assets\sites\SitesAsset</a>, <a href="craft-web-assets-systemmessages-systemmessagesasset.html">craft\web\assets\systemmessages\SystemMessagesAsset</a>, <a href="craft-web-assets-tablesettings-tablesettingsasset.html">craft\web\assets\tablesettings\TableSettingsAsset</a>, <a href="craft-web-assets-timepicker-timepickerasset.html">craft\web\assets\timepicker\TimepickerAsset</a>, <a href="craft-web-assets-updater-updaterasset.html">craft\web\assets\updater\UpdaterAsset</a>, <a href="craft-web-assets-updates-updatesasset.html">craft\web\assets\updates\UpdatesAsset</a>, <a href="craft-web-assets-updateswidget-updateswidgetasset.html">craft\web\assets\updateswidget\UpdatesWidgetAsset</a>, <a href="craft-web-assets-userpermissions-userpermissionsasset.html">craft\web\assets\userpermissions\UserPermissionsAsset</a>, <a href="craft-web-assets-utilities-utilitiesasset.html">craft\web\assets\utilities\UtilitiesAsset</a>, <a href="craft-web-assets-velocity-velocityasset.html">craft\web\assets\velocity\VelocityAsset</a>, <a href="craft-web-assets-whatsnew-whatsnewasset.html">craft\web\assets\whatsnew\WhatsNewAsset</a>, <a href="craft-web-assets-xregexp-xregexpasset.html">craft\web\assets\xregexp\XregexpAsset</a>, <a href="craft-web-twig-variables-cp.html">craft\web\twig\variables\Cp</a>, <a href="craft-web-twig-variables-craftvariable.html">craft\web\twig\variables\CraftVariable</a>, <a href="craft-widgets-craftsupport.html">craft\widgets\CraftSupport</a>, <a href="craft-widgets-feed.html">craft\widgets\Feed</a>, <a href="craft-widgets-missingwidget.html">craft\widgets\MissingWidget</a>, <a href="craft-widgets-newusers.html">craft\widgets\NewUsers</a>, <a href="craft-widgets-quickpost.html">craft\widgets\QuickPost</a>, <a href="craft-widgets-recententries.html">craft\widgets\RecentEntries</a>, <a href="craft-widgets-updates.html">craft\widgets\Updates</a>, <a href="yii-base-action.html">yii\base\Action</a>, <a href="yii-base-actionevent.html">yii\base\ActionEvent</a>, <a href="yii-base-actionfilter.html">yii\base\ActionFilter</a>, <a href="yii-base-application.html">yii\base\Application</a>, <a href="yii-base-behavior.html">yii\base\Behavior</a>, <a href="yii-base-component.html">yii\base\Component</a>, <a href="yii-base-controller.html">yii\base\Controller</a>, <a href="yii-base-dynamicmodel.html">yii\base\DynamicModel</a>, <a href="yii-base-errorhandler.html">yii\base\ErrorHandler</a>, <a href="yii-base-event.html">yii\base\Event</a>, <a href="yii-base-inlineaction.html">yii\base\InlineAction</a>, <a href="yii-base-model.html">yii\base\Model</a>, <a href="yii-base-modelevent.html">yii\base\ModelEvent</a>, <a href="yii-base-module.html">yii\base\Module</a>, <a href="yii-base-object.html">yii\base\Object</a>, <a href="yii-base-request.html">yii\base\Request</a>, <a href="yii-base-response.html">yii\base\Response</a>, <a href="yii-base-security.html">yii\base\Security</a>, <a href="yii-base-theme.html">yii\base\Theme</a>, <a href="yii-base-view.html">yii\base\View</a>, <a href="yii-base-viewevent.html">yii\base\ViewEvent</a>, <a href="yii-base-viewrenderer.html">yii\base\ViewRenderer</a>, <a href="yii-base-widget.html">yii\base\Widget</a>, <a href="yii-base-widgetevent.html">yii\base\WidgetEvent</a>, <a href="yii-behaviors-attributebehavior.html">yii\behaviors\AttributeBehavior</a>, <a href="yii-behaviors-attributetypecastbehavior.html">yii\behaviors\AttributeTypecastBehavior</a>, <a href="yii-behaviors-blameablebehavior.html">yii\behaviors\BlameableBehavior</a>, <a href="yii-behaviors-sluggablebehavior.html">yii\behaviors\SluggableBehavior</a>, <a href="yii-behaviors-timestampbehavior.html">yii\behaviors\TimestampBehavior</a>, <a href="yii-caching-apccache.html">yii\caching\ApcCache</a>, <a href="yii-caching-arraycache.html">yii\caching\ArrayCache</a>, <a href="yii-caching-cache.html">yii\caching\Cache</a>, <a href="yii-caching-chaineddependency.html">yii\caching\ChainedDependency</a>, <a href="yii-caching-dbcache.html">yii\caching\DbCache</a>, <a href="yii-caching-dbdependency.html">yii\caching\DbDependency</a>, <a href="yii-caching-dbquerydependency.html">yii\caching\DbQueryDependency</a>, <a href="yii-caching-dependency.html">yii\caching\Dependency</a>, <a href="yii-caching-dummycache.html">yii\caching\DummyCache</a>, <a href="yii-caching-expressiondependency.html">yii\caching\ExpressionDependency</a>, <a href="yii-caching-filecache.html">yii\caching\FileCache</a>, <a href="yii-caching-filedependency.html">yii\caching\FileDependency</a>, <a href="yii-caching-memcache.html">yii\caching\MemCache</a>, <a href="yii-caching-memcacheserver.html">yii\caching\MemCacheServer</a>, <a href="yii-caching-tagdependency.html">yii\caching\TagDependency</a>, <a href="yii-caching-wincache.html">yii\caching\WinCache</a>, <a href="yii-caching-xcache.html">yii\caching\XCache</a>, <a href="yii-caching-zenddatacache.html">yii\caching\ZendDataCache</a>, <a href="yii-captcha-captcha.html">yii\captcha\Captcha</a>, <a href="yii-captcha-captchaaction.html">yii\captcha\CaptchaAction</a>, <a href="yii-captcha-captchaasset.html">yii\captcha\CaptchaAsset</a>, <a href="yii-captcha-captchavalidator.html">yii\captcha\CaptchaValidator</a>, <a href="yii-console-application.html">yii\console\Application</a>, <a href="yii-console-controller.html">yii\console\Controller</a>, <a href="yii-console-errorhandler.html">yii\console\ErrorHandler</a>, <a href="yii-console-request.html">yii\console\Request</a>, <a href="yii-console-response.html">yii\console\Response</a>, <a href="yii-console-controllers-assetcontroller.html">yii\console\controllers\AssetController</a>, <a href="yii-console-controllers-basemigratecontroller.html">yii\console\controllers\BaseMigrateController</a>, <a href="yii-console-controllers-cachecontroller.html">yii\console\controllers\CacheController</a>, <a href="yii-console-controllers-fixturecontroller.html">yii\console\controllers\FixtureController</a>, <a href="yii-console-controllers-helpcontroller.html">yii\console\controllers\HelpController</a>, <a href="yii-console-controllers-messagecontroller.html">yii\console\controllers\MessageController</a>, <a href="yii-console-controllers-migratecontroller.html">yii\console\controllers\MigrateController</a>, <a href="yii-console-controllers-servecontroller.html">yii\console\controllers\ServeController</a>, <a href="yii-data-activedataprovider.html">yii\data\ActiveDataProvider</a>, <a href="yii-data-arraydataprovider.html">yii\data\ArrayDataProvider</a>, <a href="yii-data-basedataprovider.html">yii\data\BaseDataProvider</a>, <a href="yii-data-pagination.html">yii\data\Pagination</a>, <a href="yii-data-sort.html">yii\data\Sort</a>, <a href="yii-data-sqldataprovider.html">yii\data\SqlDataProvider</a>, <a href="yii-db-activequery.html">yii\db\ActiveQuery</a>, <a href="yii-db-activerecord.html">yii\db\ActiveRecord</a>, <a href="yii-db-aftersaveevent.html">yii\db\AfterSaveEvent</a>, <a href="yii-db-baseactiverecord.html">yii\db\BaseActiveRecord</a>, <a href="yii-db-batchqueryresult.html">yii\db\BatchQueryResult</a>, <a href="yii-db-columnschema.html">yii\db\ColumnSchema</a>, <a href="yii-db-columnschemabuilder.html">yii\db\ColumnSchemaBuilder</a>, <a href="yii-db-command.html">yii\db\Command</a>, <a href="yii-db-connection.html">yii\db\Connection</a>, <a href="yii-db-datareader.html">yii\db\DataReader</a>, <a href="yii-db-expression.html">yii\db\Expression</a>, <a href="yii-db-migration.html">yii\db\Migration</a>, <a href="yii-db-query.html">yii\db\Query</a>, <a href="yii-db-querybuilder.html">yii\db\QueryBuilder</a>, <a href="yii-db-schema.html">yii\db\Schema</a>, <a href="yii-db-tableschema.html">yii\db\TableSchema</a>, <a href="yii-db-transaction.html">yii\db\Transaction</a>, <a href="yii-db-cubrid-columnschemabuilder.html">yii\db\cubrid\ColumnSchemaBuilder</a>, <a href="yii-db-cubrid-querybuilder.html">yii\db\cubrid\QueryBuilder</a>, <a href="yii-db-cubrid-schema.html">yii\db\cubrid\Schema</a>, <a href="yii-db-mssql-querybuilder.html">yii\db\mssql\QueryBuilder</a>, <a href="yii-db-mssql-schema.html">yii\db\mssql\Schema</a>, <a href="yii-db-mssql-tableschema.html">yii\db\mssql\TableSchema</a>, <a href="yii-db-mysql-columnschemabuilder.html">yii\db\mysql\ColumnSchemaBuilder</a>, <a href="yii-db-mysql-querybuilder.html">yii\db\mysql\QueryBuilder</a>, <a href="yii-db-mysql-schema.html">yii\db\mysql\Schema</a>, <a href="yii-db-oci-columnschemabuilder.html">yii\db\oci\ColumnSchemaBuilder</a>, <a href="yii-db-oci-querybuilder.html">yii\db\oci\QueryBuilder</a>, <a href="yii-db-oci-schema.html">yii\db\oci\Schema</a>, <a href="yii-db-pgsql-querybuilder.html">yii\db\pgsql\QueryBuilder</a>, <a href="yii-db-pgsql-schema.html">yii\db\pgsql\Schema</a>, <a href="yii-db-sqlite-columnschemabuilder.html">yii\db\sqlite\ColumnSchemaBuilder</a>, <a href="yii-db-sqlite-querybuilder.html">yii\db\sqlite\QueryBuilder</a>, <a href="yii-db-sqlite-schema.html">yii\db\sqlite\Schema</a>, <a href="yii-di-container.html">yii\di\Container</a>, <a href="yii-di-servicelocator.html">yii\di\ServiceLocator</a>, <a href="yii-filters-accesscontrol.html">yii\filters\AccessControl</a>, <a href="yii-filters-accessrule.html">yii\filters\AccessRule</a>, <a href="yii-filters-contentnegotiator.html">yii\filters\ContentNegotiator</a>, <a href="yii-filters-cors.html">yii\filters\Cors</a>, <a href="yii-filters-hostcontrol.html">yii\filters\HostControl</a>, <a href="yii-filters-httpcache.html">yii\filters\HttpCache</a>, <a href="yii-filters-pagecache.html">yii\filters\PageCache</a>, <a href="yii-filters-ratelimiter.html">yii\filters\RateLimiter</a>, <a href="yii-filters-verbfilter.html">yii\filters\VerbFilter</a>, <a href="yii-filters-auth-authmethod.html">yii\filters\auth\AuthMethod</a>, <a href="yii-filters-auth-compositeauth.html">yii\filters\auth\CompositeAuth</a>, <a href="yii-filters-auth-httpbasicauth.html">yii\filters\auth\HttpBasicAuth</a>, <a href="yii-filters-auth-httpbearerauth.html">yii\filters\auth\HttpBearerAuth</a>, <a href="yii-filters-auth-queryparamauth.html">yii\filters\auth\QueryParamAuth</a>, <a href="yii-grid-actioncolumn.html">yii\grid\ActionColumn</a>, <a href="yii-grid-checkboxcolumn.html">yii\grid\CheckboxColumn</a>, <a href="yii-grid-column.html">yii\grid\Column</a>, <a href="yii-grid-datacolumn.html">yii\grid\DataColumn</a>, <a href="yii-grid-gridview.html">yii\grid\GridView</a>, <a href="yii-grid-gridviewasset.html">yii\grid\GridViewAsset</a>, <a href="yii-grid-radiobuttoncolumn.html">yii\grid\RadioButtonColumn</a>, <a href="yii-grid-serialcolumn.html">yii\grid\SerialColumn</a>, <a href="yii-i18n-dbmessagesource.html">yii\i18n\DbMessageSource</a>, <a href="yii-i18n-formatter.html">yii\i18n\Formatter</a>, <a href="yii-i18n-gettextfile.html">yii\i18n\GettextFile</a>, <a href="yii-i18n-gettextmessagesource.html">yii\i18n\GettextMessageSource</a>, <a href="yii-i18n-gettextmofile.html">yii\i18n\GettextMoFile</a>, <a href="yii-i18n-gettextpofile.html">yii\i18n\GettextPoFile</a>, <a href="yii-i18n-i18n.html">yii\i18n\I18N</a>, <a href="yii-i18n-messageformatter.html">yii\i18n\MessageFormatter</a>, <a href="yii-i18n-messagesource.html">yii\i18n\MessageSource</a>, <a href="yii-i18n-missingtranslationevent.html">yii\i18n\MissingTranslationEvent</a>, <a href="yii-i18n-phpmessagesource.html">yii\i18n\PhpMessageSource</a>, <a href="yii-log-dbtarget.html">yii\log\DbTarget</a>, <a href="yii-log-dispatcher.html">yii\log\Dispatcher</a>, <a href="yii-log-emailtarget.html">yii\log\EmailTarget</a>, <a href="yii-log-filetarget.html">yii\log\FileTarget</a>, <a href="yii-log-logger.html">yii\log\Logger</a>, <a href="yii-log-syslogtarget.html">yii\log\SyslogTarget</a>, <a href="yii-log-target.html">yii\log\Target</a>, <a href="yii-mail-basemailer.html">yii\mail\BaseMailer</a>, <a href="yii-mail-basemessage.html">yii\mail\BaseMessage</a>, <a href="yii-mail-mailevent.html">yii\mail\MailEvent</a>, <a href="yii-mutex-dbmutex.html">yii\mutex\DbMutex</a>, <a href="yii-mutex-filemutex.html">yii\mutex\FileMutex</a>, <a href="yii-mutex-mutex.html">yii\mutex\Mutex</a>, <a href="yii-mutex-mysqlmutex.html">yii\mutex\MysqlMutex</a>, <a href="yii-mutex-oraclemutex.html">yii\mutex\OracleMutex</a>, <a href="yii-mutex-pgsqlmutex.html">yii\mutex\PgsqlMutex</a>, <a href="yii-rbac-assignment.html">yii\rbac\Assignment</a>, <a href="yii-rbac-basemanager.html">yii\rbac\BaseManager</a>, <a href="yii-rbac-dbmanager.html">yii\rbac\DbManager</a>, <a href="yii-rbac-item.html">yii\rbac\Item</a>, <a href="yii-rbac-permission.html">yii\rbac\Permission</a>, <a href="yii-rbac-phpmanager.html">yii\rbac\PhpManager</a>, <a href="yii-rbac-role.html">yii\rbac\Role</a>, <a href="yii-rbac-rule.html">yii\rbac\Rule</a>, <a href="yii-rest-action.html">yii\rest\Action</a>, <a href="yii-rest-activecontroller.html">yii\rest\ActiveController</a>, <a href="yii-rest-controller.html">yii\rest\Controller</a>, <a href="yii-rest-createaction.html">yii\rest\CreateAction</a>, <a href="yii-rest-deleteaction.html">yii\rest\DeleteAction</a>, <a href="yii-rest-indexaction.html">yii\rest\IndexAction</a>, <a href="yii-rest-optionsaction.html">yii\rest\OptionsAction</a>, <a href="yii-rest-serializer.html">yii\rest\Serializer</a>, <a href="yii-rest-updateaction.html">yii\rest\UpdateAction</a>, <a href="yii-rest-urlrule.html">yii\rest\UrlRule</a>, <a href="yii-rest-viewaction.html">yii\rest\ViewAction</a>, <a href="yii-test-activefixture.html">yii\test\ActiveFixture</a>, <a href="yii-test-arrayfixture.html">yii\test\ArrayFixture</a>, <a href="yii-test-baseactivefixture.html">yii\test\BaseActiveFixture</a>, <a href="yii-test-dbfixture.html">yii\test\DbFixture</a>, <a href="yii-test-fixture.html">yii\test\Fixture</a>, <a href="yii-test-initdbfixture.html">yii\test\InitDbFixture</a>, <a href="yii-validators-booleanvalidator.html">yii\validators\BooleanValidator</a>, <a href="yii-validators-comparevalidator.html">yii\validators\CompareValidator</a>, <a href="yii-validators-datevalidator.html">yii\validators\DateValidator</a>, <a href="yii-validators-defaultvaluevalidator.html">yii\validators\DefaultValueValidator</a>, <a href="yii-validators-eachvalidator.html">yii\validators\EachValidator</a>, <a href="yii-validators-emailvalidator.html">yii\validators\EmailValidator</a>, <a href="yii-validators-existvalidator.html">yii\validators\ExistValidator</a>, <a href="yii-validators-filevalidator.html">yii\validators\FileValidator</a>, <a href="yii-validators-filtervalidator.html">yii\validators\FilterValidator</a>, <a href="yii-validators-imagevalidator.html">yii\validators\ImageValidator</a>, <a href="yii-validators-inlinevalidator.html">yii\validators\InlineValidator</a>, <a href="yii-validators-ipvalidator.html">yii\validators\IpValidator</a>, <a href="yii-validators-numbervalidator.html">yii\validators\NumberValidator</a>, <a href="yii-validators-punycodeasset.html">yii\validators\PunycodeAsset</a>, <a href="yii-validators-rangevalidator.html">yii\validators\RangeValidator</a>, <a href="yii-validators-regularexpressionvalidator.html">yii\validators\RegularExpressionValidator</a>, <a href="yii-validators-requiredvalidator.html">yii\validators\RequiredValidator</a>, <a href="yii-validators-safevalidator.html">yii\validators\SafeValidator</a>, <a href="yii-validators-stringvalidator.html">yii\validators\StringValidator</a>, <a href="yii-validators-uniquevalidator.html">yii\validators\UniqueValidator</a>, <a href="yii-validators-urlvalidator.html">yii\validators\UrlValidator</a>, <a href="yii-validators-validationasset.html">yii\validators\ValidationAsset</a>, <a href="yii-validators-validator.html">yii\validators\Validator</a>, <a href="yii-web-application.html">yii\web\Application</a>, <a href="yii-web-assetbundle.html">yii\web\AssetBundle</a>, <a href="yii-web-assetconverter.html">yii\web\AssetConverter</a>, <a href="yii-web-assetmanager.html">yii\web\AssetManager</a>, <a href="yii-web-cachesession.html">yii\web\CacheSession</a>, <a href="yii-web-compositeurlrule.html">yii\web\CompositeUrlRule</a>, <a href="yii-web-controller.html">yii\web\Controller</a>, <a href="yii-web-cookie.html">yii\web\Cookie</a>, <a href="yii-web-cookiecollection.html">yii\web\CookieCollection</a>, <a href="yii-web-dbsession.html">yii\web\DbSession</a>, <a href="yii-web-erroraction.html">yii\web\ErrorAction</a>, <a href="yii-web-errorhandler.html">yii\web\ErrorHandler</a>, <a href="yii-web-groupurlrule.html">yii\web\GroupUrlRule</a>, <a href="yii-web-headercollection.html">yii\web\HeaderCollection</a>, <a href="yii-web-htmlresponseformatter.html">yii\web\HtmlResponseFormatter</a>, <a href="yii-web-jqueryasset.html">yii\web\JqueryAsset</a>, <a href="yii-web-jsexpression.html">yii\web\JsExpression</a>, <a href="yii-web-jsonresponseformatter.html">yii\web\JsonResponseFormatter</a>, <a href="yii-web-link.html">yii\web\Link</a>, <a href="yii-web-multifieldsession.html">yii\web\MultiFieldSession</a>, <a href="yii-web-multipartformdataparser.html">yii\web\MultipartFormDataParser</a>, <a href="yii-web-request.html">yii\web\Request</a>, <a href="yii-web-response.html">yii\web\Response</a>, <a href="yii-web-session.html">yii\web\Session</a>, <a href="yii-web-uploadedfile.html">yii\web\UploadedFile</a>, <a href="yii-web-urlmanager.html">yii\web\UrlManager</a>, <a href="yii-web-urlnormalizer.html">yii\web\UrlNormalizer</a>, <a href="yii-web-urlrule.html">yii\web\UrlRule</a>, <a href="yii-web-user.html">yii\web\User</a>, <a href="yii-web-userevent.html">yii\web\UserEvent</a>, <a href="yii-web-view.html">yii\web\View</a>, <a href="yii-web-viewaction.html">yii\web\ViewAction</a>, <a href="yii-web-xmlresponseformatter.html">yii\web\XmlResponseFormatter</a>, <a href="yii-web-yiiasset.html">yii\web\YiiAsset</a>, <a href="yii-widgets-activefield.html">yii\widgets\ActiveField</a>, <a href="yii-widgets-activeform.html">yii\widgets\ActiveForm</a>, <a href="yii-widgets-activeformasset.html">yii\widgets\ActiveFormAsset</a>, <a href="yii-widgets-baselistview.html">yii\widgets\BaseListView</a>, <a href="yii-widgets-block.html">yii\widgets\Block</a>, <a href="yii-widgets-breadcrumbs.html">yii\widgets\Breadcrumbs</a>, <a href="yii-widgets-contentdecorator.html">yii\widgets\ContentDecorator</a>, <a href="yii-widgets-detailview.html">yii\widgets\DetailView</a>, <a href="yii-widgets-fragmentcache.html">yii\widgets\FragmentCache</a>, <a href="yii-widgets-inputwidget.html">yii\widgets\InputWidget</a>, <a href="yii-widgets-linkpager.html">yii\widgets\LinkPager</a>, <a href="yii-widgets-linksorter.html">yii\widgets\LinkSorter</a>, <a href="yii-widgets-listview.html">yii\widgets\ListView</a>, <a href="yii-widgets-maskedinput.html">yii\widgets\MaskedInput</a>, <a href="yii-widgets-maskedinputasset.html">yii\widgets\MaskedInputAsset</a>, <a href="yii-widgets-menu.html">yii\widgets\Menu</a>, <a href="yii-widgets-pjax.html">yii\widgets\Pjax</a>, <a href="yii-widgets-pjaxasset.html">yii\widgets\PjaxAsset</a>, <a href="yii-widgets-spaceless.html">yii\widgets\Spaceless</a></td></tr>
+                    <tr><th>Available since version</th><td>2.0.3</td></tr>
+                    <tr>
+          <th>Source Code</th>
+          <td><a href="https://github.com/yiisoft/yii2/blob/master/framework/base/Configurable.php">https://github.com/yiisoft/yii2/blob/master/framework/base/Configurable.php</a></td>
+        </tr>
+    </table>
+
+<div class="class-description">
+    <p><strong>Configurable is the interface that should be implemented by classes who support configuring
+its properties through the last parameter to its constructor.</strong></p>
+    <p>The interface does not declare any method. Classes implementing this interface must declare their constructors
+like the following:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__constructor</span><span class="hljs-params">(<span class="hljs-variable">$param1</span>, <span class="hljs-variable">$param2</span>, ..., <span class="hljs-variable">$config</span> = [])</span>
+</span></code></pre>
+<p>That is, the last parameter of the constructor must accept a configuration array.</p>
+<p>This interface is mainly used by <a href="yii-di-container.html">yii\di\Container</a> so that it can pass object configuration as the
+last parameter to the implementing class' constructor.</p>
+<p>For more details and usage information on Configurable, see the <a href="/guide-concept-configurations.html">guide article on configurations</a>.</p>
+
+    </div>
+
+<a id="properties"></a>
+
+<a id="methods"></a>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sun, 29 Oct 2017 03:11:42 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

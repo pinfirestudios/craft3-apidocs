@@ -1,0 +1,21 @@
+{
+    "name": "pinfirestudios/craft3-apidocs",
+    "description": "API documentation for Craft CMS version 3",
+    "authors": [
+        {
+            "name": "Justin Cherniak",
+            "email": "justin@pinfirestudios.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+		"craftcms/cms": "^3.0.0-beta.29",
+		"yiisoft/yii2-apidoc": "dev-custom-project"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/pinfirestudios/yii2-apidoc.git"
+		}
+	]
+}

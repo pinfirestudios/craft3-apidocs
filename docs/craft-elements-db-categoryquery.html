@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/c4da7381/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/9a33b857/solarized_light.css" rel="stylesheet">
+<link href="./assets/3118fc63/style.css" rel="stylesheet">
+<script src="./assets/f4a7ebb6/jquery.js"></script>
+<script src="./assets/c4da7381/js/bootstrap.js"></script>
+<script src="./assets/c1668e13/jssearch.js"></script>    <title>CategoryQuery, craft\elements\db\CategoryQuery - Craft CMS 3 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w9783" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w9783-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Craft CMS 3 API Documentation</a></div><div id="w9783-collapse" class="collapse navbar-collapse"><ul id="w9784" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-9682" data-toggle="collapse" data-parent="#navigation">Not namespaced classes <b class="caret"></b></a><div id="navigation-9682" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft.html">Craft</a>
+<a class="list-group-item" href="./yii.html">Yii</a>
+<a class="list-group-item" href="./yiirequirementchecker.html">YiiRequirementChecker</a></div>
+<a class="list-group-item" href="#navigation-9683" data-toggle="collapse" data-parent="#navigation">craft\app\web <b class="caret"></b></a><div id="navigation-9683" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-app-web-urlrule.html">UrlRule</a></div>
+<a class="list-group-item" href="#navigation-9684" data-toggle="collapse" data-parent="#navigation">craft\base <b class="caret"></b></a><div id="navigation-9684" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-base-applicationtrait.html">ApplicationTrait</a>
+<a class="list-group-item" href="./craft-base-component.html">Component</a>
+<a class="list-group-item" href="./craft-base-componentinterface.html">ComponentInterface</a>
+<a class="list-group-item" href="./craft-base-eagerloadingfieldinterface.html">EagerLoadingFieldInterface</a>
+<a class="list-group-item" href="./craft-base-element.html">Element</a>
+<a class="list-group-item" href="./craft-base-elementaction.html">ElementAction</a>
+<a class="list-group-item" href="./craft-base-elementactioninterface.html">ElementActionInterface</a>
+<a class="list-group-item" href="./craft-base-elementinterface.html">ElementInterface</a>
+<a class="list-group-item" href="./craft-base-elementtrait.html">ElementTrait</a>
+<a class="list-group-item" href="./craft-base-field.html">Field</a>
+<a class="list-group-item" href="./craft-base-fieldinterface.html">FieldInterface</a>
+<a class="list-group-item" href="./craft-base-fieldtrait.html">FieldTrait</a>
+<a class="list-group-item" href="./craft-base-flysystemvolume.html">FlysystemVolume</a>
+<a class="list-group-item" href="./craft-base-image.html">Image</a>
+<a class="list-group-item" href="./craft-base-localvolumeinterface.html">LocalVolumeInterface</a>
+<a class="list-group-item" href="./craft-base-missingcomponentinterface.html">MissingComponentInterface</a>
+<a class="list-group-item" href="./craft-base-missingcomponenttrait.html">MissingComponentTrait</a>
+<a class="list-group-item" href="./craft-base-model.html">Model</a>
+<a class="list-group-item" href="./craft-base-plugin.html">Plugin</a>
+<a class="list-group-item" href="./craft-base-plugininterface.html">PluginInterface</a>
+<a class="list-group-item" href="./craft-base-plugintrait.html">PluginTrait</a>
+<a class="list-group-item" href="./craft-base-previewablefieldinterface.html">PreviewableFieldInterface</a>
+<a class="list-group-item" href="./craft-base-requesttrait.html">RequestTrait</a>
+<a class="list-group-item" href="./craft-base-savablecomponent.html">SavableComponent</a>
+<a class="list-group-item" href="./craft-base-savablecomponentinterface.html">SavableComponentInterface</a>
+<a class="list-group-item" href="./craft-base-savablecomponenttrait.html">SavableComponentTrait</a>
+<a class="list-group-item" href="./craft-base-serializable.html">Serializable</a>
+<a class="list-group-item" href="./craft-base-utility.html">Utility</a>
+<a class="list-group-item" href="./craft-base-utilityinterface.html">UtilityInterface</a>
+<a class="list-group-item" href="./craft-base-volume.html">Volume</a>
+<a class="list-group-item" href="./craft-base-volumeinterface.html">VolumeInterface</a>
+<a class="list-group-item" href="./craft-base-volumetrait.html">VolumeTrait</a>
+<a class="list-group-item" href="./craft-base-widget.html">Widget</a>
+<a class="list-group-item" href="./craft-base-widgetinterface.html">WidgetInterface</a>
+<a class="list-group-item" href="./craft-base-widgettrait.html">WidgetTrait</a></div>
+<a class="list-group-item" href="#navigation-9685" data-toggle="collapse" data-parent="#navigation">craft\behaviors <b class="caret"></b></a><div id="navigation-9685" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-behaviors-fieldlayoutbehavior.html">FieldLayoutBehavior</a>
+<a class="list-group-item" href="./craft-behaviors-sessionbehavior.html">SessionBehavior</a></div>
+<a class="list-group-item" href="#navigation-9686" data-toggle="collapse" data-parent="#navigation">craft\cache <b class="caret"></b></a><div id="navigation-9686" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-cache-apppathdependency.html">AppPathDependency</a></div>
+<a class="list-group-item" href="#navigation-9687" data-toggle="collapse" data-parent="#navigation">craft\config <b class="caret"></b></a><div id="navigation-9687" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-config-dbcacheconfig.html">DbCacheConfig</a>
+<a class="list-group-item" href="./craft-config-dbconfig.html">DbConfig</a>
+<a class="list-group-item" href="./craft-config-filecacheconfig.html">FileCacheConfig</a>
+<a class="list-group-item" href="./craft-config-generalconfig.html">GeneralConfig</a>
+<a class="list-group-item" href="./craft-config-memcacheconfig.html">MemCacheConfig</a></div>
+<a class="list-group-item" href="#navigation-9688" data-toggle="collapse" data-parent="#navigation">craft\console <b class="caret"></b></a><div id="navigation-9688" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-console-application.html">Application</a>
+<a class="list-group-item" href="./craft-console-request.html">Request</a>
+<a class="list-group-item" href="./craft-console-user.html">User</a></div>
+<a class="list-group-item" href="#navigation-9689" data-toggle="collapse" data-parent="#navigation">craft\console\controllers <b class="caret"></b></a><div id="navigation-9689" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-console-controllers-installcontroller.html">InstallController</a>
+<a class="list-group-item" href="./craft-console-controllers-migratecontroller.html">MigrateController</a>
+<a class="list-group-item" href="./craft-console-controllers-setupcontroller.html">SetupController</a></div>
+<a class="list-group-item" href="#navigation-9690" data-toggle="collapse" data-parent="#navigation">craft\controllers <b class="caret"></b></a><div id="navigation-9690" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-controllers-appcontroller.html">AppController</a>
+<a class="list-group-item" href="./craft-controllers-assettransformscontroller.html">AssetTransformsController</a>
+<a class="list-group-item" href="./craft-controllers-assetscontroller.html">AssetsController</a>
+<a class="list-group-item" href="./craft-controllers-baseelementscontroller.html">BaseElementsController</a>
+<a class="list-group-item" href="./craft-controllers-baseentriescontroller.html">BaseEntriesController</a>
+<a class="list-group-item" href="./craft-controllers-categoriescontroller.html">CategoriesController</a>
+<a class="list-group-item" href="./craft-controllers-chartscontroller.html">ChartsController</a>
+<a class="list-group-item" href="./craft-controllers-dashboardcontroller.html">DashboardController</a>
+<a class="list-group-item" href="./craft-controllers-elementindexsettingscontroller.html">ElementIndexSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-elementindexescontroller.html">ElementIndexesController</a>
+<a class="list-group-item" href="./craft-controllers-elementscontroller.html">ElementsController</a>
+<a class="list-group-item" href="./craft-controllers-entriescontroller.html">EntriesController</a>
+<a class="list-group-item" href="./craft-controllers-entryrevisionscontroller.html">EntryRevisionsController</a>
+<a class="list-group-item" href="./craft-controllers-fieldscontroller.html">FieldsController</a>
+<a class="list-group-item" href="./craft-controllers-globalscontroller.html">GlobalsController</a>
+<a class="list-group-item" href="./craft-controllers-installcontroller.html">InstallController</a>
+<a class="list-group-item" href="./craft-controllers-pluginscontroller.html">PluginsController</a>
+<a class="list-group-item" href="./craft-controllers-queuecontroller.html">QueueController</a>
+<a class="list-group-item" href="./craft-controllers-rebrandcontroller.html">RebrandController</a>
+<a class="list-group-item" href="./craft-controllers-routescontroller.html">RoutesController</a>
+<a class="list-group-item" href="./craft-controllers-sectionscontroller.html">SectionsController</a>
+<a class="list-group-item" href="./craft-controllers-sitescontroller.html">SitesController</a>
+<a class="list-group-item" href="./craft-controllers-structurescontroller.html">StructuresController</a>
+<a class="list-group-item" href="./craft-controllers-systemmessagescontroller.html">SystemMessagesController</a>
+<a class="list-group-item" href="./craft-controllers-systemsettingscontroller.html">SystemSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-tagscontroller.html">TagsController</a>
+<a class="list-group-item" href="./craft-controllers-templatescontroller.html">TemplatesController</a>
+<a class="list-group-item" href="./craft-controllers-updatercontroller.html">UpdaterController</a>
+<a class="list-group-item" href="./craft-controllers-usersettingscontroller.html">UserSettingsController</a>
+<a class="list-group-item" href="./craft-controllers-userscontroller.html">UsersController</a>
+<a class="list-group-item" href="./craft-controllers-utilitiescontroller.html">UtilitiesController</a>
+<a class="list-group-item" href="./craft-controllers-volumescontroller.html">VolumesController</a></div>
+<a class="list-group-item" href="#navigation-9691" data-toggle="collapse" data-parent="#navigation">craft\db <b class="caret"></b></a><div id="navigation-9691" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./craft-db-command.html">Command</a>
+<a class="list-group-item" href="./craft-db-connection.html">Connection</a>
+<a class="list-group-item" href="./craft-db-fixedorderexpression.html">FixedOrderExpression</a>
+<a class="list-group-item" href="./craft-db-migration.html">Migration</a>
+<a class="list-group-item" href="./craft-db-migrationmanager.html">MigrationManager</a>
+<a class="list-group-item" href="./craft-db-query.html">Query</a>
+<a class="list-group-item" href="./craft-db-queryabortedexception.html">QueryAbortedException</a>
+<a class="list-group-item" href="./craft-db-structuredelementquery.html">StructuredElementQuery</a>
+<a class="list-group-item" href="./craft-db-tableschema.html">TableSchema</a></div>
+<a class="list-group-item" href="#navigation-9692" data-toggle="collapse" data-parent="#navigation">craft\db\mysql <b class="caret"></b></a><div id="navigation-9692" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-mysql-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./craft-db-mysql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./craft-db-mysql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-9693" data-toggle="collapse" data-parent="#navigation">craft\db\pgsql <b class="caret"></b></a><div id="navigation-9693" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-db-pgsql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./craft-db-pgsql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-9694" data-toggle="collapse" data-parent="#navigation">craft\debug <b class="caret"></b></a><div id="navigation-9694" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-debug-deprecatedpanel.html">DeprecatedPanel</a>
+<a class="list-group-item" href="./craft-debug-userpanel.html">UserPanel</a></div>
+<a class="list-group-item" href="#navigation-9695" data-toggle="collapse" data-parent="#navigation">craft\elements <b class="caret"></b></a><div id="navigation-9695" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-elements-asset.html">Asset</a>
+<a class="list-group-item" href="./craft-elements-category.html">Category</a>
+<a class="list-group-item" href="./craft-elements-entry.html">Entry</a>
+<a class="list-group-item" href="./craft-elements-globalset.html">GlobalSet</a>
+<a class="list-group-item" href="./craft-elements-matrixblock.html">MatrixBlock</a>
+<a class="list-group-item" href="./craft-elements-tag.html">Tag</a>
+<a class="list-group-item" href="./craft-elements-user.html">User</a></div>
+<a class="list-group-item" href="#navigation-9696" data-toggle="collapse" data-parent="#navigation">craft\elements\actions <b class="caret"></b></a><div id="navigation-9696" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-elements-actions-copyreferencetag.html">CopyReferenceTag</a>
+<a class="list-group-item" href="./craft-elements-actions-delete.html">Delete</a>
+<a class="list-group-item" href="./craft-elements-actions-deleteassets.html">DeleteAssets</a>
+<a class="list-group-item" href="./craft-elements-actions-deleteusers.html">DeleteUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-downloadassetfile.html">DownloadAssetFile</a>
+<a class="list-group-item" href="./craft-elements-actions-edit.html">Edit</a>
+<a class="list-group-item" href="./craft-elements-actions-editimage.html">EditImage</a>
+<a class="list-group-item" href="./craft-elements-actions-newchild.html">NewChild</a>
+<a class="list-group-item" href="./craft-elements-actions-renamefile.html">RenameFile</a>
+<a class="list-group-item" href="./craft-elements-actions-replacefile.html">ReplaceFile</a>
+<a class="list-group-item" href="./craft-elements-actions-setstatus.html">SetStatus</a>
+<a class="list-group-item" href="./craft-elements-actions-suspendusers.html">SuspendUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-unsuspendusers.html">UnsuspendUsers</a>
+<a class="list-group-item" href="./craft-elements-actions-view.html">View</a></div>
+<a class="list-group-item active" href="#navigation-9697" data-toggle="collapse" data-parent="#navigation">craft\elements\db <b class="caret"></b></a><div id="navigation-9697" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./craft-elements-db-assetquery.html">AssetQuery</a>
+<a class="list-group-item active" href="./craft-elements-db-categoryquery.html">CategoryQuery</a>
+<a class="list-group-item" href="./craft-elements-db-elementquery.html">ElementQuery</a>
+<a class="list-group-item" href="./craft-elements-db-elementqueryinterface.html">ElementQueryInterface</a>
+<a class="list-group-item" href="./craft-elements-db-elementrelationparamparser.html">ElementRelationParamParser</a>
+<a class="list-group-item" href="./craft-elements-db-entryquery.html">EntryQuery</a>
+<a class="list-group-item" href="./craft-elements-db-globalsetquery.html">GlobalSetQuery</a>
+<a class="list-group-item" href="./craft-elements-db-matrixblockquery.html">MatrixBlockQuery</a>
+<a class="list-group-item" href="./craft-elements-db-tagquery.html">TagQuery</a>
+<a class="list-group-item" href="./craft-elements-db-userquery.html">UserQuery</a></div>
+<a class="list-group-item" href="#navigation-9698" data-toggle="collapse" data-parent="#navigation">craft\enums <b class="caret"></b></a><div id="navigation-9698" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-enums-licensekeystatus.html">LicenseKeyStatus</a>
+<a class="list-group-item" href="./craft-enums-patchmanifestfileaction.html">PatchManifestFileAction</a>
+<a class="list-group-item" href="./craft-enums-periodtype.html">PeriodType</a>
+<a class="list-group-item" href="./craft-enums-pluginupdatestatus.html">PluginUpdateStatus</a>
+<a class="list-group-item" href="./craft-enums-versionupdatestatus.html">VersionUpdateStatus</a></div>
+<a class="list-group-item" href="#navigation-9699" data-toggle="collapse" data-parent="#navigation">craft\errors <b class="caret"></b></a><div id="navigation-9699" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-errors-actioncancelledexception.html">ActionCancelledException</a>
+<a class="list-group-item" href="./craft-errors-assetconflictexception.html">AssetConflictException</a>
+<a class="list-group-item" href="./craft-errors-assetdisallowedextensionexception.html">AssetDisallowedExtensionException</a>
+<a class="list-group-item" href="./craft-errors-assetexception.html">AssetException</a>
+<a class="list-group-item" href="./craft-errors-assetlogicexception.html">AssetLogicException</a>
+<a class="list-group-item" href="./craft-errors-assetmissingexception.html">AssetMissingException</a>
+<a class="list-group-item" href="./craft-errors-assettransformexception.html">AssetTransformException</a>
+<a class="list-group-item" href="./craft-errors-categorygroupnotfoundexception.html">CategoryGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-categorynotfoundexception.html">CategoryNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-dbconnectexception.html">DbConnectException</a>
+<a class="list-group-item" href="./craft-errors-dbupdateexception.html">DbUpdateException</a>
+<a class="list-group-item" href="./craft-errors-downloadpackageexception.html">DownloadPackageException</a>
+<a class="list-group-item" href="./craft-errors-elementexception.html">ElementException</a>
+<a class="list-group-item" href="./craft-errors-elementnotfoundexception.html">ElementNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-elementsaveexception.html">ElementSaveException</a>
+<a class="list-group-item" href="./craft-errors-entrydraftnotfoundexception.html">EntryDraftNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-entrynotfoundexception.html">EntryNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-entrytypenotfoundexception.html">EntryTypeNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-etexception.html">EtException</a>
+<a class="list-group-item" href="./craft-errors-fieldgroupnotfoundexception.html">FieldGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-fieldnotfoundexception.html">FieldNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-fileexception.html">FileException</a>
+<a class="list-group-item" href="./craft-errors-filepermissionsexception.html">FilePermissionsException</a>
+<a class="list-group-item" href="./craft-errors-globalsetnotfoundexception.html">GlobalSetNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-imageexception.html">ImageException</a>
+<a class="list-group-item" href="./craft-errors-invalidlicensekeyexception.html">InvalidLicenseKeyException</a>
+<a class="list-group-item" href="./craft-errors-invalidpluginexception.html">InvalidPluginException</a>
+<a class="list-group-item" href="./craft-errors-invalidsubpathexception.html">InvalidSubpathException</a>
+<a class="list-group-item" href="./craft-errors-invalidtypeexception.html">InvalidTypeException</a>
+<a class="list-group-item" href="./craft-errors-invalidvolumeexception.html">InvalidVolumeException</a>
+<a class="list-group-item" href="./craft-errors-matrixblocknotfoundexception.html">MatrixBlockNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-matrixblocktypenotfoundexception.html">MatrixBlockTypeNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-migrateexception.html">MigrateException</a>
+<a class="list-group-item" href="./craft-errors-migrationexception.html">MigrationException</a>
+<a class="list-group-item" href="./craft-errors-minimumrequirementexception.html">MinimumRequirementException</a>
+<a class="list-group-item" href="./craft-errors-missingcomponentexception.html">MissingComponentException</a>
+<a class="list-group-item" href="./craft-errors-missingfileexception.html">MissingFileException</a>
+<a class="list-group-item" href="./craft-errors-operationabortedexception.html">OperationAbortedException</a>
+<a class="list-group-item" href="./craft-errors-routenotfoundexception.html">RouteNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-sectionnotfoundexception.html">SectionNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-shellcommandexception.html">ShellCommandException</a>
+<a class="list-group-item" href="./craft-errors-sitenotfoundexception.html">SiteNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-structurenotfoundexception.html">StructureNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-taggroupnotfoundexception.html">TagGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-tagnotfoundexception.html">TagNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-uploadfailedexception.html">UploadFailedException</a>
+<a class="list-group-item" href="./craft-errors-usergroupnotfoundexception.html">UserGroupNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-usernotfoundexception.html">UserNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-validatepackageexception.html">ValidatePackageException</a>
+<a class="list-group-item" href="./craft-errors-validationexception.html">ValidationException</a>
+<a class="list-group-item" href="./craft-errors-volumeexception.html">VolumeException</a>
+<a class="list-group-item" href="./craft-errors-volumeobjectexistsexception.html">VolumeObjectExistsException</a>
+<a class="list-group-item" href="./craft-errors-volumeobjectnotfoundexception.html">VolumeObjectNotFoundException</a>
+<a class="list-group-item" href="./craft-errors-widgetnotfoundexception.html">WidgetNotFoundException</a></div>
+<a class="list-group-item" href="#navigation-9700" data-toggle="collapse" data-parent="#navigation">craft\et <b class="caret"></b></a><div id="navigation-9700" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-et-ettransport.html">EtTransport</a></div>
+<a class="list-group-item" href="#navigation-9701" data-toggle="collapse" data-parent="#navigation">craft\events <b class="caret"></b></a><div id="navigation-9701" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-events-assetevent.html">AssetEvent</a>
+<a class="list-group-item" href="./craft-events-assettransformevent.html">AssetTransformEvent</a>
+<a class="list-group-item" href="./craft-events-backupevent.html">BackupEvent</a>
+<a class="list-group-item" href="./craft-events-cancelableevent.html">CancelableEvent</a>
+<a class="list-group-item" href="./craft-events-categorygroupevent.html">CategoryGroupEvent</a>
+<a class="list-group-item" href="./craft-events-definebehaviorsevent.html">DefineBehaviorsEvent</a>
+<a class="list-group-item" href="./craft-events-definecomponentsevent.html">DefineComponentsEvent</a>
+<a class="list-group-item" href="./craft-events-deletesiteevent.html">DeleteSiteEvent</a>
+<a class="list-group-item" href="./craft-events-draftevent.html">DraftEvent</a>
+<a class="list-group-item" href="./craft-events-editionchangeevent.html">EditionChangeEvent</a>
+<a class="list-group-item" href="./craft-events-elementactionevent.html">ElementActionEvent</a>
+<a class="list-group-item" href="./craft-events-elementcontentevent.html">ElementContentEvent</a>
+<a class="list-group-item" href="./craft-events-elementevent.html">ElementEvent</a>
+<a class="list-group-item" href="./craft-events-elementstructureevent.html">ElementStructureEvent</a>
+<a class="list-group-item" href="./craft-events-entrytypeevent.html">EntryTypeEvent</a>
+<a class="list-group-item" href="./craft-events-errorevent.html">ErrorEvent</a>
+<a class="list-group-item" href="./craft-events-exceptionevent.html">ExceptionEvent</a>
+<a class="list-group-item" href="./craft-events-fieldelementevent.html">FieldElementEvent</a>
+<a class="list-group-item" href="./craft-events-fieldevent.html">FieldEvent</a>
+<a class="list-group-item" href="./craft-events-fieldgroupevent.html">FieldGroupEvent</a>
+<a class="list-group-item" href="./craft-events-fieldlayoutevent.html">FieldLayoutEvent</a>
+<a class="list-group-item" href="./craft-events-generatetransformevent.html">GenerateTransformEvent</a>
+<a class="list-group-item" href="./craft-events-getasseturlevent.html">GetAssetUrlEvent</a>
+<a class="list-group-item" href="./craft-events-globalsetcontentevent.html">GlobalSetContentEvent</a>
+<a class="list-group-item" href="./craft-events-globalsetevent.html">GlobalSetEvent</a>
+<a class="list-group-item" href="./craft-events-loginfailureevent.html">LoginFailureEvent</a>
+<a class="list-group-item" href="./craft-events-mergeelementsevent.html">MergeElementsEvent</a>
+<a class="list-group-item" href="./craft-events-modelevent.html">ModelEvent</a>
+<a class="list-group-item" href="./craft-events-moveelementevent.html">MoveElementEvent</a>
+<a class="list-group-item" href="./craft-events-pluginevent.html">PluginEvent</a>
+<a class="list-group-item" href="./craft-events-populateelementevent.html">PopulateElementEvent</a>
+<a class="list-group-item" href="./craft-events-registerassetfilekindsevent.html">RegisterAssetFileKindsEvent</a>
+<a class="list-group-item" href="./craft-events-registercacheoptionsevent.html">RegisterCacheOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registercomponenttypesevent.html">RegisterComponentTypesEvent</a>
+<a class="list-group-item" href="./craft-events-registercpalertsevent.html">RegisterCpAlertsEvent</a>
+<a class="list-group-item" href="./craft-events-registercpnavitemsevent.html">RegisterCpNavItemsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementactionsevent.html">RegisterElementActionsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementdefaulttableattributesevent.html">RegisterElementDefaultTableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementhtmlattributesevent.html">RegisterElementHtmlAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsearchableattributesevent.html">RegisterElementSearchableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsortoptionsevent.html">RegisterElementSortOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementsourcesevent.html">RegisterElementSourcesEvent</a>
+<a class="list-group-item" href="./craft-events-registerelementtableattributesevent.html">RegisterElementTableAttributesEvent</a>
+<a class="list-group-item" href="./craft-events-registeremailmessagesevent.html">RegisterEmailMessagesEvent</a>
+<a class="list-group-item" href="./craft-events-registerredactorpluginevent.html">RegisterRedactorPluginEvent</a>
+<a class="list-group-item" href="./craft-events-registerrichtextlinkoptionsevent.html">RegisterRichTextLinkOptionsEvent</a>
+<a class="list-group-item" href="./craft-events-registertemplaterootsevent.html">RegisterTemplateRootsEvent</a>
+<a class="list-group-item" href="./craft-events-registerurlrulesevent.html">RegisterUrlRulesEvent</a>
+<a class="list-group-item" href="./craft-events-registeruseractionsevent.html">RegisterUserActionsEvent</a>
+<a class="list-group-item" href="./craft-events-registeruserpermissionsevent.html">RegisterUserPermissionsEvent</a>
+<a class="list-group-item" href="./craft-events-reordersitesevent.html">ReorderSitesEvent</a>
+<a class="list-group-item" href="./craft-events-replaceassetevent.html">ReplaceAssetEvent</a>
+<a class="list-group-item" href="./craft-events-resolveresourcepathevent.html">ResolveResourcePathEvent</a>
+<a class="list-group-item" href="./craft-events-restoreevent.html">RestoreEvent</a>
+<a class="list-group-item" href="./craft-events-routeevent.html">RouteEvent</a>
+<a class="list-group-item" href="./craft-events-searchevent.html">SearchEvent</a>
+<a class="list-group-item" href="./craft-events-sectionevent.html">SectionEvent</a>
+<a class="list-group-item" href="./craft-events-setassetfilenameevent.html">SetAssetFilenameEvent</a>
+<a class="list-group-item" href="./craft-events-setelementrouteevent.html">SetElementRouteEvent</a>
+<a class="list-group-item" href="./craft-events-setelementtableattributehtmlevent.html">SetElementTableAttributeHtmlEvent</a>
+<a class="list-group-item" href="./craft-events-setstatusevent.html">SetStatusEvent</a>
+<a class="list-group-item" href="./craft-events-siteevent.html">SiteEvent</a>
+<a class="list-group-item" href="./craft-events-taggroupevent.html">TagGroupEvent</a>
+<a class="list-group-item" href="./craft-events-templateevent.html">TemplateEvent</a>
+<a class="list-group-item" href="./craft-events-userassigngroupevent.html">UserAssignGroupEvent</a>
+<a class="list-group-item" href="./craft-events-userevent.html">UserEvent</a>
+<a class="list-group-item" href="./craft-events-usergroupevent.html">UserGroupEvent</a>
+<a class="list-group-item" href="./craft-events-usergroupsassignevent.html">UserGroupsAssignEvent</a>
+<a class="list-group-item" href="./craft-events-versionevent.html">VersionEvent</a>
+<a class="list-group-item" href="./craft-events-volumeevent.html">VolumeEvent</a>
+<a class="list-group-item" href="./craft-events-widgetevent.html">WidgetEvent</a></div>
+<a class="list-group-item" href="#navigation-9702" data-toggle="collapse" data-parent="#navigation">craft\feeds <b class="caret"></b></a><div id="navigation-9702" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-feeds-feeds.html">Feeds</a>
+<a class="list-group-item" href="./craft-feeds-guzzleclient.html">GuzzleClient</a></div>
+<a class="list-group-item" href="#navigation-9703" data-toggle="collapse" data-parent="#navigation">craft\fields <b class="caret"></b></a><div id="navigation-9703" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-fields-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-fields-baseoptionsfield.html">BaseOptionsField</a>
+<a class="list-group-item" href="./craft-fields-baserelationfield.html">BaseRelationField</a>
+<a class="list-group-item" href="./craft-fields-categories.html">Categories</a>
+<a class="list-group-item" href="./craft-fields-checkboxes.html">Checkboxes</a>
+<a class="list-group-item" href="./craft-fields-color.html">Color</a>
+<a class="list-group-item" href="./craft-fields-date.html">Date</a>
+<a class="list-group-item" href="./craft-fields-dropdown.html">Dropdown</a>
+<a class="list-group-item" href="./craft-fields-email.html">Email</a>
+<a class="list-group-item" href="./craft-fields-entries.html">Entries</a>
+<a class="list-group-item" href="./craft-fields-lightswitch.html">Lightswitch</a>
+<a class="list-group-item" href="./craft-fields-matrix.html">Matrix</a>
+<a class="list-group-item" href="./craft-fields-missingfield.html">MissingField</a>
+<a class="list-group-item" href="./craft-fields-multiselect.html">MultiSelect</a>
+<a class="list-group-item" href="./craft-fields-number.html">Number</a>
+<a class="list-group-item" href="./craft-fields-plaintext.html">PlainText</a>
+<a class="list-group-item" href="./craft-fields-positionselect.html">PositionSelect</a>
+<a class="list-group-item" href="./craft-fields-radiobuttons.html">RadioButtons</a>
+<a class="list-group-item" href="./craft-fields-richtext.html">RichText</a>
+<a class="list-group-item" href="./craft-fields-table.html">Table</a>
+<a class="list-group-item" href="./craft-fields-tags.html">Tags</a>
+<a class="list-group-item" href="./craft-fields-url.html">Url</a>
+<a class="list-group-item" href="./craft-fields-users.html">Users</a></div>
+<a class="list-group-item" href="#navigation-9704" data-toggle="collapse" data-parent="#navigation">craft\fields\data <b class="caret"></b></a><div id="navigation-9704" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-fields-data-multioptionsfielddata.html">MultiOptionsFieldData</a>
+<a class="list-group-item" href="./craft-fields-data-optiondata.html">OptionData</a>
+<a class="list-group-item" href="./craft-fields-data-richtextdata.html">RichTextData</a>
+<a class="list-group-item" href="./craft-fields-data-singleoptionfielddata.html">SingleOptionFieldData</a></div>
+<a class="list-group-item" href="#navigation-9705" data-toggle="collapse" data-parent="#navigation">craft\helpers <b class="caret"></b></a><div id="navigation-9705" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-helpers-app.html">App</a>
+<a class="list-group-item" href="./craft-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./craft-helpers-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-helpers-charthelper.html">ChartHelper</a>
+<a class="list-group-item" href="./craft-helpers-component.html">Component</a>
+<a class="list-group-item" href="./craft-helpers-confighelper.html">ConfigHelper</a>
+<a class="list-group-item" href="./craft-helpers-console.html">Console</a>
+<a class="list-group-item" href="./craft-helpers-cp.html">Cp</a>
+<a class="list-group-item" href="./craft-helpers-datetimehelper.html">DateTimeHelper</a>
+<a class="list-group-item" href="./craft-helpers-db.html">Db</a>
+<a class="list-group-item" href="./craft-helpers-elementhelper.html">ElementHelper</a>
+<a class="list-group-item" href="./craft-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./craft-helpers-html.html">Html</a>
+<a class="list-group-item" href="./craft-helpers-htmlpurifier.html">HtmlPurifier</a>
+<a class="list-group-item" href="./craft-helpers-image.html">Image</a>
+<a class="list-group-item" href="./craft-helpers-json.html">Json</a>
+<a class="list-group-item" href="./craft-helpers-localization.html">Localization</a>
+<a class="list-group-item" href="./craft-helpers-mailerhelper.html">MailerHelper</a>
+<a class="list-group-item" href="./craft-helpers-migrationhelper.html">MigrationHelper</a>
+<a class="list-group-item" href="./craft-helpers-number.html">Number</a>
+<a class="list-group-item" href="./craft-helpers-path.html">Path</a>
+<a class="list-group-item" href="./craft-helpers-search.html">Search</a>
+<a class="list-group-item" href="./craft-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./craft-helpers-stringy.html">Stringy</a>
+<a class="list-group-item" href="./craft-helpers-template.html">Template</a>
+<a class="list-group-item" href="./craft-helpers-urlhelper.html">UrlHelper</a></div>
+<a class="list-group-item" href="#navigation-9706" data-toggle="collapse" data-parent="#navigation">craft\i18n <b class="caret"></b></a><div id="navigation-9706" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-i18n-formatter.html">Formatter</a>
+<a class="list-group-item" href="./craft-i18n-i18n.html">I18N</a>
+<a class="list-group-item" href="./craft-i18n-locale.html">Locale</a>
+<a class="list-group-item" href="./craft-i18n-phpmessagesource.html">PhpMessageSource</a></div>
+<a class="list-group-item" href="#navigation-9707" data-toggle="collapse" data-parent="#navigation">craft\image <b class="caret"></b></a><div id="navigation-9707" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-image-raster.html">Raster</a>
+<a class="list-group-item" href="./craft-image-svg.html">Svg</a></div>
+<a class="list-group-item" href="#navigation-9708" data-toggle="collapse" data-parent="#navigation">craft\log <b class="caret"></b></a><div id="navigation-9708" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-log-filetarget.html">FileTarget</a></div>
+<a class="list-group-item" href="#navigation-9709" data-toggle="collapse" data-parent="#navigation">craft\mail <b class="caret"></b></a><div id="navigation-9709" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mail-mailer.html">Mailer</a>
+<a class="list-group-item" href="./craft-mail-message.html">Message</a></div>
+<a class="list-group-item" href="#navigation-9710" data-toggle="collapse" data-parent="#navigation">craft\mail\transportadapters <b class="caret"></b></a><div id="navigation-9710" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mail-transportadapters-basetransportadapter.html">BaseTransportAdapter</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-gmail.html">Gmail</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-php.html">Php</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-sendmail.html">Sendmail</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-smtp.html">Smtp</a>
+<a class="list-group-item" href="./craft-mail-transportadapters-transportadapterinterface.html">TransportAdapterInterface</a></div>
+<a class="list-group-item" href="#navigation-9711" data-toggle="collapse" data-parent="#navigation">craft\migrations <b class="caret"></b></a><div id="navigation-9711" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-migrations-creatematrixcontenttable.html">CreateMatrixContentTable</a>
+<a class="list-group-item" href="./craft-migrations-install.html">Install</a></div>
+<a class="list-group-item" href="#navigation-9712" data-toggle="collapse" data-parent="#navigation">craft\models <b class="caret"></b></a><div id="navigation-9712" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-models-appupdate.html">AppUpdate</a>
+<a class="list-group-item" href="./craft-models-appupdaterelease.html">AppUpdateRelease</a>
+<a class="list-group-item" href="./craft-models-assetindexdata.html">AssetIndexData</a>
+<a class="list-group-item" href="./craft-models-assettransform.html">AssetTransform</a>
+<a class="list-group-item" href="./craft-models-assettransformindex.html">AssetTransformIndex</a>
+<a class="list-group-item" href="./craft-models-baseentryrevisionmodel.html">BaseEntryRevisionModel</a>
+<a class="list-group-item" href="./craft-models-categorygroup.html">CategoryGroup</a>
+<a class="list-group-item" href="./craft-models-categorygroup_sitesettings.html">CategoryGroup_SiteSettings</a>
+<a class="list-group-item" href="./craft-models-craftsupport.html">CraftSupport</a>
+<a class="list-group-item" href="./craft-models-deprecationerror.html">DeprecationError</a>
+<a class="list-group-item" href="./craft-models-entrydraft.html">EntryDraft</a>
+<a class="list-group-item" href="./craft-models-entrytype.html">EntryType</a>
+<a class="list-group-item" href="./craft-models-entryversion.html">EntryVersion</a>
+<a class="list-group-item" href="./craft-models-et.html">Et</a>
+<a class="list-group-item" href="./craft-models-fieldgroup.html">FieldGroup</a>
+<a class="list-group-item" href="./craft-models-fieldlayout.html">FieldLayout</a>
+<a class="list-group-item" href="./craft-models-fieldlayouttab.html">FieldLayoutTab</a>
+<a class="list-group-item" href="./craft-models-foldercriteria.html">FolderCriteria</a>
+<a class="list-group-item" href="./craft-models-info.html">Info</a>
+<a class="list-group-item" href="./craft-models-mailsettings.html">MailSettings</a>
+<a class="list-group-item" href="./craft-models-matrixblocktype.html">MatrixBlockType</a>
+<a class="list-group-item" href="./craft-models-matrixsettings.html">MatrixSettings</a>
+<a class="list-group-item" href="./craft-models-pluginupdate.html">PluginUpdate</a>
+<a class="list-group-item" href="./craft-models-section.html">Section</a>
+<a class="list-group-item" href="./craft-models-section_sitesettings.html">Section_SiteSettings</a>
+<a class="list-group-item" href="./craft-models-site.html">Site</a>
+<a class="list-group-item" href="./craft-models-structure.html">Structure</a>
+<a class="list-group-item" href="./craft-models-systemmessage.html">SystemMessage</a>
+<a class="list-group-item" href="./craft-models-taggroup.html">TagGroup</a>
+<a class="list-group-item" href="./craft-models-update.html">Update</a>
+<a class="list-group-item" href="./craft-models-updaterelease.html">UpdateRelease</a>
+<a class="list-group-item" href="./craft-models-upgradeinfo.html">UpgradeInfo</a>
+<a class="list-group-item" href="./craft-models-upgradepurchase.html">UpgradePurchase</a>
+<a class="list-group-item" href="./craft-models-url.html">Url</a>
+<a class="list-group-item" href="./craft-models-usergroup.html">UserGroup</a>
+<a class="list-group-item" href="./craft-models-volumefolder.html">VolumeFolder</a></div>
+<a class="list-group-item" href="#navigation-9713" data-toggle="collapse" data-parent="#navigation">craft\mutex <b class="caret"></b></a><div id="navigation-9713" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-mutex-filemutex.html">FileMutex</a></div>
+<a class="list-group-item" href="#navigation-9714" data-toggle="collapse" data-parent="#navigation">craft\queue <b class="caret"></b></a><div id="navigation-9714" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-queue-basejob.html">BaseJob</a>
+<a class="list-group-item" href="./craft-queue-command.html">Command</a>
+<a class="list-group-item" href="./craft-queue-infoaction.html">InfoAction</a>
+<a class="list-group-item" href="./craft-queue-jobinterface.html">JobInterface</a>
+<a class="list-group-item" href="./craft-queue-queue.html">Queue</a>
+<a class="list-group-item" href="./craft-queue-queueinterface.html">QueueInterface</a></div>
+<a class="list-group-item" href="#navigation-9715" data-toggle="collapse" data-parent="#navigation">craft\queue\jobs <b class="caret"></b></a><div id="navigation-9715" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-queue-jobs-deletestaletemplatecaches.html">DeleteStaleTemplateCaches</a>
+<a class="list-group-item" href="./craft-queue-jobs-findandreplace.html">FindAndReplace</a>
+<a class="list-group-item" href="./craft-queue-jobs-generatependingtransforms.html">GeneratePendingTransforms</a>
+<a class="list-group-item" href="./craft-queue-jobs-localizerelations.html">LocalizeRelations</a>
+<a class="list-group-item" href="./craft-queue-jobs-resaveelements.html">ResaveElements</a>
+<a class="list-group-item" href="./craft-queue-jobs-updateelementslugsanduris.html">UpdateElementSlugsAndUris</a></div>
+<a class="list-group-item" href="#navigation-9716" data-toggle="collapse" data-parent="#navigation">craft\records <b class="caret"></b></a><div id="navigation-9716" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-records-asset.html">Asset</a>
+<a class="list-group-item" href="./craft-records-assetindexdata.html">AssetIndexData</a>
+<a class="list-group-item" href="./craft-records-assettransform.html">AssetTransform</a>
+<a class="list-group-item" href="./craft-records-category.html">Category</a>
+<a class="list-group-item" href="./craft-records-categorygroup.html">CategoryGroup</a>
+<a class="list-group-item" href="./craft-records-categorygroup_sitesettings.html">CategoryGroup_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-element.html">Element</a>
+<a class="list-group-item" href="./craft-records-element_sitesettings.html">Element_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-entry.html">Entry</a>
+<a class="list-group-item" href="./craft-records-entrydraft.html">EntryDraft</a>
+<a class="list-group-item" href="./craft-records-entrytype.html">EntryType</a>
+<a class="list-group-item" href="./craft-records-entryversion.html">EntryVersion</a>
+<a class="list-group-item" href="./craft-records-field.html">Field</a>
+<a class="list-group-item" href="./craft-records-fieldgroup.html">FieldGroup</a>
+<a class="list-group-item" href="./craft-records-fieldlayout.html">FieldLayout</a>
+<a class="list-group-item" href="./craft-records-fieldlayoutfield.html">FieldLayoutField</a>
+<a class="list-group-item" href="./craft-records-fieldlayouttab.html">FieldLayoutTab</a>
+<a class="list-group-item" href="./craft-records-globalset.html">GlobalSet</a>
+<a class="list-group-item" href="./craft-records-matrixblock.html">MatrixBlock</a>
+<a class="list-group-item" href="./craft-records-matrixblocktype.html">MatrixBlockType</a>
+<a class="list-group-item" href="./craft-records-migration.html">Migration</a>
+<a class="list-group-item" href="./craft-records-plugin.html">Plugin</a>
+<a class="list-group-item" href="./craft-records-route.html">Route</a>
+<a class="list-group-item" href="./craft-records-section.html">Section</a>
+<a class="list-group-item" href="./craft-records-section_sitesettings.html">Section_SiteSettings</a>
+<a class="list-group-item" href="./craft-records-session.html">Session</a>
+<a class="list-group-item" href="./craft-records-site.html">Site</a>
+<a class="list-group-item" href="./craft-records-structure.html">Structure</a>
+<a class="list-group-item" href="./craft-records-structureelement.html">StructureElement</a>
+<a class="list-group-item" href="./craft-records-systemmessage.html">SystemMessage</a>
+<a class="list-group-item" href="./craft-records-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-records-tag.html">Tag</a>
+<a class="list-group-item" href="./craft-records-taggroup.html">TagGroup</a>
+<a class="list-group-item" href="./craft-records-token.html">Token</a>
+<a class="list-group-item" href="./craft-records-user.html">User</a>
+<a class="list-group-item" href="./craft-records-usergroup.html">UserGroup</a>
+<a class="list-group-item" href="./craft-records-usergroup_user.html">UserGroup_User</a>
+<a class="list-group-item" href="./craft-records-userpermission.html">UserPermission</a>
+<a class="list-group-item" href="./craft-records-userpermission_user.html">UserPermission_User</a>
+<a class="list-group-item" href="./craft-records-userpermission_usergroup.html">UserPermission_UserGroup</a>
+<a class="list-group-item" href="./craft-records-volume.html">Volume</a>
+<a class="list-group-item" href="./craft-records-volumefolder.html">VolumeFolder</a>
+<a class="list-group-item" href="./craft-records-widget.html">Widget</a></div>
+<a class="list-group-item" href="#navigation-9717" data-toggle="collapse" data-parent="#navigation">craft\search <b class="caret"></b></a><div id="navigation-9717" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-search-searchquery.html">SearchQuery</a>
+<a class="list-group-item" href="./craft-search-searchqueryterm.html">SearchQueryTerm</a>
+<a class="list-group-item" href="./craft-search-searchquerytermgroup.html">SearchQueryTermGroup</a></div>
+<a class="list-group-item" href="#navigation-9718" data-toggle="collapse" data-parent="#navigation">craft\services <b class="caret"></b></a><div id="navigation-9718" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-services-assetindexer.html">AssetIndexer</a>
+<a class="list-group-item" href="./craft-services-assettransforms.html">AssetTransforms</a>
+<a class="list-group-item" href="./craft-services-assets.html">Assets</a>
+<a class="list-group-item" href="./craft-services-categories.html">Categories</a>
+<a class="list-group-item" href="./craft-services-composer.html">Composer</a>
+<a class="list-group-item" href="./craft-services-config.html">Config</a>
+<a class="list-group-item" href="./craft-services-content.html">Content</a>
+<a class="list-group-item" href="./craft-services-dashboard.html">Dashboard</a>
+<a class="list-group-item" href="./craft-services-deprecator.html">Deprecator</a>
+<a class="list-group-item" href="./craft-services-elementindexes.html">ElementIndexes</a>
+<a class="list-group-item" href="./craft-services-elements.html">Elements</a>
+<a class="list-group-item" href="./craft-services-entries.html">Entries</a>
+<a class="list-group-item" href="./craft-services-entryrevisions.html">EntryRevisions</a>
+<a class="list-group-item" href="./craft-services-et.html">Et</a>
+<a class="list-group-item" href="./craft-services-fields.html">Fields</a>
+<a class="list-group-item" href="./craft-services-globals.html">Globals</a>
+<a class="list-group-item" href="./craft-services-matrix.html">Matrix</a>
+<a class="list-group-item" href="./craft-services-path.html">Path</a>
+<a class="list-group-item" href="./craft-services-plugins.html">Plugins</a>
+<a class="list-group-item" href="./craft-services-relations.html">Relations</a>
+<a class="list-group-item" href="./craft-services-routes.html">Routes</a>
+<a class="list-group-item" href="./craft-services-search.html">Search</a>
+<a class="list-group-item" href="./craft-services-sections.html">Sections</a>
+<a class="list-group-item" href="./craft-services-security.html">Security</a>
+<a class="list-group-item" href="./craft-services-sites.html">Sites</a>
+<a class="list-group-item" href="./craft-services-structures.html">Structures</a>
+<a class="list-group-item" href="./craft-services-systemmessages.html">SystemMessages</a>
+<a class="list-group-item" href="./craft-services-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-services-tags.html">Tags</a>
+<a class="list-group-item" href="./craft-services-templatecaches.html">TemplateCaches</a>
+<a class="list-group-item" href="./craft-services-tokens.html">Tokens</a>
+<a class="list-group-item" href="./craft-services-updates.html">Updates</a>
+<a class="list-group-item" href="./craft-services-usergroups.html">UserGroups</a>
+<a class="list-group-item" href="./craft-services-userpermissions.html">UserPermissions</a>
+<a class="list-group-item" href="./craft-services-users.html">Users</a>
+<a class="list-group-item" href="./craft-services-utilities.html">Utilities</a>
+<a class="list-group-item" href="./craft-services-volumes.html">Volumes</a></div>
+<a class="list-group-item" href="#navigation-9719" data-toggle="collapse" data-parent="#navigation">craft\utilities <b class="caret"></b></a><div id="navigation-9719" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-utilities-assetindexes.html">AssetIndexes</a>
+<a class="list-group-item" href="./craft-utilities-clearcaches.html">ClearCaches</a>
+<a class="list-group-item" href="./craft-utilities-dbbackup.html">DbBackup</a>
+<a class="list-group-item" href="./craft-utilities-deprecationerrors.html">DeprecationErrors</a>
+<a class="list-group-item" href="./craft-utilities-findandreplace.html">FindAndReplace</a>
+<a class="list-group-item" href="./craft-utilities-migrations.html">Migrations</a>
+<a class="list-group-item" href="./craft-utilities-phpinfo.html">PhpInfo</a>
+<a class="list-group-item" href="./craft-utilities-searchindexes.html">SearchIndexes</a>
+<a class="list-group-item" href="./craft-utilities-systemreport.html">SystemReport</a>
+<a class="list-group-item" href="./craft-utilities-updates.html">Updates</a></div>
+<a class="list-group-item" href="#navigation-9720" data-toggle="collapse" data-parent="#navigation">craft\validators <b class="caret"></b></a><div id="navigation-9720" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-validators-arrayvalidator.html">ArrayValidator</a>
+<a class="list-group-item" href="./craft-validators-assetlocationvalidator.html">AssetLocationValidator</a>
+<a class="list-group-item" href="./craft-validators-datetimevalidator.html">DateTimeValidator</a>
+<a class="list-group-item" href="./craft-validators-elementurivalidator.html">ElementUriValidator</a>
+<a class="list-group-item" href="./craft-validators-handlevalidator.html">HandleValidator</a>
+<a class="list-group-item" href="./craft-validators-languagevalidator.html">LanguageValidator</a>
+<a class="list-group-item" href="./craft-validators-singlesectionurivalidator.html">SingleSectionUriValidator</a>
+<a class="list-group-item" href="./craft-validators-siteidvalidator.html">SiteIdValidator</a>
+<a class="list-group-item" href="./craft-validators-slugvalidator.html">SlugValidator</a>
+<a class="list-group-item" href="./craft-validators-uniquevalidator.html">UniqueValidator</a>
+<a class="list-group-item" href="./craft-validators-uriformatvalidator.html">UriFormatValidator</a>
+<a class="list-group-item" href="./craft-validators-urivalidator.html">UriValidator</a>
+<a class="list-group-item" href="./craft-validators-urlvalidator.html">UrlValidator</a>
+<a class="list-group-item" href="./craft-validators-userpasswordvalidator.html">UserPasswordValidator</a>
+<a class="list-group-item" href="./craft-validators-usernamevalidator.html">UsernameValidator</a></div>
+<a class="list-group-item" href="#navigation-9721" data-toggle="collapse" data-parent="#navigation">craft\volumes <b class="caret"></b></a><div id="navigation-9721" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-volumes-local.html">Local</a>
+<a class="list-group-item" href="./craft-volumes-missingvolume.html">MissingVolume</a>
+<a class="list-group-item" href="./craft-volumes-temp.html">Temp</a></div>
+<a class="list-group-item" href="#navigation-9722" data-toggle="collapse" data-parent="#navigation">craft\web <b class="caret"></b></a><div id="navigation-9722" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-application.html">Application</a>
+<a class="list-group-item" href="./craft-web-assetbundle.html">AssetBundle</a>
+<a class="list-group-item" href="./craft-web-assetmanager.html">AssetManager</a>
+<a class="list-group-item" href="./craft-web-controller.html">Controller</a>
+<a class="list-group-item" href="./craft-web-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./craft-web-request.html">Request</a>
+<a class="list-group-item" href="./craft-web-response.html">Response</a>
+<a class="list-group-item" href="./craft-web-serviceunavailablehttpexception.html">ServiceUnavailableHttpException</a>
+<a class="list-group-item" href="./craft-web-session.html">Session</a>
+<a class="list-group-item" href="./craft-web-uploadedfile.html">UploadedFile</a>
+<a class="list-group-item" href="./craft-web-urlmanager.html">UrlManager</a>
+<a class="list-group-item" href="./craft-web-urlrule.html">UrlRule</a>
+<a class="list-group-item" href="./craft-web-user.html">User</a>
+<a class="list-group-item" href="./craft-web-view.html">View</a></div>
+<a class="list-group-item" href="#navigation-9723" data-toggle="collapse" data-parent="#navigation">craft\web\assets\assetindexes <b class="caret"></b></a><div id="navigation-9723" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-assetindexes-assetindexesasset.html">AssetIndexesAsset</a></div>
+<a class="list-group-item" href="#navigation-9724" data-toggle="collapse" data-parent="#navigation">craft\web\assets\clearcaches <b class="caret"></b></a><div id="navigation-9724" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-clearcaches-clearcachesasset.html">ClearCachesAsset</a></div>
+<a class="list-group-item" href="#navigation-9725" data-toggle="collapse" data-parent="#navigation">craft\web\assets\colorpicker <b class="caret"></b></a><div id="navigation-9725" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-colorpicker-colorpickerasset.html">ColorpickerAsset</a></div>
+<a class="list-group-item" href="#navigation-9726" data-toggle="collapse" data-parent="#navigation">craft\web\assets\cp <b class="caret"></b></a><div id="navigation-9726" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-cp-cpasset.html">CpAsset</a></div>
+<a class="list-group-item" href="#navigation-9727" data-toggle="collapse" data-parent="#navigation">craft\web\assets\craftsupport <b class="caret"></b></a><div id="navigation-9727" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-craftsupport-craftsupportasset.html">CraftSupportAsset</a></div>
+<a class="list-group-item" href="#navigation-9728" data-toggle="collapse" data-parent="#navigation">craft\web\assets\d3 <b class="caret"></b></a><div id="navigation-9728" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-d3-d3asset.html">D3Asset</a></div>
+<a class="list-group-item" href="#navigation-9729" data-toggle="collapse" data-parent="#navigation">craft\web\assets\dashboard <b class="caret"></b></a><div id="navigation-9729" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-dashboard-dashboardasset.html">DashboardAsset</a></div>
+<a class="list-group-item" href="#navigation-9730" data-toggle="collapse" data-parent="#navigation">craft\web\assets\datepickeri18n <b class="caret"></b></a><div id="navigation-9730" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-datepickeri18n-datepickeri18nasset.html">DatepickerI18nAsset</a></div>
+<a class="list-group-item" href="#navigation-9731" data-toggle="collapse" data-parent="#navigation">craft\web\assets\dbbackup <b class="caret"></b></a><div id="navigation-9731" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-dbbackup-dbbackupasset.html">DbBackupAsset</a></div>
+<a class="list-group-item" href="#navigation-9732" data-toggle="collapse" data-parent="#navigation">craft\web\assets\deprecationerrors <b class="caret"></b></a><div id="navigation-9732" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-deprecationerrors-deprecationerrorsasset.html">DeprecationErrorsAsset</a></div>
+<a class="list-group-item" href="#navigation-9733" data-toggle="collapse" data-parent="#navigation">craft\web\assets\editcategory <b class="caret"></b></a><div id="navigation-9733" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-editcategory-editcategoryasset.html">EditCategoryAsset</a></div>
+<a class="list-group-item" href="#navigation-9734" data-toggle="collapse" data-parent="#navigation">craft\web\assets\editentry <b class="caret"></b></a><div id="navigation-9734" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-editentry-editentryasset.html">EditEntryAsset</a></div>
+<a class="list-group-item" href="#navigation-9735" data-toggle="collapse" data-parent="#navigation">craft\web\assets\edittransform <b class="caret"></b></a><div id="navigation-9735" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-edittransform-edittransformasset.html">EditTransformAsset</a></div>
+<a class="list-group-item" href="#navigation-9736" data-toggle="collapse" data-parent="#navigation">craft\web\assets\edituser <b class="caret"></b></a><div id="navigation-9736" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-edituser-edituserasset.html">EditUserAsset</a></div>
+<a class="list-group-item" href="#navigation-9737" data-toggle="collapse" data-parent="#navigation">craft\web\assets\elementresizedetector <b class="caret"></b></a><div id="navigation-9737" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-elementresizedetector-elementresizedetectorasset.html">ElementResizeDetectorAsset</a></div>
+<a class="list-group-item" href="#navigation-9738" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fabric <b class="caret"></b></a><div id="navigation-9738" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fabric-fabricasset.html">FabricAsset</a></div>
+<a class="list-group-item" href="#navigation-9739" data-toggle="collapse" data-parent="#navigation">craft\web\assets\feed <b class="caret"></b></a><div id="navigation-9739" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-feed-feedasset.html">FeedAsset</a></div>
+<a class="list-group-item" href="#navigation-9740" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fields <b class="caret"></b></a><div id="navigation-9740" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fields-fieldsasset.html">FieldsAsset</a></div>
+<a class="list-group-item" href="#navigation-9741" data-toggle="collapse" data-parent="#navigation">craft\web\assets\fileupload <b class="caret"></b></a><div id="navigation-9741" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-fileupload-fileuploadasset.html">FileUploadAsset</a></div>
+<a class="list-group-item" href="#navigation-9742" data-toggle="collapse" data-parent="#navigation">craft\web\assets\findreplace <b class="caret"></b></a><div id="navigation-9742" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-findreplace-findreplaceasset.html">FindReplaceAsset</a></div>
+<a class="list-group-item" href="#navigation-9743" data-toggle="collapse" data-parent="#navigation">craft\web\assets\garnish <b class="caret"></b></a><div id="navigation-9743" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-garnish-garnishasset.html">GarnishAsset</a></div>
+<a class="list-group-item" href="#navigation-9744" data-toggle="collapse" data-parent="#navigation">craft\web\assets\generalsettings <b class="caret"></b></a><div id="navigation-9744" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-generalsettings-generalsettingsasset.html">GeneralSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-9745" data-toggle="collapse" data-parent="#navigation">craft\web\assets\imageeditor <b class="caret"></b></a><div id="navigation-9745" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-imageeditor-imageeditorasset.html">ImageEditorAsset</a></div>
+<a class="list-group-item" href="#navigation-9746" data-toggle="collapse" data-parent="#navigation">craft\web\assets\installer <b class="caret"></b></a><div id="navigation-9746" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-installer-installerasset.html">InstallerAsset</a></div>
+<a class="list-group-item" href="#navigation-9747" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jquerypayment <b class="caret"></b></a><div id="navigation-9747" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jquerypayment-jquerypaymentasset.html">JqueryPaymentAsset</a></div>
+<a class="list-group-item" href="#navigation-9748" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jquerytouchevents <b class="caret"></b></a><div id="navigation-9748" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jquerytouchevents-jquerytoucheventsasset.html">JqueryTouchEventsAsset</a></div>
+<a class="list-group-item" href="#navigation-9749" data-toggle="collapse" data-parent="#navigation">craft\web\assets\jqueryui <b class="caret"></b></a><div id="navigation-9749" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-jqueryui-jqueryuiasset.html">JqueryUiAsset</a></div>
+<a class="list-group-item" href="#navigation-9750" data-toggle="collapse" data-parent="#navigation">craft\web\assets\login <b class="caret"></b></a><div id="navigation-9750" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-login-loginasset.html">LoginAsset</a></div>
+<a class="list-group-item" href="#navigation-9751" data-toggle="collapse" data-parent="#navigation">craft\web\assets\matrix <b class="caret"></b></a><div id="navigation-9751" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-matrix-matrixasset.html">MatrixAsset</a></div>
+<a class="list-group-item" href="#navigation-9752" data-toggle="collapse" data-parent="#navigation">craft\web\assets\matrixsettings <b class="caret"></b></a><div id="navigation-9752" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-matrixsettings-matrixsettingsasset.html">MatrixSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-9753" data-toggle="collapse" data-parent="#navigation">craft\web\assets\newusers <b class="caret"></b></a><div id="navigation-9753" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-newusers-newusersasset.html">NewUsersAsset</a></div>
+<a class="list-group-item" href="#navigation-9754" data-toggle="collapse" data-parent="#navigation">craft\web\assets\picturefill <b class="caret"></b></a><div id="navigation-9754" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-picturefill-picturefillasset.html">PicturefillAsset</a></div>
+<a class="list-group-item" href="#navigation-9755" data-toggle="collapse" data-parent="#navigation">craft\web\assets\plugins <b class="caret"></b></a><div id="navigation-9755" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-plugins-pluginsasset.html">PluginsAsset</a></div>
+<a class="list-group-item" href="#navigation-9756" data-toggle="collapse" data-parent="#navigation">craft\web\assets\positionselect <b class="caret"></b></a><div id="navigation-9756" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-positionselect-positionselectasset.html">PositionSelectAsset</a></div>
+<a class="list-group-item" href="#navigation-9757" data-toggle="collapse" data-parent="#navigation">craft\web\assets\quickpost <b class="caret"></b></a><div id="navigation-9757" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-quickpost-quickpostasset.html">QuickPostAsset</a></div>
+<a class="list-group-item" href="#navigation-9758" data-toggle="collapse" data-parent="#navigation">craft\web\assets\qunit <b class="caret"></b></a><div id="navigation-9758" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-qunit-qunitasset.html">QunitAsset</a></div>
+<a class="list-group-item" href="#navigation-9759" data-toggle="collapse" data-parent="#navigation">craft\web\assets\recententries <b class="caret"></b></a><div id="navigation-9759" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-recententries-recententriesasset.html">RecentEntriesAsset</a></div>
+<a class="list-group-item" href="#navigation-9760" data-toggle="collapse" data-parent="#navigation">craft\web\assets\redactor <b class="caret"></b></a><div id="navigation-9760" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-redactor-redactorasset.html">RedactorAsset</a></div>
+<a class="list-group-item" href="#navigation-9761" data-toggle="collapse" data-parent="#navigation">craft\web\assets\richtext <b class="caret"></b></a><div id="navigation-9761" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-richtext-richtextasset.html">RichTextAsset</a></div>
+<a class="list-group-item" href="#navigation-9762" data-toggle="collapse" data-parent="#navigation">craft\web\assets\routes <b class="caret"></b></a><div id="navigation-9762" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-routes-routesasset.html">RoutesAsset</a></div>
+<a class="list-group-item" href="#navigation-9763" data-toggle="collapse" data-parent="#navigation">craft\web\assets\searchindexes <b class="caret"></b></a><div id="navigation-9763" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-searchindexes-searchindexesasset.html">SearchIndexesAsset</a></div>
+<a class="list-group-item" href="#navigation-9764" data-toggle="collapse" data-parent="#navigation">craft\web\assets\selectize <b class="caret"></b></a><div id="navigation-9764" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-selectize-selectizeasset.html">SelectizeAsset</a></div>
+<a class="list-group-item" href="#navigation-9765" data-toggle="collapse" data-parent="#navigation">craft\web\assets\sites <b class="caret"></b></a><div id="navigation-9765" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-sites-sitesasset.html">SitesAsset</a></div>
+<a class="list-group-item" href="#navigation-9766" data-toggle="collapse" data-parent="#navigation">craft\web\assets\systemmessages <b class="caret"></b></a><div id="navigation-9766" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-systemmessages-systemmessagesasset.html">SystemMessagesAsset</a></div>
+<a class="list-group-item" href="#navigation-9767" data-toggle="collapse" data-parent="#navigation">craft\web\assets\tablesettings <b class="caret"></b></a><div id="navigation-9767" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-tablesettings-tablesettingsasset.html">TableSettingsAsset</a></div>
+<a class="list-group-item" href="#navigation-9768" data-toggle="collapse" data-parent="#navigation">craft\web\assets\timepicker <b class="caret"></b></a><div id="navigation-9768" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-timepicker-timepickerasset.html">TimepickerAsset</a></div>
+<a class="list-group-item" href="#navigation-9769" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updater <b class="caret"></b></a><div id="navigation-9769" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updater-updaterasset.html">UpdaterAsset</a></div>
+<a class="list-group-item" href="#navigation-9770" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updates <b class="caret"></b></a><div id="navigation-9770" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updates-updatesasset.html">UpdatesAsset</a></div>
+<a class="list-group-item" href="#navigation-9771" data-toggle="collapse" data-parent="#navigation">craft\web\assets\updateswidget <b class="caret"></b></a><div id="navigation-9771" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-updateswidget-updateswidgetasset.html">UpdatesWidgetAsset</a></div>
+<a class="list-group-item" href="#navigation-9772" data-toggle="collapse" data-parent="#navigation">craft\web\assets\userpermissions <b class="caret"></b></a><div id="navigation-9772" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-userpermissions-userpermissionsasset.html">UserPermissionsAsset</a></div>
+<a class="list-group-item" href="#navigation-9773" data-toggle="collapse" data-parent="#navigation">craft\web\assets\utilities <b class="caret"></b></a><div id="navigation-9773" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-utilities-utilitiesasset.html">UtilitiesAsset</a></div>
+<a class="list-group-item" href="#navigation-9774" data-toggle="collapse" data-parent="#navigation">craft\web\assets\velocity <b class="caret"></b></a><div id="navigation-9774" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-velocity-velocityasset.html">VelocityAsset</a></div>
+<a class="list-group-item" href="#navigation-9775" data-toggle="collapse" data-parent="#navigation">craft\web\assets\whatsnew <b class="caret"></b></a><div id="navigation-9775" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-whatsnew-whatsnewasset.html">WhatsNewAsset</a></div>
+<a class="list-group-item" href="#navigation-9776" data-toggle="collapse" data-parent="#navigation">craft\web\assets\xregexp <b class="caret"></b></a><div id="navigation-9776" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-assets-xregexp-xregexpasset.html">XregexpAsset</a></div>
+<a class="list-group-item" href="#navigation-9777" data-toggle="collapse" data-parent="#navigation">craft\web\twig <b class="caret"></b></a><div id="navigation-9777" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-environment.html">Environment</a>
+<a class="list-group-item" href="./craft-web-twig-extension.html">Extension</a>
+<a class="list-group-item" href="./craft-web-twig-template.html">Template</a>
+<a class="list-group-item" href="./craft-web-twig-templateloader.html">TemplateLoader</a>
+<a class="list-group-item" href="./craft-web-twig-templateloaderexception.html">TemplateLoaderException</a></div>
+<a class="list-group-item" href="#navigation-9778" data-toggle="collapse" data-parent="#navigation">craft\web\twig\nodes <b class="caret"></b></a><div id="navigation-9778" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-nodes-cachenode.html">CacheNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-exitnode.html">ExitNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-getattrnode.html">GetAttrNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-headernode.html">HeaderNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-hooknode.html">HookNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-namespacenode.html">NamespaceNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-navitem_node.html">NavItem_Node</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-navnode.html">NavNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-paginatenode.html">PaginateNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-redirectnode.html">RedirectNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-registerresourcenode.html">RegisterResourceNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireadminnode.html">RequireAdminNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireeditionnode.html">RequireEditionNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requireloginnode.html">RequireLoginNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-requirepermissionnode.html">RequirePermissionNode</a>
+<a class="list-group-item" href="./craft-web-twig-nodes-switchnode.html">SwitchNode</a></div>
+<a class="list-group-item" href="#navigation-9779" data-toggle="collapse" data-parent="#navigation">craft\web\twig\nodevisitors <b class="caret"></b></a><div id="navigation-9779" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-nodevisitors-baseeventtagvisitor.html">BaseEventTagVisitor</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-eventtagadder.html">EventTagAdder</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-eventtagfinder.html">EventTagFinder</a>
+<a class="list-group-item" href="./craft-web-twig-nodevisitors-getattradjuster.html">GetAttrAdjuster</a></div>
+<a class="list-group-item" href="#navigation-9780" data-toggle="collapse" data-parent="#navigation">craft\web\twig\tokenparsers <b class="caret"></b></a><div id="navigation-9780" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-tokenparsers-cachetokenparser.html">CacheTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-exittokenparser.html">ExitTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-headertokenparser.html">HeaderTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-hooktokenparser.html">HookTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-namespacetokenparser.html">NamespaceTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-navtokenparser.html">NavTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-paginatetokenparser.html">PaginateTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-redirecttokenparser.html">RedirectTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-registerresourcetokenparser.html">RegisterResourceTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requireadmintokenparser.html">RequireAdminTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requireeditiontokenparser.html">RequireEditionTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requirelogintokenparser.html">RequireLoginTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-requirepermissiontokenparser.html">RequirePermissionTokenParser</a>
+<a class="list-group-item" href="./craft-web-twig-tokenparsers-switchtokenparser.html">SwitchTokenParser</a></div>
+<a class="list-group-item" href="#navigation-9781" data-toggle="collapse" data-parent="#navigation">craft\web\twig\variables <b class="caret"></b></a><div id="navigation-9781" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-web-twig-variables-categorygroups.html">CategoryGroups</a>
+<a class="list-group-item" href="./craft-web-twig-variables-config.html">Config</a>
+<a class="list-group-item" href="./craft-web-twig-variables-cp.html">Cp</a>
+<a class="list-group-item" href="./craft-web-twig-variables-craftvariable.html">CraftVariable</a>
+<a class="list-group-item" href="./craft-web-twig-variables-deprecator.html">Deprecator</a>
+<a class="list-group-item" href="./craft-web-twig-variables-elementindexes.html">ElementIndexes</a>
+<a class="list-group-item" href="./craft-web-twig-variables-emailmessages.html">EmailMessages</a>
+<a class="list-group-item" href="./craft-web-twig-variables-entryrevisions.html">EntryRevisions</a>
+<a class="list-group-item" href="./craft-web-twig-variables-feeds.html">Feeds</a>
+<a class="list-group-item" href="./craft-web-twig-variables-fields.html">Fields</a>
+<a class="list-group-item" href="./craft-web-twig-variables-globals.html">Globals</a>
+<a class="list-group-item" href="./craft-web-twig-variables-i18n.html">I18N</a>
+<a class="list-group-item" href="./craft-web-twig-variables-image.html">Image</a>
+<a class="list-group-item" href="./craft-web-twig-variables-io.html">Io</a>
+<a class="list-group-item" href="./craft-web-twig-variables-paginate.html">Paginate</a>
+<a class="list-group-item" href="./craft-web-twig-variables-rebrand.html">Rebrand</a>
+<a class="list-group-item" href="./craft-web-twig-variables-request.html">Request</a>
+<a class="list-group-item" href="./craft-web-twig-variables-routes.html">Routes</a>
+<a class="list-group-item" href="./craft-web-twig-variables-sections.html">Sections</a>
+<a class="list-group-item" href="./craft-web-twig-variables-systemsettings.html">SystemSettings</a>
+<a class="list-group-item" href="./craft-web-twig-variables-usergroups.html">UserGroups</a>
+<a class="list-group-item" href="./craft-web-twig-variables-userpermissions.html">UserPermissions</a>
+<a class="list-group-item" href="./craft-web-twig-variables-usersession.html">UserSession</a></div>
+<a class="list-group-item" href="#navigation-9782" data-toggle="collapse" data-parent="#navigation">craft\widgets <b class="caret"></b></a><div id="navigation-9782" class="submenu panel-collapse collapse"><a class="list-group-item" href="./craft-widgets-craftsupport.html">CraftSupport</a>
+<a class="list-group-item" href="./craft-widgets-feed.html">Feed</a>
+<a class="list-group-item" href="./craft-widgets-missingwidget.html">MissingWidget</a>
+<a class="list-group-item" href="./craft-widgets-newusers.html">NewUsers</a>
+<a class="list-group-item" href="./craft-widgets-quickpost.html">QuickPost</a>
+<a class="list-group-item" href="./craft-widgets-recententries.html">RecentEntries</a>
+<a class="list-group-item" href="./craft-widgets-updates.html">Updates</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class craft\elements\db\CategoryQuery</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+                | <a href="#events">Events</a>
+        </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a> &raquo;
+<a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a> &raquo;
+<a href="craft-db-query.html">craft\db\Query</a> &raquo;
+<a href="yii-db-query.html">yii\db\Query</a> &raquo;
+<a href="yii-base-component.html">yii\base\Component</a> &raquo;
+<a href="yii-base-object.html">yii\base\Object</a></td></tr>
+                <tr><th>Implements</th><td><a href="craft-elements-db-elementqueryinterface.html">craft\elements\db\ElementQueryInterface</a>, <a href="yii-base-configurable.html">yii\base\Configurable</a>, <a href="yii-db-queryinterface.html">yii\db\QueryInterface</a></td></tr>
+                    <tr><th>Uses Traits</th><td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a>, <a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td></tr>
+                            <tr><th>Available since version</th><td>3.0</td></tr>
+            </table>
+
+<div class="class-description">
+    <p><strong>CategoryQuery represents a SELECT SQL statement for categories in a way that is independent of DBMS.</strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="$ancestorDist">
+        <td><a href="craft-elements-db-elementquery.html#$ancestorDist-detail">$ancestorDist</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The maximum number of levels that results may be separated from <a href="craft-elements-db-elementquery.html#ancestorOf()-detail">ancestorOf()</a>.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$ancestorOf">
+        <td><a href="craft-elements-db-elementquery.html#$ancestorOf-detail">$ancestorOf</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that results must be an ancestor of.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$archived">
+        <td><a href="craft-elements-db-elementquery.html#$archived-detail">$archived</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether to return only archived elements.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$asArray">
+        <td><a href="craft-elements-db-elementquery.html#$asArray-detail">$asArray</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether to return each element as an array.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$behaviors">
+        <td><a href="yii-base-component.html#$behaviors-detail">$behaviors</a></td>
+        <td><a href="yii-base-behavior.html">yii\base\Behavior</a>[]</td>
+        <td>List of behaviors attached to this component</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="$cachedResult">
+        <td><a href="craft-elements-db-elementquery.html#$cachedResult-detail">$cachedResult</a></td>
+        <td><a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>$elements The resulting elements, or null if setCachedResult() was never called or the criteria has changed</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$contentTable">
+        <td><a href="craft-elements-db-elementquery.html#$contentTable-detail">$contentTable</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The content table that will be joined by this query.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$criteria">
+        <td><a href="craft-elements-db-elementquery.html#$criteria-detail">$criteria</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td></td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$customFields">
+        <td><a href="craft-elements-db-elementquery.html#$customFields-detail">$customFields</a></td>
+        <td><a href="craft-base-fieldinterface.html">craft\base\FieldInterface</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The fields that may be involved in this query.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$dateCreated">
+        <td><a href="craft-elements-db-elementquery.html#$dateCreated-detail">$dateCreated</a></td>
+        <td>mixed</td>
+        <td>When the resulting elements must have been created.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$dateUpdated">
+        <td><a href="craft-elements-db-elementquery.html#$dateUpdated-detail">$dateUpdated</a></td>
+        <td>mixed</td>
+        <td>When the resulting elements must have been last updated.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$descendantDist">
+        <td><a href="craft-elements-db-elementquery.html#$descendantDist-detail">$descendantDist</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The maximum number of levels that results may be separated from <a href="craft-elements-db-elementquery.html#descendantOf()-detail">descendantOf()</a>.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$descendantOf">
+        <td><a href="craft-elements-db-elementquery.html#$descendantOf-detail">$descendantOf</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that results must be a descendant of.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$distinct">
+        <td><a href="yii-db-query.html#$distinct-detail">$distinct</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether to select distinct rows of data only.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr id="$editable">
+        <td><a href="craft-elements-db-categoryquery.html#$editable-detail">$editable</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether to only return categories that the user has permission to edit.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$elementType">
+        <td><a href="craft-elements-db-elementquery.html#$elementType-detail">$elementType</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The name of the <a href="craft-base-elementinterface.html">craft\base\ElementInterface</a> class.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$emulateExecution">
+        <td><a href="yii-db-querytrait.html#$emulateExecution-detail">$emulateExecution</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether to emulate the actual query execution, returning empty or false results.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$enabledForSite">
+        <td><a href="craft-elements-db-elementquery.html#$enabledForSite-detail">$enabledForSite</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether the elements must be enabled for the chosen site.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$fixedOrder">
+        <td><a href="craft-elements-db-elementquery.html#$fixedOrder-detail">$fixedOrder</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+        <td>Whether results should be returned in the order specified by <a href="craft-elements-db-elementquery.html#id()-detail">id()</a>.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$from">
+        <td><a href="yii-db-query.html#$from-detail">$from</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>The table(s) to be selected from.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$groupBy">
+        <td><a href="yii-db-query.html#$groupBy-detail">$groupBy</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>How to group the query results.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr id="$groupId">
+        <td><a href="craft-elements-db-categoryquery.html#$groupId-detail">$groupId</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.integer">integer</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The category group ID(s) that the resulting categories must be in.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$having">
+        <td><a href="yii-db-query.html#$having-detail">$having</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="yii-db-expression.html">yii\db\Expression</a></td>
+        <td>The condition to be applied in the GROUP BY clause.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$id">
+        <td><a href="craft-elements-db-elementquery.html#$id-detail">$id</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.integer">integer</a>[]|<a href="http://www.php.net/language.types.boolean">false</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element ID(s).</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$indexBy">
+        <td><a href="yii-db-querytrait.html#$indexBy-detail">$indexBy</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.callable">callable</a></td>
+        <td>The name of the column by which the query results should be indexed by.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$iterator">
+        <td><a href="craft-elements-db-elementquery.html#$iterator-detail">$iterator</a></td>
+        <td><a href="http://www.php.net/class.arrayiterator">ArrayIterator</a></td>
+        <td></td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$join">
+        <td><a href="yii-db-query.html#$join-detail">$join</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>How to join with other tables.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$level">
+        <td><a href="craft-elements-db-elementquery.html#$level-detail">$level</a></td>
+        <td>mixed</td>
+        <td>The element’s level within the structure</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$limit">
+        <td><a href="yii-db-querytrait.html#$limit-detail">$limit</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="yii-db-expression.html">yii\db\Expression</a></td>
+        <td>Maximum number of records to be returned.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$nextSiblingOf">
+        <td><a href="craft-elements-db-elementquery.html#$nextSiblingOf-detail">$nextSiblingOf</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that the result must be the next sibling of.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$offset">
+        <td><a href="yii-db-querytrait.html#$offset-detail">$offset</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="yii-db-expression.html">yii\db\Expression</a></td>
+        <td>Zero-based offset from where the records are to be returned.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$orderBy">
+        <td><a href="yii-db-querytrait.html#$orderBy-detail">$orderBy</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>How to sort the query results.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$params">
+        <td><a href="yii-db-query.html#$params-detail">$params</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>List of query parameter values indexed by parameter placeholders.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$positionedAfter">
+        <td><a href="craft-elements-db-elementquery.html#$positionedAfter-detail">$positionedAfter</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that the results must be positioned after.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$positionedBefore">
+        <td><a href="craft-elements-db-elementquery.html#$positionedBefore-detail">$positionedBefore</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that the results must be positioned before.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$prevSiblingOf">
+        <td><a href="craft-elements-db-elementquery.html#$prevSiblingOf-detail">$prevSiblingOf</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that the result must be the previous sibling of.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$query">
+        <td><a href="craft-elements-db-elementquery.html#$query-detail">$query</a></td>
+        <td><a href="craft-db-query.html">craft\db\Query</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The query object created by <a href="craft-elements-db-elementquery.html#prepare()-detail">prepare()</a></td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$rawSql">
+        <td><a href="craft-db-query.html#$rawSql-detail">$rawSql</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td></td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$ref">
+        <td><a href="craft-elements-db-elementquery.html#$ref-detail">$ref</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The reference code(s) used to identify the element(s).</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$relatedTo">
+        <td><a href="craft-elements-db-elementquery.html#$relatedTo-detail">$relatedTo</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element relation criteria.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$search">
+        <td><a href="craft-elements-db-elementquery.html#$search-detail">$search</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="craft-search-searchquery.html">craft\search\SearchQuery</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The search term to filter the resulting elements by.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$select">
+        <td><a href="yii-db-query.html#$select-detail">$select</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>The columns being selected.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$selectOption">
+        <td><a href="yii-db-query.html#$selectOption-detail">$selectOption</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>Additional option that should be appended to the 'SELECT' keyword.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$siblingOf">
+        <td><a href="craft-elements-db-elementquery.html#$siblingOf-detail">$siblingOf</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="craft-base-elementinterface.html">craft\base\ElementInterface</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element (or its ID) that the results must be a sibling of.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$siteId">
+        <td><a href="craft-elements-db-elementquery.html#$siteId-detail">$siteId</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The site ID that the elements should be returned in.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$slug">
+        <td><a href="craft-elements-db-elementquery.html#$slug-detail">$slug</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The slug that resulting elements must have.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$status">
+        <td><a href="craft-elements-db-elementquery.html#$status-detail">$status</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The status(es) that the resulting elements must have.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$structureId">
+        <td><a href="craft-elements-db-elementquery.html#$structureId-detail">$structureId</a></td>
+        <td><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.boolean">false</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The structure ID that should be used to join in the structureelements table.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$subQuery">
+        <td><a href="craft-elements-db-elementquery.html#$subQuery-detail">$subQuery</a></td>
+        <td><a href="craft-db-query.html">craft\db\Query</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The subselect’s query object created by <a href="craft-elements-db-elementquery.html#prepare()-detail">prepare()</a></td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$title">
+        <td><a href="craft-elements-db-elementquery.html#$title-detail">$title</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The title that resulting elements must have.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$uid">
+        <td><a href="craft-elements-db-elementquery.html#$uid-detail">$uid</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The element UID(s).</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$union">
+        <td><a href="yii-db-query.html#$union-detail">$union</a></td>
+        <td><a href="http://www.php.net/language.types.array">array</a></td>
+        <td>This is used to construct the UNION clause(s) in a SQL statement.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="$uri">
+        <td><a href="craft-elements-db-elementquery.html#$uri-detail">$uri</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The URI that the resulting element must have.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$where">
+        <td><a href="yii-db-querytrait.html#$where-detail">$where</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a></td>
+        <td>Query condition.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="$with">
+        <td><a href="craft-elements-db-elementquery.html#$with-detail">$with</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>The eager-loading declaration</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="$withStructure">
+        <td><a href="craft-elements-db-elementquery.html#$withStructure-detail">$withStructure</a></td>
+        <td><a href="http://www.php.net/language.types.boolean">boolean</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+        <td>Whether element structure data should automatically be left-joined into the query.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="__call()">
+        <td><a href="craft-elements-db-elementquery.html#__call()-detail">__call()</a></td>
+        <td>Calls the named method which is not a class method.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="__clone()">
+        <td><a href="yii-base-component.html#__clone()-detail">__clone()</a></td>
+        <td>This method is called after the object is created by cloning an existing one.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="__construct()">
+        <td><a href="craft-elements-db-elementquery.html#__construct()-detail">__construct()</a></td>
+        <td>Constructor</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="__get()">
+        <td><a href="craft-elements-db-elementquery.html#__get()-detail">__get()</a></td>
+        <td>Returns the value of a component property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="__isset()">
+        <td><a href="craft-elements-db-elementquery.html#__isset()-detail">__isset()</a></td>
+        <td>Checks if a property is set, i.e. defined and not null.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr id="__set()">
+        <td><a href="craft-elements-db-categoryquery.html#__set()-detail">__set()</a></td>
+        <td>Sets the value of a component property.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="__unset()">
+        <td><a href="yii-base-component.html#__unset()-detail">__unset()</a></td>
+        <td>Sets a component property to be null.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="addGroupBy()">
+        <td><a href="yii-db-query.html#addGroupBy()-detail">addGroupBy()</a></td>
+        <td>Adds additional group-by columns to the existing ones.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="addOrderBy()">
+        <td><a href="yii-db-querytrait.html#addOrderBy()-detail">addOrderBy()</a></td>
+        <td>Adds additional ORDER BY columns to the query.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="addParams()">
+        <td><a href="yii-db-query.html#addParams()-detail">addParams()</a></td>
+        <td>Adds additional parameters to be bound to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="addSelect()">
+        <td><a href="yii-db-query.html#addSelect()-detail">addSelect()</a></td>
+        <td>Add more columns to the SELECT part of the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+                <tr class="inherited" id="all()">
+        <td><a href="craft-db-query.html#all()-detail">all()</a></td>
+        <td>Executes the query and returns all results as an array.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="ancestorDist()">
+        <td><a href="craft-elements-db-elementquery.html#ancestorDist()-detail">ancestorDist()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#ancestorDist()-detail">ancestorDist()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="ancestorOf()">
+        <td><a href="craft-elements-db-elementquery.html#ancestorOf()-detail">ancestorOf()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#ancestorOf()-detail">ancestorOf()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="andFilterCompare()">
+        <td><a href="yii-db-query.html#andFilterCompare()-detail">andFilterCompare()</a></td>
+        <td>Adds a filtering condition for a specific column and allow the user to choose a filter operator.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="andFilterHaving()">
+        <td><a href="yii-db-query.html#andFilterHaving()-detail">andFilterHaving()</a></td>
+        <td>Adds an additional HAVING condition to the existing one but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="andFilterWhere()">
+        <td><a href="yii-db-querytrait.html#andFilterWhere()-detail">andFilterWhere()</a></td>
+        <td>Adds an additional WHERE condition to the existing one but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="andHaving()">
+        <td><a href="yii-db-query.html#andHaving()-detail">andHaving()</a></td>
+        <td>Adds an additional HAVING condition to the existing one.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="andWhere()">
+        <td><a href="yii-db-querytrait.html#andWhere()-detail">andWhere()</a></td>
+        <td>Adds an additional WHERE condition to the existing one.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="archived()">
+        <td><a href="craft-elements-db-elementquery.html#archived()-detail">archived()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#archived()-detail">archived()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="asArray()">
+        <td><a href="craft-elements-db-elementquery.html#asArray()-detail">asArray()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#asArray()-detail">asArray()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehavior()">
+        <td><a href="yii-base-component.html#attachBehavior()-detail">attachBehavior()</a></td>
+        <td>Attaches a behavior to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="attachBehaviors()">
+        <td><a href="yii-base-component.html#attachBehaviors()-detail">attachBehaviors()</a></td>
+        <td>Attaches a list of behaviors to the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="average()">
+        <td><a href="yii-db-query.html#average()-detail">average()</a></td>
+        <td>Returns the average of the specified column values.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="batch()">
+        <td><a href="yii-db-query.html#batch()-detail">batch()</a></td>
+        <td>Starts a batch query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+                <tr class="inherited" id="behaviors()">
+        <td><a href="craft-elements-db-elementquery.html#behaviors()-detail">behaviors()</a></td>
+        <td>Returns a list of behaviors that this component should behave as.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="canGetProperty()">
+        <td><a href="yii-base-component.html#canGetProperty()-detail">canGetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be read.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="canSetProperty()">
+        <td><a href="yii-base-component.html#canSetProperty()-detail">canSetProperty()</a></td>
+        <td>Returns a value indicating whether a property can be set.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="className()">
+        <td><a href="yii-base-object.html#className()-detail">className()</a></td>
+        <td>Returns the fully qualified name of this class.</td>
+        <td><a href="yii-base-object.html">yii\base\Object</a></td>
+    </tr>
+            <tr class="inherited" id="column()">
+        <td><a href="craft-db-query.html#column()-detail">column()</a></td>
+        <td>Executes the query and returns the first column of the result.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="count()">
+        <td><a href="craft-elements-db-elementquery.html#count()-detail">count()</a></td>
+        <td>Returns the number of records.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="create()">
+        <td><a href="yii-db-query.html#create()-detail">create()</a></td>
+        <td>Creates a new Query object and copies its property values from an existing one.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="createCommand()">
+        <td><a href="yii-db-query.html#createCommand()-detail">createCommand()</a></td>
+        <td>Creates a DB command that can be used to execute this query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="criteriaAttributes()">
+        <td><a href="craft-elements-db-elementquery.html#criteriaAttributes()-detail">criteriaAttributes()</a></td>
+        <td>Returns the query's criteria attributes.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                <tr class="inherited" id="dateCreated()">
+        <td><a href="craft-elements-db-elementquery.html#dateCreated()-detail">dateCreated()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#dateCreated()-detail">dateCreated()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="dateUpdated()">
+        <td><a href="craft-elements-db-elementquery.html#dateUpdated()-detail">dateUpdated()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#dateUpdated()-detail">dateUpdated()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="descendantDist()">
+        <td><a href="craft-elements-db-elementquery.html#descendantDist()-detail">descendantDist()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#descendantDist()-detail">descendantDist()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="descendantOf()">
+        <td><a href="craft-elements-db-elementquery.html#descendantOf()-detail">descendantOf()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#descendantOf()-detail">descendantOf()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehavior()">
+        <td><a href="yii-base-component.html#detachBehavior()-detail">detachBehavior()</a></td>
+        <td>Detaches a behavior from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="detachBehaviors()">
+        <td><a href="yii-base-component.html#detachBehaviors()-detail">detachBehaviors()</a></td>
+        <td>Detaches all behaviors from the component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="distinct()">
+        <td><a href="yii-db-query.html#distinct()-detail">distinct()</a></td>
+        <td>Sets the value indicating whether to SELECT DISTINCT or not.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="each()">
+        <td><a href="yii-db-query.html#each()-detail">each()</a></td>
+        <td>Starts a batch query and retrieves data row by row.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr id="editable()">
+        <td><a href="craft-elements-db-categoryquery.html#editable()-detail">editable()</a></td>
+        <td>Sets the <a href="craft-elements-db-categoryquery.html#editable()-detail">editable()</a> property.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="emulateExecution()">
+        <td><a href="yii-db-querytrait.html#emulateExecution()-detail">emulateExecution()</a></td>
+        <td>Sets whether to emulate query execution, preventing any interaction with data storage.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="enabledForSite()">
+        <td><a href="craft-elements-db-elementquery.html#enabledForSite()-detail">enabledForSite()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#enabledForSite()-detail">enabledForSite()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="ensureBehaviors()">
+        <td><a href="yii-base-component.html#ensureBehaviors()-detail">ensureBehaviors()</a></td>
+        <td>Makes sure that the behaviors declared in <a href="yii-base-component.html#behaviors()-detail">behaviors()</a> are attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="exists()">
+        <td><a href="yii-db-query.html#exists()-detail">exists()</a></td>
+        <td>Returns a value indicating whether the query result contains any row of data.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="extraFields()">
+        <td><a href="yii-base-arrayabletrait.html#extraFields()-detail">extraFields()</a></td>
+        <td>Returns the list of fields that can be expanded further and returned by <a href="yii-base-arrayabletrait.html#toArray()-detail">toArray()</a>.</td>
+        <td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a></td>
+    </tr>
+            <tr class="inherited" id="fields()">
+        <td><a href="yii-base-arrayabletrait.html#fields()-detail">fields()</a></td>
+        <td>Returns the list of fields that should be returned by default by <a href="yii-base-arrayabletrait.html#toArray()-detail">toArray()</a> when no specific fields are specified.</td>
+        <td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a></td>
+    </tr>
+                <tr class="inherited" id="filterHaving()">
+        <td><a href="yii-db-query.html#filterHaving()-detail">filterHaving()</a></td>
+        <td>Sets the HAVING part of the query but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="filterWhere()">
+        <td><a href="yii-db-querytrait.html#filterWhere()-detail">filterWhere()</a></td>
+        <td>Sets the WHERE part of the query but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="find()">
+        <td><a href="craft-elements-db-elementquery.html#find()-detail">find()</a></td>
+        <td>Returns all elements that match the criteria.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="first()">
+        <td><a href="craft-elements-db-elementquery.html#first()-detail">first()</a></td>
+        <td>Returns the first element that matches the criteria.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="fixedOrder()">
+        <td><a href="craft-elements-db-elementquery.html#fixedOrder()-detail">fixedOrder()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#fixedOrder()-detail">fixedOrder()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="from()">
+        <td><a href="yii-db-query.html#from()-detail">from()</a></td>
+        <td>Sets the FROM part of the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="getBehavior()">
+        <td><a href="yii-base-component.html#getBehavior()-detail">getBehavior()</a></td>
+        <td>Returns the named behavior object.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="getBehaviors()">
+        <td><a href="yii-base-component.html#getBehaviors()-detail">getBehaviors()</a></td>
+        <td>Returns all behaviors attached to this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="getCachedResult()">
+        <td><a href="craft-elements-db-elementquery.html#getCachedResult()-detail">getCachedResult()</a></td>
+        <td>Returns the resulting elements set by <a href="craft-elements-db-elementquery.html#setCachedResult()-detail">setCachedResult()</a>, if the criteria params haven’t changed since then.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="getCriteria()">
+        <td><a href="craft-elements-db-elementquery.html#getCriteria()-detail">getCriteria()</a></td>
+        <td>Returns an array of the current criteria attribute values.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="getIterator()">
+        <td><a href="craft-elements-db-elementquery.html#getIterator()-detail">getIterator()</a></td>
+        <td>Required by the IteratorAggregate interface.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="getRawSql()">
+        <td><a href="craft-db-query.html#getRawSql()-detail">getRawSql()</a></td>
+        <td>Shortcut for <code>createCommand()-&gt;getRawSql()</code>.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr id="group()">
+        <td><a href="craft-elements-db-categoryquery.html#group()-detail">group()</a></td>
+        <td>Sets the <a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId()</a> property based on a given category group(s)’s handle(s).</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="groupBy()">
+        <td><a href="yii-db-query.html#groupBy()-detail">groupBy()</a></td>
+        <td>Sets the GROUP BY part of the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr id="groupId()">
+        <td><a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId()</a></td>
+        <td>Sets the <a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId()</a> property.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="hasEventHandlers()">
+        <td><a href="yii-base-component.html#hasEventHandlers()-detail">hasEventHandlers()</a></td>
+        <td>Returns a value indicating whether there is any handler attached to the named event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasMethod()">
+        <td><a href="yii-base-component.html#hasMethod()-detail">hasMethod()</a></td>
+        <td>Returns a value indicating whether a method is defined.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="hasProperty()">
+        <td><a href="yii-base-component.html#hasProperty()-detail">hasProperty()</a></td>
+        <td>Returns a value indicating whether a property is defined for this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="having()">
+        <td><a href="yii-db-query.html#having()-detail">having()</a></td>
+        <td>Sets the HAVING part of the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="id()">
+        <td><a href="craft-elements-db-elementquery.html#id()-detail">id()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#id()-detail">id()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="ids()">
+        <td><a href="craft-elements-db-elementquery.html#ids()-detail">ids()</a></td>
+        <td>Executes the query and returns the IDs of the resulting elements.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="indexBy()">
+        <td><a href="yii-db-querytrait.html#indexBy()-detail">indexBy()</a></td>
+        <td>Sets the <a href="yii-db-querytrait.html#indexBy()-detail">indexBy()</a> property.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr id="init()">
+        <td><a href="craft-elements-db-categoryquery.html#init()-detail">init()</a></td>
+        <td>Initializes the object.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+            <tr class="inherited" id="innerJoin()">
+        <td><a href="yii-db-query.html#innerJoin()-detail">innerJoin()</a></td>
+        <td>Appends an INNER JOIN part to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+                <tr class="inherited" id="isJoined()">
+        <td><a href="craft-db-query.html#isJoined()-detail">isJoined()</a></td>
+        <td>Returns whether a given table has been joined in this query.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="join()">
+        <td><a href="yii-db-query.html#join()-detail">join()</a></td>
+        <td>Appends a JOIN part to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+                <tr class="inherited" id="last()">
+        <td><a href="craft-elements-db-elementquery.html#last()-detail">last()</a></td>
+        <td>Returns the last element that matches the criteria.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="leftJoin()">
+        <td><a href="yii-db-query.html#leftJoin()-detail">leftJoin()</a></td>
+        <td>Appends a LEFT OUTER JOIN part to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="level()">
+        <td><a href="craft-elements-db-elementquery.html#level()-detail">level()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#level()-detail">level()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="limit()">
+        <td><a href="yii-db-querytrait.html#limit()-detail">limit()</a></td>
+        <td>Sets the LIMIT part of the query.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="locale()">
+        <td><a href="craft-elements-db-elementquery.html#locale()-detail">locale()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#site()-detail">site()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="localeEnabled()">
+        <td><a href="craft-elements-db-elementquery.html#localeEnabled()-detail">localeEnabled()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#enabledForSite()-detail">enabledForSite()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="max()">
+        <td><a href="yii-db-query.html#max()-detail">max()</a></td>
+        <td>Returns the maximum of the specified column values.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="min()">
+        <td><a href="yii-db-query.html#min()-detail">min()</a></td>
+        <td>Returns the minimum of the specified column values.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="nextSiblingOf()">
+        <td><a href="craft-elements-db-elementquery.html#nextSiblingOf()-detail">nextSiblingOf()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#nextSiblingOf()-detail">nextSiblingOf()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                <tr class="inherited" id="nth()">
+        <td><a href="craft-db-query.html#nth()-detail">nth()</a></td>
+        <td>Executes the query and returns a single row of result at a given offset.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="off()">
+        <td><a href="yii-base-component.html#off()-detail">off()</a></td>
+        <td>Detaches an existing event handler from this component.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="offset()">
+        <td><a href="yii-db-querytrait.html#offset()-detail">offset()</a></td>
+        <td>Sets the OFFSET part of the query.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="offsetExists()">
+        <td><a href="craft-elements-db-elementquery.html#offsetExists()-detail">offsetExists()</a></td>
+        <td>Required by the ArrayAccess interface.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="offsetGet()">
+        <td><a href="craft-elements-db-elementquery.html#offsetGet()-detail">offsetGet()</a></td>
+        <td>Required by the ArrayAccess interface.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="offsetSet()">
+        <td><a href="craft-elements-db-elementquery.html#offsetSet()-detail">offsetSet()</a></td>
+        <td>Required by the ArrayAccess interface.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="offsetUnset()">
+        <td><a href="craft-elements-db-elementquery.html#offsetUnset()-detail">offsetUnset()</a></td>
+        <td>Required by the ArrayAccess interface.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="on()">
+        <td><a href="yii-base-component.html#on()-detail">on()</a></td>
+        <td>Attaches an event handler to an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="one()">
+        <td><a href="craft-db-query.html#one()-detail">one()</a></td>
+        <td>Executes the query and returns a single row of result.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="orFilterHaving()">
+        <td><a href="yii-db-query.html#orFilterHaving()-detail">orFilterHaving()</a></td>
+        <td>Adds an additional HAVING condition to the existing one but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="orFilterWhere()">
+        <td><a href="yii-db-querytrait.html#orFilterWhere()-detail">orFilterWhere()</a></td>
+        <td>Adds an additional WHERE condition to the existing one but ignores <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a>.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="orHaving()">
+        <td><a href="yii-db-query.html#orHaving()-detail">orHaving()</a></td>
+        <td>Adds an additional HAVING condition to the existing one.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="orWhere()">
+        <td><a href="yii-db-querytrait.html#orWhere()-detail">orWhere()</a></td>
+        <td>Adds an additional WHERE condition to the existing one.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="order()">
+        <td><a href="craft-elements-db-elementquery.html#order()-detail">order()</a></td>
+        <td>Sets the <a href="yii-db-querytrait.html#orderBy()-detail">orderBy()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="orderBy()">
+        <td><a href="yii-db-querytrait.html#orderBy()-detail">orderBy()</a></td>
+        <td>Sets the ORDER BY part of the query.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="pairs()">
+        <td><a href="craft-db-query.html#pairs()-detail">pairs()</a></td>
+        <td>Executes the query and returns the first two columns in the results as key/value pairs.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="params()">
+        <td><a href="yii-db-query.html#params()-detail">params()</a></td>
+        <td>Sets the parameters to be bound to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="populate()">
+        <td><a href="craft-elements-db-elementquery.html#populate()-detail">populate()</a></td>
+        <td>Converts the raw query results into the format as specified by this query.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="positionedAfter()">
+        <td><a href="craft-elements-db-elementquery.html#positionedAfter()-detail">positionedAfter()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#positionedAfter()-detail">positionedAfter()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="positionedBefore()">
+        <td><a href="craft-elements-db-elementquery.html#positionedBefore()-detail">positionedBefore()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#positionedBefore()-detail">positionedBefore()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="prepare()">
+        <td><a href="craft-elements-db-elementquery.html#prepare()-detail">prepare()</a></td>
+        <td>Prepares for building SQL.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="prevSiblingOf()">
+        <td><a href="craft-elements-db-elementquery.html#prevSiblingOf()-detail">prevSiblingOf()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#prevSiblingOf()-detail">prevSiblingOf()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                <tr class="inherited" id="ref()">
+        <td><a href="craft-elements-db-elementquery.html#ref()-detail">ref()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#ref()-detail">ref()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="relatedTo()">
+        <td><a href="craft-elements-db-elementquery.html#relatedTo()-detail">relatedTo()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#relatedTo()-detail">relatedTo()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                <tr class="inherited" id="rightJoin()">
+        <td><a href="yii-db-query.html#rightJoin()-detail">rightJoin()</a></td>
+        <td>Appends a RIGHT OUTER JOIN part to the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="scalar()">
+        <td><a href="craft-db-query.html#scalar()-detail">scalar()</a></td>
+        <td>Returns the query result as a scalar value.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="search()">
+        <td><a href="craft-elements-db-elementquery.html#search()-detail">search()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#search()-detail">search()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="select()">
+        <td><a href="yii-db-query.html#select()-detail">select()</a></td>
+        <td>Sets the SELECT part of the query.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="setCachedResult()">
+        <td><a href="craft-elements-db-elementquery.html#setCachedResult()-detail">setCachedResult()</a></td>
+        <td>Sets the resulting elements.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="siblingOf()">
+        <td><a href="craft-elements-db-elementquery.html#siblingOf()-detail">siblingOf()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#siblingOf()-detail">siblingOf()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="site()">
+        <td><a href="craft-elements-db-elementquery.html#site()-detail">site()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#siteId()-detail">siteId()</a> property based on a given site(s)’s handle.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="siteId()">
+        <td><a href="craft-elements-db-elementquery.html#siteId()-detail">siteId()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#siteId()-detail">siteId()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="slug()">
+        <td><a href="craft-elements-db-elementquery.html#slug()-detail">slug()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#slug()-detail">slug()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="status()">
+        <td><a href="craft-elements-db-elementquery.html#status()-detail">status()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#status()-detail">status()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                <tr class="inherited" id="structureId()">
+        <td><a href="craft-elements-db-elementquery.html#structureId()-detail">structureId()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#structureId()-detail">structureId()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="sum()">
+        <td><a href="yii-db-query.html#sum()-detail">sum()</a></td>
+        <td>Returns the sum of the specified column values.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="title()">
+        <td><a href="craft-elements-db-elementquery.html#title()-detail">title()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#title()-detail">title()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="toArray()">
+        <td><a href="yii-base-arrayabletrait.html#toArray()-detail">toArray()</a></td>
+        <td>Converts the model into an array.</td>
+        <td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a></td>
+    </tr>
+            <tr class="inherited" id="total()">
+        <td><a href="craft-elements-db-elementquery.html#total()-detail">total()</a></td>
+        <td>Returns the total elements that match the criteria.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="trigger()">
+        <td><a href="yii-base-component.html#trigger()-detail">trigger()</a></td>
+        <td>Triggers an event.</td>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+    </tr>
+            <tr class="inherited" id="uid()">
+        <td><a href="craft-elements-db-elementquery.html#uid()-detail">uid()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#uid()-detail">uid()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="union()">
+        <td><a href="yii-db-query.html#union()-detail">union()</a></td>
+        <td>Appends a SQL statement using UNION operator.</td>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+    </tr>
+            <tr class="inherited" id="uri()">
+        <td><a href="craft-elements-db-elementquery.html#uri()-detail">uri()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#uri()-detail">uri()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="where()">
+        <td><a href="yii-db-querytrait.html#where()-detail">where()</a></td>
+        <td>Sets the WHERE part of the query.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+            <tr class="inherited" id="with()">
+        <td><a href="craft-elements-db-elementquery.html#with()-detail">with()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#with()-detail">with()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+            <tr class="inherited" id="withStructure()">
+        <td><a href="craft-elements-db-elementquery.html#withStructure()-detail">withStructure()</a></td>
+        <td>Sets the <a href="craft-elements-db-elementquery.html#withStructure()-detail">withStructure()</a> property.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+                                                    <tr class="inherited" id="afterPrepare()">
+        <td><a href="craft-elements-db-elementquery.html#afterPrepare()-detail">afterPrepare()</a></td>
+        <td>This method is called at the end of preparing an element query for the query builder.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                                                                    <tr id="beforePrepare()">
+        <td><a href="craft-elements-db-categoryquery.html#beforePrepare()-detail">beforePrepare()</a></td>
+        <td>This method is called at the beginning of preparing an element query for the query builder.</td>
+        <td><a href="craft-elements-db-categoryquery.html">craft\elements\db\CategoryQuery</a></td>
+    </tr>
+                                                <tr class="inherited" id="customFields()">
+        <td><a href="craft-elements-db-elementquery.html#customFields()-detail">customFields()</a></td>
+        <td>Returns the fields that should take part in an upcoming elements query.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                                                                        <tr class="inherited" id="filterCondition()">
+        <td><a href="yii-db-querytrait.html#filterCondition()-detail">filterCondition()</a></td>
+        <td>Removes <a href="yii-db-querytrait.html#isEmpty()-detail">empty operands</a> from the given query condition.</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+                                                                                                            <tr class="inherited" id="isEmpty()">
+        <td><a href="yii-db-querytrait.html#isEmpty()-detail">isEmpty()</a></td>
+        <td>Returns a value indicating whether the give value is "empty".</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+                    <tr class="inherited" id="joinElementTable()">
+        <td><a href="craft-elements-db-elementquery.html#joinElementTable()-detail">joinElementTable()</a></td>
+        <td>Joins in a table with an <code>id</code> column that has a foreign key pointing to <code>craft_elements</code>.<code>id</code>.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                                                <tr class="inherited" id="normalizeOrderBy()">
+        <td><a href="yii-db-querytrait.html#normalizeOrderBy()-detail">normalizeOrderBy()</a></td>
+        <td>Normalizes format of ORDER BY data</td>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+    </tr>
+                                                                                                    <tr class="inherited" id="queryScalar()">
+        <td><a href="craft-db-query.html#queryScalar()-detail">queryScalar()</a></td>
+        <td>Queries a scalar value by setting <a href="yii-db-query.html#select()-detail">select()</a> first.</td>
+        <td><a href="craft-db-query.html">craft\db\Query</a></td>
+    </tr>
+                    <tr class="inherited" id="resolveFields()">
+        <td><a href="yii-base-arrayabletrait.html#resolveFields()-detail">resolveFields()</a></td>
+        <td>Determines which fields can be returned by <a href="yii-base-arrayabletrait.html#toArray()-detail">toArray()</a>.</td>
+        <td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a></td>
+    </tr>
+                                                    <tr class="inherited" id="statusCondition()">
+        <td><a href="craft-elements-db-elementquery.html#statusCondition()-detail">statusCondition()</a></td>
+        <td>Returns the condition that should be applied to the element query for a given status.</td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+                                                    </table>
+</div>
+
+<a id="events"></a>
+<div class="summary doc-event">
+    <h2>Events</h2>
+
+    <p><a href="#" class="toggle">Hide inherited events</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+    <colgroup>
+        <col class="col-event" />
+        <col class="col-type" />
+        <col class="col-description" />
+        <col class="col-defined" />
+    </colgroup>
+    <tr>
+        <th>Event</th><th>Type</th><th>Description</th><th>Defined By</th>
+    </tr>
+        <tr class="inherited" id="EVENT_AFTER_POPULATE_ELEMENT">
+        <td><a href="craft-elements-db-elementquery.html#EVENT_AFTER_POPULATE_ELEMENT-detail">EVENT_AFTER_POPULATE_ELEMENT</a></td>
+        <td><a href="craft-events-populateelementevent.html">craft\events\PopulateElementEvent</a></td>
+        <td>
+            The event that is triggered after an element is populated.                    </td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+        <tr class="inherited" id="EVENT_AFTER_PREPARE">
+        <td><a href="craft-elements-db-elementquery.html#EVENT_AFTER_PREPARE-detail">EVENT_AFTER_PREPARE</a></td>
+        <td>\craft\elements\db\Event</td>
+        <td>
+            An event that is triggered at the end of preparing an element query for the query builder.                    </td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+        <tr class="inherited" id="EVENT_BEFORE_PREPARE">
+        <td><a href="craft-elements-db-elementquery.html#EVENT_BEFORE_PREPARE-detail">EVENT_BEFORE_PREPARE</a></td>
+        <td>\craft\elements\db\Event</td>
+        <td>
+            An event that is triggered at the beginning of preparing an element query for the query builder.                    </td>
+        <td><a href="craft-elements-db-elementquery.html">craft\elements\db\ElementQuery</a></td>
+    </tr>
+        </table>
+</div>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$editable-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#$editable-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $editable        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>Whether to only return categories that the user has permission to edit.</p>
+
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.boolean">boolean</a></span> <a href="craft-elements-db-categoryquery.html#$editable-detail">$editable</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span></div>
+
+
+    <div class="detail-header h3" id="$groupId-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#$groupId-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $groupId        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p>The category group ID(s) that the resulting categories must be in.</p>
+
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.integer">integer</a>[]|<a href="http://www.php.net/language.types.null">null</a></span> <a href="craft-elements-db-categoryquery.html#$groupId-detail">$groupId</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="__set()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#__set()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        __set()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Sets the value of a component property.</strong></p>
+
+        <p>This method will check in the following order and act accordingly:</p>
+<ul>
+<li>a property defined by a setter: set the property value</li>
+<li>an event in the format of "on xyz": attach the handler to the event "xyz"</li>
+<li>a behavior in the format of "as xyz": attach the behavior named as "xyz"</li>
+<li>a property of a behavior: set the behavior property value</li>
+</ul>
+<p>Do not call this method directly as it is a PHP magic method that
+will be implicitly called when executing <code>$component-&gt;property = $value;</code>.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-elements-db-categoryquery.html#__set()-detail">__set</a></strong> ( <span style="color: #0000BB">$name</span>, <span style="color: #0000BB">$value</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$name</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>The property name or the event name</p>
+</td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$value</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"><p>The property value</p>
+</td>
+                </tr>
+                                                    <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-base-unknownpropertyexception.html">yii\base\UnknownPropertyException</a></td>
+                  <td class="param-desc-col"><p>if the property is not defined</p>
+</td>
+                </tr>
+                            <tr>
+                  <th class="param-name-col">throws</th>
+                  <td class="param-type-col"><a href="yii-base-invalidcallexception.html">yii\base\InvalidCallException</a></td>
+                  <td class="param-desc-col"><p>if the property is read-only.</p>
+</td>
+                </tr>
+                        </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="beforePrepare()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#beforePrepare()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        beforePrepare()
+        <span class="detail-header-tag small">
+            protected                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>This method is called at the beginning of preparing an element query for the query builder.</strong></p>
+
+        <p>The main Query object being prepared for the query builder is available via <a href="craft-elements-db-elementquery.html#$query-detail">$query</a>.</p>
+<p>The subselect’s Query object being prepared is available via <a href="craft-elements-db-elementquery.html#$subQuery-detail">$subQuery</a>.</p>
+<p>The role of the subselect query is to apply conditions to the query and narrow the result set down to
+just the elements that should actually be returned.</p>
+<p>The role of the main query is to join in any tables that should be included in the results, and select
+all of the columns that should be included in the results.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type"><a href="http://www.php.net/language.types.boolean">boolean</a></span> <strong><a href="craft-elements-db-categoryquery.html#beforePrepare()-detail">beforePrepare</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>Whether the query should be prepared and returned to the query builder.
+If false, the query will be cancelled and no results will be returned.</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="editable()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#editable()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        editable()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Sets the <a href="craft-elements-db-categoryquery.html#editable()-detail">editable()</a> property.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">static</span> <strong><a href="craft-elements-db-categoryquery.html#editable()-detail">editable</a></strong> ( <span class="signature-type">\craft\elements\db\bool</span> <span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$value</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.boolean">boolean</a></td>
+                  <td class="param-desc-col"><p>The property value (defaults to true)</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">static</td>
+                  <td class="param-desc-col"><p>Self reference</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="group()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#group()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        group()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Sets the <a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId()</a> property based on a given category group(s)’s handle(s).</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">static</span> <strong><a href="craft-elements-db-categoryquery.html#group()-detail">group</a></strong> ( <span style="color: #0000BB">$value</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$value</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.string">string</a>[]|<a href="craft-models-categorygroup.html">craft\models\CategoryGroup</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>The property value</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">static</td>
+                  <td class="param-desc-col"><p>Self reference</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="groupId()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#groupId()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        groupId()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Sets the <a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId()</a> property.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">static</span> <strong><a href="craft-elements-db-categoryquery.html#groupId()-detail">groupId</a></strong> ( <span style="color: #0000BB">$value</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$value</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a>|<a href="http://www.php.net/language.types.integer">integer</a>[]|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>The property value</p>
+</td>
+                </tr>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">static</td>
+                  <td class="param-desc-col"><p>Self reference</p>
+</td>
+                </tr>
+                                    </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="init()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="craft-elements-db-categoryquery.html#init()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        init()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Initializes the object.</strong></p>
+
+        <p>This method is invoked at the end of the constructor after the object is initialized with the
+given configuration.</p>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="craft-elements-db-categoryquery.html#init()-detail">init</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sun, 29 Oct 2017 03:10:38 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
